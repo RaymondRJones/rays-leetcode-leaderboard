@@ -2,24 +2,41 @@
     {
         "name": "TheRealRaymondJones",
         "elo": 1771,
-        "prev_elo": 1771
+        "prev_elo": 1771,
+        "prev_problem_count": 893,
+        "current_problem_delta": 0,
+        "current_problem_count": 893
     },
     {
         "name": "patshelloworld",
-        "elo": 1566
+        "elo": 1566,
+        "prev_elo": 1566,
+        "prev_problem_count": 726,
+        "current_problem_delta": 0,
+        "current_problem_count": 726
     },
     {
         "name": "rufesd",
         "elo": 1465,
-        "prev_elo": 0
+        "prev_elo": 0,
+        "prev_problem_count": 112,
+        "current_problem_delta": 0,
+        "current_problem_count": 112
     },
     {
         "name": "ruby-va-dev",
         "elo": 1462,
-        "prev_elo": 0
+        "prev_elo": 0,
+        "prev_problem_count": 51,
+        "current_problem_delta": 0,
+        "current_problem_count": 51
     },
     {
         "name": "michaelibinola",
-        "elo": 0
+        "elo": 0,
+        "prev_elo": 0,
+        "prev_problem_count": 42,
+        "current_problem_delta": 0,
+        "current_problem_count": 42
     }
 ]

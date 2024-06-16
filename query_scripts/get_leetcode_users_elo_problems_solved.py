@@ -71,30 +71,50 @@ def get_elo_of_leetcoder(username):
         print('Failed to retrieve data for {}: {}'.format(username, response.status_code))
         return None
 
+def load_existing_elos(filename):
+    with open(filename, 'r') as file:
+        return json.load(file)
+
+def update_json(filename, users):
+    data = []
+    for user in users:
+        data.append({
+            "name": user['name'],
+            "elo": user['elo'],
+            "prev_elo": user['prev_elo'],
+            'prev_problem_count': user['prev_problem_count'],
+            'current_problem_delta': user['current_problem_delta'],
+            'current_problem_count': user['current_problem_count']
+        })
+    with open(filename, 'w') as file:
+        json.dump(data, file, indent=4)
+
 def read_usernames_from_file(filename):
     with open(filename, 'r') as file:
         return [line.strip() for line in file.readlines()]
 
 def write_elos_to_json(filename, user_elos):
     data = []
-    for user, elo in user_elos:
-        data.append({"name": user, "elo": elo})
-    
+    for user, elo, prev_elo in user_elos:
+        data.append({"name": user, "elo": elo, "prev_elo": prev_elo})
+
     with open(filename, 'w') as file:
         json.dump(data, file, indent=4)
 
 def main():
-    usernames = read_usernames_from_file('usernames_fixed.txt')
-    user_elos = []
-    for username in usernames:
-        print("Getting elo of...", username)
-        elo = int(get_elo_of_leetcoder(username))
-        if elo is not None:
-            user_elos.append((username, elo))
-            print("Success! Adding value of elo", elo, "to", username)
+    existing_users = load_existing_elos('../leetcode-elo/public/users_by_elo.json')
+    for user in existing_users:
+        username = user["name"]
+        print("Getting problem count of...", username)
         problems_solved_count = get_problems_solved(username)
-        print("Problems solved by user...", problems_solved_count)
-    write_elos_to_json('../leetcode-elo/public/users_by_elo.json', user_elos)
+        if problems_solved_count:
+            print("COUNT WAS", problems_solved_count)
+            user["prev_problem_count"] = user.get("current_problem_count", 0)
+            user["current_problem_count"] = problems_solved_count
+            user["current_problem_delta"] = problems_solved_count - user.get("prev_problem_count", 0)
+            print("Problems solved by user...", problems_solved_count)
+    update_json('../leetcode-elo/public/users_by_elo.json', existing_users)
+    print("finished..")
 
 if __name__ == "__main__":
     main()

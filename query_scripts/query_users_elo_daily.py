@@ -79,6 +79,7 @@ def update_json(filename, users):
         data.append({
             "name": user['name'],
             "elo": user['elo'],
+            "current_problem_count": user["current_problem_count"],
             "prev_elo": user['prev_elo']
         })
     with open(filename, 'w') as file:
@@ -97,7 +98,6 @@ def write_elos_to_json(filename, user_elos):
         json.dump(data, file, indent=4)
 
 def main():
-    usernames = read_usernames_from_file('usernames_to_query.txt')
     existing_users = load_existing_elos('../leetcode-elo/public/users_by_elo.json')
     print("Loaded object", existing_users)
     # usernames = [user['name'] for user in existing_elos]
