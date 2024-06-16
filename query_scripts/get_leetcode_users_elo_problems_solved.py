@@ -1,4 +1,5 @@
 import requests
+import sys
 import json
 from cookies import cookies
 # Define the headers and cookies as given in your template
@@ -89,9 +90,11 @@ def update_json(filename, users):
     with open(filename, 'w') as file:
         json.dump(data, file, indent=4)
 
+
 def read_usernames_from_file(filename):
     with open(filename, 'r') as file:
         return [line.strip() for line in file.readlines()]
+
 
 def write_elos_to_json(filename, user_elos):
     data = []
@@ -101,8 +104,22 @@ def write_elos_to_json(filename, user_elos):
     with open(filename, 'w') as file:
         json.dump(data, file, indent=4)
 
-def main():
-    existing_users = load_existing_elos('../leetcode-elo/public/users_by_elo.json')
+
+def daily_update(existing_users):
+    for user in existing_users:
+        username = user["name"]
+        print("Getting problem count of...", username)
+        problems_solved_count = get_problems_solved(username)
+        if problems_solved_count:
+            print("COUNT WAS", problems_solved_count)
+            user["current_problem_count"] = problems_solved_count
+            user["current_problem_delta"] = problems_solved_count - user.get("prev_problem_count", 0)
+            print("Problems solved by user...", problems_solved_count)
+    update_json('../leetcode-elo/public/users_by_elo.json', existing_users)
+    pass
+
+
+def weekly_update(existing_users):
     for user in existing_users:
         username = user["name"]
         print("Getting problem count of...", username)
@@ -114,7 +131,19 @@ def main():
             user["current_problem_delta"] = problems_solved_count - user.get("prev_problem_count", 0)
             print("Problems solved by user...", problems_solved_count)
     update_json('../leetcode-elo/public/users_by_elo.json', existing_users)
+
+
+def main(weekly_or_daily):
+    existing_users = load_existing_elos('../leetcode-elo/public/users_by_elo.json')
+    if weekly_or_daily == "weekly":
+        weekly_update(existing_users)
+    elif weekly_or_daily == "daily":
+        daily_update(existing_users)
     print("finished..")
 
 if __name__ == "__main__":
-    main()
+    if len(sys.argv) < 2:
+        print("Usage: python script.py <weekly or daily>")
+    else:
+        choice = sys.argv[1]
+        main(choice)
