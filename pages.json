@@ -1,0 +1,7 @@
+{
+  "build": {
+    "command": "cd leetcode-elo && npm install && npm install --save-dev @babel/plugin-proposal-private-property-in-object && CI=false npm run build",
+    "publish_dir": "leetcode-elo/build"
+  }
+}
+

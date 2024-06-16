@@ -1,0 +1,25 @@
+[
+    {
+        "name": "TheRealRaymondJones",
+        "elo": 1771,
+        "prev_elo": 1771
+    },
+    {
+        "name": "patshelloworld",
+        "elo": 1566
+    },
+    {
+        "name": "rufesd",
+        "elo": 1465,
+        "prev_elo": 0
+    },
+    {
+        "name": "ruby-va-dev",
+        "elo": 1462,
+        "prev_elo": 0
+    },
+    {
+        "name": "michaelibinola",
+        "elo": 0
+    }
+]
