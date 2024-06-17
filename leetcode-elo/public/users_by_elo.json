@@ -2,34 +2,34 @@
     {
         "name": "TheRealRaymondJones",
         "elo": 1771,
-        "prev_elo": 1771,
+        "prev_elo": 1758,
         "prev_problem_count": 893,
-        "current_problem_delta": 1,
-        "current_problem_count": 894
+        "current_problem_delta": 9,
+        "current_problem_count": 902
     },
     {
         "name": "patshelloworld",
         "elo": 1566,
         "prev_elo": 1566,
         "prev_problem_count": 726,
-        "current_problem_delta": 0,
-        "current_problem_count": 726
+        "current_problem_delta": 2,
+        "current_problem_count": 728
     },
     {
         "name": "Neo57",
         "elo": 1396,
         "prev_elo": 0,
         "prev_problem_count": 146,
-        "current_problem_delta": 0,
-        "current_problem_count": 146
+        "current_problem_delta": 4,
+        "current_problem_count": 150
     },
     {
         "name": "rufesd",
         "elo": 1465,
         "prev_elo": 0,
         "prev_problem_count": 112,
-        "current_problem_delta": 0,
-        "current_problem_count": 112
+        "current_problem_delta": 1,
+        "current_problem_count": 113
     },
     {
         "name": "ruby-va-dev",
