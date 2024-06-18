@@ -20,8 +20,8 @@
         "elo": 1396,
         "prev_elo": 0,
         "prev_problem_count": 146,
-        "current_problem_delta": 4,
-        "current_problem_count": 150
+        "current_problem_delta": 5,
+        "current_problem_count": 151
     },
     {
         "name": "rufesd",
@@ -36,15 +36,15 @@
         "elo": 1462,
         "prev_elo": 0,
         "prev_problem_count": 51,
-        "current_problem_delta": 2,
-        "current_problem_count": 53
+        "current_problem_delta": 3,
+        "current_problem_count": 54
     },
     {
         "name": "michaelibinola",
         "elo": 0,
         "prev_elo": 0,
         "prev_problem_count": 42,
-        "current_problem_delta": 0,
-        "current_problem_count": 42
+        "current_problem_delta": 1,
+        "current_problem_count": 43
     }
 ]
