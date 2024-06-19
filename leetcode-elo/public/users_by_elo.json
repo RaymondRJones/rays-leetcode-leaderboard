@@ -53,7 +53,15 @@
         "prev_elo": 0,
         "prev_problem_count": 232,
         "current_problem_delta": 0,
-        "current_problem_count": 232 
+        "current_problem_count": 232
+    },
+    {
+        "name": "GlowingAlgorithm",
+        "elo": 0,
+        "prev_elo": 0,
+        "prev_problem_count": 0,
+        "current_problem_delta": 0,
+        "current_problem_count": 0
     },
     {
         "name": "marouen8",
