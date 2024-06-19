@@ -20,8 +20,8 @@
         "elo": 1396,
         "prev_elo": 0,
         "prev_problem_count": 146,
-        "current_problem_delta": 5,
-        "current_problem_count": 151
+        "current_problem_delta": 6,
+        "current_problem_count": 152
     },
     {
         "name": "rufesd",
@@ -52,7 +52,7 @@
         "elo": 0,
         "prev_elo": 0,
         "prev_problem_count": 79,
-        "current_problem_delta": 0,
-        "current_problem_count": 79
+        "current_problem_delta": 1,
+        "current_problem_count": 80
     }
 ]
