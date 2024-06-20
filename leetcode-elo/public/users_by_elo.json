@@ -4,16 +4,16 @@
         "elo": 1771,
         "prev_elo": 1758,
         "prev_problem_count": 893,
-        "current_problem_delta": 10,
-        "current_problem_count": 903
+        "current_problem_delta": 11,
+        "current_problem_count": 904
     },
     {
         "name": "patshelloworld",
         "elo": 1566,
         "prev_elo": 1566,
         "prev_problem_count": 726,
-        "current_problem_delta": 3,
-        "current_problem_count": 729
+        "current_problem_delta": 4,
+        "current_problem_count": 730
     },
     {
         "name": "Neo57",
@@ -36,8 +36,8 @@
         "elo": 1462,
         "prev_elo": 0,
         "prev_problem_count": 51,
-        "current_problem_delta": 3,
-        "current_problem_count": 54
+        "current_problem_delta": 4,
+        "current_problem_count": 55
     },
     {
         "name": "michaelibinola",
@@ -60,15 +60,15 @@
         "elo": 0,
         "prev_elo": 0,
         "prev_problem_count": 0,
-        "current_problem_delta": 0,
-        "current_problem_count": 0
+        "current_problem_delta": 1,
+        "current_problem_count": 1
     },
     {
         "name": "marouen8",
         "elo": 0,
         "prev_elo": 0,
         "prev_problem_count": 79,
-        "current_problem_delta": 1,
-        "current_problem_count": 80
+        "current_problem_delta": 2,
+        "current_problem_count": 81
     }
 ]
