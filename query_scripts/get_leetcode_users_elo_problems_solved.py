@@ -85,6 +85,7 @@ def update_json(filename, users):
             "prev_elo": user['prev_elo'],
             'prev_problem_count': user['prev_problem_count'],
             'current_problem_delta': user['current_problem_delta'],
+            'problems_each_week': user.get("problems_each_week", []),
             'current_problem_count': user['current_problem_count']
         })
     with open(filename, 'w') as file:
@@ -126,6 +127,11 @@ def weekly_update(existing_users):
         problems_solved_count = get_problems_solved(username)
         if problems_solved_count:
             print("COUNT WAS", problems_solved_count)
+            if user.get("problems_each_week", []):
+                user["problems_each_week"].append(user.get("current_problem_count", 0))
+            else:
+                user["problems_each_week"] = [user.get("current_problem_count", 0)]
+
             user["prev_problem_count"] = user.get("current_problem_count", 0)
             user["current_problem_count"] = problems_solved_count
             user["current_problem_delta"] = problems_solved_count - user.get("prev_problem_count", 0)
