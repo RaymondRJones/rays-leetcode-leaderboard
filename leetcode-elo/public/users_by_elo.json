@@ -4,11 +4,11 @@
         "elo": 1771,
         "prev_elo": 1758,
         "prev_problem_count": 912,
-        "current_problem_delta": 0,
+        "current_problem_delta": 1,
         "problems_each_week": [
             912
         ],
-        "current_problem_count": 912
+        "current_problem_count": 913
     },
     {
         "name": "patshelloworld",
@@ -59,44 +59,44 @@
         "elo": 0,
         "prev_elo": 0,
         "prev_problem_count": 46,
-        "current_problem_delta": 0,
+        "current_problem_delta": 1,
         "problems_each_week": [
             46
         ],
-        "current_problem_count": 46
+        "current_problem_count": 47
     },
     {
         "name": "import_error",
         "elo": 1375,
         "prev_elo": 0,
         "prev_problem_count": 232,
-        "current_problem_delta": 0,
+        "current_problem_delta": 3,
         "problems_each_week": [
             232
         ],
-        "current_problem_count": 232
+        "current_problem_count": 235
     },
     {
         "name": "saurav4ryou707997",
         "elo": 0,
         "prev_elo": 0,
         "prev_problem_count": 50,
-        "current_problem_delta": 0,
+        "current_problem_delta": 1,
         "problems_each_week": [
             50
         ],
-        "current_problem_count": 50
+        "current_problem_count": 51
     },
     {
         "name": "GlowingAlgorithm",
         "elo": 0,
         "prev_elo": 0,
         "prev_problem_count": 2,
-        "current_problem_delta": 0,
+        "current_problem_delta": 1,
         "problems_each_week": [
             2
         ],
-        "current_problem_count": 2
+        "current_problem_count": 3
     },
     {
         "name": "Izzat_Karimov",
@@ -125,10 +125,10 @@
         "elo": 0,
         "prev_elo": 0,
         "prev_problem_count": 90,
-        "current_problem_delta": 0,
+        "current_problem_delta": 2,
         "problems_each_week": [
             90
         ],
-        "current_problem_count": 90
+        "current_problem_count": 92
     }
 ]

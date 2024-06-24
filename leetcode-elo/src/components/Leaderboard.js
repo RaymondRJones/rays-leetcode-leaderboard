@@ -35,7 +35,7 @@ function Leaderboard() {
       try {
         const response = await fetch('/users_by_elo.json');
         const data = await response.json();
-        data.sort((a, b) => b.elo - a.elo);
+        data.sort((a, b) => b.current_problem_delta - a.current_problem_delta);
         setLeaderboard(data);
       } catch (error) {
         console.error("Failed to fetch leaderboard data:", error);
