@@ -3,54 +3,66 @@
         "name": "TheRealRaymondJones",
         "elo": 1771,
         "prev_elo": 1758,
-        "prev_problem_count": 893,
-        "current_problem_delta": 19,
-        "problems_each_week": [],
+        "prev_problem_count": 912,
+        "current_problem_delta": 0,
+        "problems_each_week": [
+            912
+        ],
         "current_problem_count": 912
     },
     {
         "name": "patshelloworld",
         "elo": 1566,
         "prev_elo": 1566,
-        "prev_problem_count": 726,
-        "current_problem_delta": 7,
-        "problems_each_week": [],
+        "prev_problem_count": 733,
+        "current_problem_delta": 0,
+        "problems_each_week": [
+            733
+        ],
         "current_problem_count": 733
     },
     {
         "name": "Neo57",
         "elo": 1396,
         "prev_elo": 0,
-        "prev_problem_count": 146,
-        "current_problem_delta": 7,
-        "problems_each_week": [],
+        "prev_problem_count": 153,
+        "current_problem_delta": 0,
+        "problems_each_week": [
+            153
+        ],
         "current_problem_count": 153
     },
     {
         "name": "rufesd",
         "elo": 1465,
         "prev_elo": 0,
-        "prev_problem_count": 112,
-        "current_problem_delta": 3,
-        "problems_each_week": [],
+        "prev_problem_count": 115,
+        "current_problem_delta": 0,
+        "problems_each_week": [
+            115
+        ],
         "current_problem_count": 115
     },
     {
         "name": "ruby-va-dev",
         "elo": 1462,
         "prev_elo": 0,
-        "prev_problem_count": 51,
-        "current_problem_delta": 10,
-        "problems_each_week": [],
+        "prev_problem_count": 61,
+        "current_problem_delta": 0,
+        "problems_each_week": [
+            61
+        ],
         "current_problem_count": 61
     },
     {
         "name": "michaelibinola",
         "elo": 0,
         "prev_elo": 0,
-        "prev_problem_count": 42,
-        "current_problem_delta": 4,
-        "problems_each_week": [],
+        "prev_problem_count": 46,
+        "current_problem_delta": 0,
+        "problems_each_week": [
+            46
+        ],
         "current_problem_count": 46
     },
     {
@@ -59,52 +71,64 @@
         "prev_elo": 0,
         "prev_problem_count": 232,
         "current_problem_delta": 0,
-        "problems_each_week": [],
+        "problems_each_week": [
+            232
+        ],
         "current_problem_count": 232
     },
     {
         "name": "saurav4ryou707997",
         "elo": 0,
         "prev_elo": 0,
-        "prev_problem_count": 0,
-        "current_problem_delta": 50,
-        "problems_each_week": [],
+        "prev_problem_count": 50,
+        "current_problem_delta": 0,
+        "problems_each_week": [
+            50
+        ],
         "current_problem_count": 50
     },
     {
         "name": "GlowingAlgorithm",
         "elo": 0,
         "prev_elo": 0,
-        "prev_problem_count": 0,
-        "current_problem_delta": 2,
-        "problems_each_week": [],
+        "prev_problem_count": 2,
+        "current_problem_delta": 0,
+        "problems_each_week": [
+            2
+        ],
         "current_problem_count": 2
     },
     {
         "name": "Izzat_Karimov",
         "elo": 0,
         "prev_elo": 0,
-        "prev_problem_count": 0,
-        "current_problem_delta": 6,
-        "problems_each_week": [],
+        "prev_problem_count": 6,
+        "current_problem_delta": 0,
+        "problems_each_week": [
+            6
+        ],
         "current_problem_count": 6
     },
     {
         "name": "Ayoakin",
         "elo": 0,
         "prev_elo": 0,
-        "prev_problem_count": 0,
-        "current_problem_delta": 3,
-        "problems_each_week": [],
+        "prev_problem_count": 3,
+        "current_problem_delta": 0,
+        "problems_each_week": [
+            3
+        ],
         "current_problem_count": 3
     },
     {
         "name": "marouen8",
         "elo": 0,
         "prev_elo": 0,
-        "prev_problem_count": 79,
-        "current_problem_delta": 11,
-        "problems_each_week": [],
+        "prev_problem_count": 90,
+        "current_problem_delta": 0,
+        "problems_each_week": [
+            90
+        ],
         "current_problem_count": 90
     }
 ]
