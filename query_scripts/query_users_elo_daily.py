@@ -64,6 +64,8 @@ def get_elo_of_leetcoder(username):
     response = requests.post(url, headers=headers, cookies=cookies, json=payload)
     if response.status_code == 200:
         data = response.json()
+        if data['data']['userContestRanking'] == None:
+            return 0
         return data['data']['userContestRanking']['rating']
     else:
         print('Failed to retrieve data for {}: {}'.format(username, response.status_code))
@@ -79,8 +81,11 @@ def update_json(filename, users):
         data.append({
             "name": user['name'],
             "elo": user['elo'],
-            "current_problem_count": user["current_problem_count"],
-            "prev_elo": user['prev_elo']
+            "prev_elo": user.get("prev_elo", 0),
+            'prev_problem_count': user.get('prev_problem_count',0),
+            'current_problem_delta': user.get('current_problem_delta', 0),
+            'problems_each_week': user.get("problems_each_week", []),
+            'current_problem_count': user['current_problem_count']
         })
     with open(filename, 'w') as file:
         json.dump(data, file, indent=4)

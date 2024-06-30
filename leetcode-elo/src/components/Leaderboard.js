@@ -72,10 +72,10 @@ function Leaderboard() {
         </Grid>
         <Grid item xs={12} sm={8}>
           <Typography variant="h4" gutterBottom component="div" sx={{ fontFamily: "'Roboto', sans-serif", fontWeight: 500 }}>
-            DSA Group Leaderboard 
+            July Leetcode Challenge 
           </Typography>
           <Typography variant="h6" gutterBottom component="div" sx={{ fontFamily: "'Roboto', sans-serif", fontWeight: 500 }}>
-            Next Goal - Crush DSA
+            Solve 150 Problems for month of July
           </Typography>
         </Grid>
       </Grid>
@@ -91,7 +91,7 @@ function Leaderboard() {
         <Grid item xs={3}>NAME</Grid>
         <Grid item xs={2}>ELO</Grid>
         <Grid item xs={3}>RATING CHANGE</Grid>
-        <Grid item xs={3}>PROBLEMS SOLVED THIS WEEK</Grid>
+        <Grid item xs={3}>NEW PROBLEMS SOLVED THIS WEEK</Grid>
       </Grid>
       <List sx={{ width: '100%', bgcolor: 'background.paper' }}>
         {filteredLeaderboard.map((user, index) => (
