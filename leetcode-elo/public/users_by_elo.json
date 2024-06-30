@@ -6,6 +6,7 @@
         "prev_problem_count": 922,
         "current_problem_delta": 0,
         "problems_each_week": [
+            922,
             922
         ],
         "current_problem_count": 922
@@ -17,6 +18,7 @@
         "prev_problem_count": 742,
         "current_problem_delta": 0,
         "problems_each_week": [
+            742,
             742
         ],
         "current_problem_count": 742
@@ -28,6 +30,7 @@
         "prev_problem_count": 122,
         "current_problem_delta": 0,
         "problems_each_week": [
+            122,
             122
         ],
         "current_problem_count": 122
@@ -39,6 +42,7 @@
         "prev_problem_count": 70,
         "current_problem_delta": 0,
         "problems_each_week": [
+            70,
             70
         ],
         "current_problem_count": 70
@@ -50,6 +54,7 @@
         "prev_problem_count": 49,
         "current_problem_delta": 0,
         "problems_each_week": [
+            49,
             49
         ],
         "current_problem_count": 49
@@ -61,6 +66,7 @@
         "prev_problem_count": 235,
         "current_problem_delta": 0,
         "problems_each_week": [
+            235,
             235
         ],
         "current_problem_count": 235
@@ -72,6 +78,7 @@
         "prev_problem_count": 55,
         "current_problem_delta": 0,
         "problems_each_week": [
+            55,
             55
         ],
         "current_problem_count": 55
@@ -83,6 +90,7 @@
         "prev_problem_count": 4,
         "current_problem_delta": 0,
         "problems_each_week": [
+            4,
             4
         ],
         "current_problem_count": 4
@@ -94,6 +102,7 @@
         "prev_problem_count": 6,
         "current_problem_delta": 0,
         "problems_each_week": [
+            6,
             6
         ],
         "current_problem_count": 6
@@ -105,6 +114,7 @@
         "prev_problem_count": 3,
         "current_problem_delta": 0,
         "problems_each_week": [
+            3,
             3
         ],
         "current_problem_count": 3
@@ -116,6 +126,7 @@
         "prev_problem_count": 102,
         "current_problem_delta": 0,
         "problems_each_week": [
+            102,
             102
         ],
         "current_problem_count": 102
@@ -127,6 +138,7 @@
         "prev_problem_count": 483,
         "current_problem_delta": 0,
         "problems_each_week": [
+            483,
             483
         ],
         "current_problem_count": 483
@@ -138,6 +150,7 @@
         "prev_problem_count": 220,
         "current_problem_delta": 0,
         "problems_each_week": [
+            220,
             220
         ],
         "current_problem_count": 220
@@ -149,6 +162,7 @@
         "prev_problem_count": 178,
         "current_problem_delta": 0,
         "problems_each_week": [
+            178,
             178
         ],
         "current_problem_count": 178
@@ -160,6 +174,7 @@
         "prev_problem_count": 3,
         "current_problem_delta": 0,
         "problems_each_week": [
+            3,
             3
         ],
         "current_problem_count": 3
@@ -171,6 +186,7 @@
         "prev_problem_count": 269,
         "current_problem_delta": 0,
         "problems_each_week": [
+            269,
             269
         ],
         "current_problem_count": 269
@@ -179,10 +195,11 @@
         "name": "perezalan",
         "elo": 1374,
         "prev_elo": 1374,
-        "prev_problem_count": 0,
-        "current_problem_delta": 290,
+        "prev_problem_count": 290,
+        "current_problem_delta": 0,
         "problems_each_week": [
-            0
+            0,
+            290
         ],
         "current_problem_count": 290
     }
