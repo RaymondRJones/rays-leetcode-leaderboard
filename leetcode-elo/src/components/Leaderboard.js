@@ -19,7 +19,7 @@ const CustomCard = styled(Box)(({ theme }) => ({
 const ImageContainer = styled(Paper)(({ theme }) => ({
   height: 200, // adjust this based on your actual needs
   width: '100%',
-  backgroundImage: 'url(DSA.png)',
+  backgroundImage: 'url(dsa.png)',
   backgroundSize: 'cover',
   backgroundPosition: 'center',
   marginBottom: theme.spacing(2),
