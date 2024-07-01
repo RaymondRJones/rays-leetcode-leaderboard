@@ -4,24 +4,24 @@
         "elo": 1790,
         "prev_elo": 1790,
         "prev_problem_count": 922,
-        "current_problem_delta": 0,
+        "current_problem_delta": 2,
         "problems_each_week": [
             922,
             922
         ],
-        "current_problem_count": 922
+        "current_problem_count": 924
     },
     {
         "name": "patshelloworld",
         "elo": 1569,
         "prev_elo": 1569,
         "prev_problem_count": 742,
-        "current_problem_delta": 0,
+        "current_problem_delta": 2,
         "problems_each_week": [
             742,
             742
         ],
-        "current_problem_count": 742
+        "current_problem_count": 744
     },
     {
         "name": "rufesd",
@@ -40,12 +40,12 @@
         "elo": 1477,
         "prev_elo": 1477,
         "prev_problem_count": 70,
-        "current_problem_delta": 0,
+        "current_problem_delta": 1,
         "problems_each_week": [
             70,
             70
         ],
-        "current_problem_count": 70
+        "current_problem_count": 71
     },
     {
         "name": "michaelibinola",
@@ -124,24 +124,24 @@
         "elo": 1515,
         "prev_elo": 1515,
         "prev_problem_count": 102,
-        "current_problem_delta": 0,
+        "current_problem_delta": 2,
         "problems_each_week": [
             102,
             102
         ],
-        "current_problem_count": 102
+        "current_problem_count": 104
     },
     {
         "name": "anikin_aa",
         "elo": 1496,
         "prev_elo": 1496,
         "prev_problem_count": 483,
-        "current_problem_delta": 0,
+        "current_problem_delta": 1,
         "problems_each_week": [
             483,
             483
         ],
-        "current_problem_count": 483
+        "current_problem_count": 484
     },
     {
         "name": "Raj04",
@@ -160,12 +160,12 @@
         "elo": 0,
         "prev_elo": 0,
         "prev_problem_count": 178,
-        "current_problem_delta": 0,
+        "current_problem_delta": 1,
         "problems_each_week": [
             178,
             178
         ],
-        "current_problem_count": 178
+        "current_problem_count": 179
     },
     {
         "name": "triplettech",
