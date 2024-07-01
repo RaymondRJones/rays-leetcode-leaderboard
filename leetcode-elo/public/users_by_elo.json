@@ -4,24 +4,24 @@
         "elo": 1794,
         "prev_elo": 1794,
         "prev_problem_count": 922,
-        "current_problem_delta": 2,
+        "current_problem_delta": 3,
         "problems_each_week": [
             922,
             922
         ],
-        "current_problem_count": 924
+        "current_problem_count": 925
     },
     {
         "name": "patshelloworld",
         "elo": 1569,
         "prev_elo": 1569,
         "prev_problem_count": 742,
-        "current_problem_delta": 2,
+        "current_problem_delta": 3,
         "problems_each_week": [
             742,
             742
         ],
-        "current_problem_count": 744
+        "current_problem_count": 745
     },
     {
         "name": "rufesd",
@@ -148,24 +148,24 @@
         "elo": 1411,
         "prev_elo": 1411,
         "prev_problem_count": 220,
-        "current_problem_delta": 0,
+        "current_problem_delta": 1,
         "problems_each_week": [
             220,
             220
         ],
-        "current_problem_count": 220
+        "current_problem_count": 221
     },
     {
         "name": "leetsolve123",
         "elo": 0,
         "prev_elo": 0,
         "prev_problem_count": 178,
-        "current_problem_delta": 2,
+        "current_problem_delta": 3,
         "problems_each_week": [
             178,
             178
         ],
-        "current_problem_count": 180
+        "current_problem_count": 181
     },
     {
         "name": "triplettech",
@@ -184,12 +184,12 @@
         "elo": 1381,
         "prev_elo": 1381,
         "prev_problem_count": 269,
-        "current_problem_delta": 0,
+        "current_problem_delta": 1,
         "problems_each_week": [
             269,
             269
         ],
-        "current_problem_count": 269
+        "current_problem_count": 270
     },
     {
         "name": "perezalan",
@@ -216,7 +216,7 @@
         "name": "Escuhlade",
         "elo": 0,
         "prev_elo": 0,
-        "prev_problem_count": 0,
+        "prev_problem_count": 353,
         "current_problem_delta": 0,
         "problems_each_week": [],
         "current_problem_count": 353
@@ -225,7 +225,7 @@
         "name": "midhishareddy",
         "elo": 1310,
         "prev_elo": 1310,
-        "prev_problem_count": 0,
+        "prev_problem_count": 576,
         "current_problem_delta": 0,
         "problems_each_week": [],
         "current_problem_count": 576
