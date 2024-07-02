@@ -4,12 +4,12 @@
         "elo": 1794,
         "prev_elo": 1794,
         "prev_problem_count": 922,
-        "current_problem_delta": 8,
+        "current_problem_delta": 10,
         "problems_each_week": [
             922,
             922
         ],
-        "current_problem_count": 930
+        "current_problem_count": 932
     },
     {
         "name": "patshelloworld",
