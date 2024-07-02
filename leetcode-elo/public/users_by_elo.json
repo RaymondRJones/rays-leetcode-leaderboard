@@ -229,5 +229,23 @@
         "current_problem_delta": 0,
         "problems_each_week": [],
         "current_problem_count": 576
+    },
+    {
+        "name": "subhash-vadlamani",
+        "elo": 0,
+        "prev_elo": 0,
+        "prev_problem_count": 156,
+        "current_problem_delta": 2,
+        "problems_each_week": [],
+        "current_problem_count": 158
+    },
+    {
+        "name": "koliyayyt",
+        "elo": 0,
+        "prev_elo": 0,
+        "prev_problem_count": 72,
+        "current_problem_delta": 6,
+        "problems_each_week": [],
+        "current_problem_count": 78
     }
 ]
