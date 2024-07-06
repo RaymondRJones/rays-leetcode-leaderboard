@@ -270,8 +270,8 @@
         "name": "mbailin",
         "elo": 0,
         "prev_elo": 0,
-        "prev_problem_count": 167,
-        "current_problem_delta": 104,
+        "prev_problem_count": 267,
+        "current_problem_delta": 5,
         "problems_each_week": [],
         "current_problem_count": 271
     }
