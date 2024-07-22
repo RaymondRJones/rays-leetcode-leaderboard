@@ -14,9 +14,7 @@ def update_json(filename, users):
 
 def add_users_to_json(usernames_file, json_file):
     new_usernames = read_usernames_from_file(usernames_file)
-    
     existing_users = load_existing_users(json_file)
-    
     for username in new_usernames:
         new_user = {
             "name": username,
@@ -28,7 +26,6 @@ def add_users_to_json(usernames_file, json_file):
             "current_problem_count": 0
         }
         existing_users.append(new_user)
-    
     update_json(json_file, existing_users)
 
 if __name__ == "__main__":
