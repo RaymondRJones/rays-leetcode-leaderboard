@@ -91,7 +91,7 @@ function Leaderboard() {
         <Grid item xs={3}>NAME</Grid>
         <Grid item xs={2}>ELO</Grid>
         <Grid item xs={3}>RATING CHANGE</Grid>
-        <Grid item xs={3}>NEW PROBLEMS SOLVED THIS WEEK</Grid>
+        <Grid item xs={3}>NEW PROBLEMS SOLVED THIS MONTH</Grid>
       </Grid>
       <List sx={{ width: '100%', bgcolor: 'background.paper' }}>
         {filteredLeaderboard.map((user, index) => (
