@@ -4,12 +4,12 @@
         "elo": 1782,
         "prev_elo": 1782,
         "prev_problem_count": 922,
-        "current_problem_delta": 88,
+        "current_problem_delta": 89,
         "problems_each_week": [
             922,
             922
         ],
-        "current_problem_count": 1010
+        "current_problem_count": 1011
     },
     {
         "name": "patshelloworld",
@@ -28,12 +28,12 @@
         "elo": 1471,
         "prev_elo": 1471,
         "prev_problem_count": 122,
-        "current_problem_delta": 37,
+        "current_problem_delta": 38,
         "problems_each_week": [
             122,
             122
         ],
-        "current_problem_count": 159
+        "current_problem_count": 160
     },
     {
         "name": "ruby-va-dev",
@@ -396,8 +396,8 @@
         "name": "HaoQLe",
         "elo": 0,
         "prev_elo": 0,
-        "prev_problem_count": 0,
-        "current_problem_delta": 249,
+        "prev_problem_count": 247,
+        "current_problem_delta": 2,
         "problems_each_week": [],
         "current_problem_count": 249
     },
@@ -405,8 +405,8 @@
         "name": "mustafa-jalal",
         "elo": 0,
         "prev_elo": 0,
-        "prev_problem_count": 0,
-        "current_problem_delta": 66,
+        "prev_problem_count": 65,
+        "current_problem_delta": 1,
         "problems_each_week": [],
         "current_problem_count": 66
     }
