@@ -4,13 +4,13 @@
         "elo": 1782,
         "prev_elo": 1782,
         "prev_problem_count": 1011,
-        "current_problem_delta": 13,
+        "current_problem_delta": 15,
         "problems_each_week": [
             922,
             922,
             1011
         ],
-        "current_problem_count": 1024
+        "current_problem_count": 1026
     },
     {
         "name": "patshelloworld",
@@ -443,11 +443,11 @@
         "elo": 0,
         "prev_elo": 0,
         "prev_problem_count": 249,
-        "current_problem_delta": 15,
+        "current_problem_delta": 16,
         "problems_each_week": [
             249
         ],
-        "current_problem_count": 264
+        "current_problem_count": 265
     },
     {
         "name": "mustafa-jalal",
