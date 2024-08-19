@@ -17,7 +17,7 @@ const CustomCard = styled(Box)(({ theme }) => ({
 }));
 
 const ImageContainer = styled(Paper)(({ theme }) => ({
-  height: 200, // adjust this based on your actual needs
+  height: 200,
   width: '100%',
   backgroundImage: 'url(DSA.png)',
   backgroundSize: 'cover',
@@ -72,10 +72,10 @@ function Leaderboard() {
         </Grid>
         <Grid item xs={12} sm={8}>
           <Typography variant="h4" gutterBottom component="div" sx={{ fontFamily: "'Roboto', sans-serif", fontWeight: 500 }}>
-            July Leetcode Challenge 
+            August Leetcode Challenge 
           </Typography>
           <Typography variant="h6" gutterBottom component="div" sx={{ fontFamily: "'Roboto', sans-serif", fontWeight: 500 }}>
-            Solve 150 Problems for month of July
+            Solve 75 Problems for month of August
           </Typography>
         </Grid>
       </Grid>

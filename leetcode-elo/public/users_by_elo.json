@@ -4,13 +4,13 @@
         "elo": 1782,
         "prev_elo": 1782,
         "prev_problem_count": 1011,
-        "current_problem_delta": 27,
+        "current_problem_delta": 28,
         "problems_each_week": [
             922,
             922,
             1011
         ],
-        "current_problem_count": 1038
+        "current_problem_count": 1039
     },
     {
         "name": "patshelloworld",
@@ -147,13 +147,13 @@
         "elo": 1540,
         "prev_elo": 1540,
         "prev_problem_count": 538,
-        "current_problem_delta": 27,
+        "current_problem_delta": 28,
         "problems_each_week": [
             483,
             483,
             538
         ],
-        "current_problem_count": 565
+        "current_problem_count": 566
     },
     {
         "name": "Raj04",
@@ -173,13 +173,13 @@
         "elo": 0,
         "prev_elo": 0,
         "prev_problem_count": 253,
-        "current_problem_delta": 17,
+        "current_problem_delta": 18,
         "problems_each_week": [
             178,
             178,
             253
         ],
-        "current_problem_count": 270
+        "current_problem_count": 271
     },
     {
         "name": "Poiver6",
@@ -333,11 +333,11 @@
         "elo": 1527,
         "prev_elo": 1527,
         "prev_problem_count": 346,
-        "current_problem_delta": 21,
+        "current_problem_delta": 23,
         "problems_each_week": [
             346
         ],
-        "current_problem_count": 367
+        "current_problem_count": 369
     },
     {
         "name": "EscubyDu",
@@ -377,11 +377,11 @@
         "elo": 1444,
         "prev_elo": 1444,
         "prev_problem_count": 203,
-        "current_problem_delta": 8,
+        "current_problem_delta": 9,
         "problems_each_week": [
             203
         ],
-        "current_problem_count": 211
+        "current_problem_count": 212
     },
     {
         "name": "rishavsingh5643",
@@ -553,9 +553,9 @@
         "elo": 0,
         "prev_elo": 0,
         "prev_problem_count": 660,
-        "current_problem_delta": 4,
+        "current_problem_delta": 6,
         "problems_each_week": [],
-        "current_problem_count": 664
+        "current_problem_count": 666
     },
     {
         "name": "vatsala_singh",
