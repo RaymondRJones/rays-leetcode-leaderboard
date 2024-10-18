@@ -1,8 +1,8 @@
 [
     {
         "name": "TheRealRaymondJones",
-        "elo": 1862,
-        "prev_elo": 1862,
+        "elo": 1866,
+        "prev_elo": 1866,
         "prev_problem_count": 1137,
         "current_problem_delta": 35,
         "problems_each_week": [
@@ -166,8 +166,8 @@
     },
     {
         "name": "anikin_aa",
-        "elo": 1561,
-        "prev_elo": 1561,
+        "elo": 1567,
+        "prev_elo": 1567,
         "prev_problem_count": 640,
         "current_problem_delta": 7,
         "problems_each_week": [
@@ -280,8 +280,8 @@
     },
     {
         "name": "subhash-vadlamani",
-        "elo": 1426,
-        "prev_elo": 1426,
+        "elo": 1389,
+        "prev_elo": 1389,
         "prev_problem_count": 211,
         "current_problem_delta": 22,
         "problems_each_week": [
@@ -293,8 +293,8 @@
     },
     {
         "name": "koliyayyt",
-        "elo": 1642,
-        "prev_elo": 1642,
+        "elo": 1604,
+        "prev_elo": 1604,
         "prev_problem_count": 240,
         "current_problem_delta": 30,
         "problems_each_week": [
@@ -797,8 +797,8 @@
     },
     {
         "name": "mishrasandeep1105",
-        "elo": 0,
-        "prev_elo": 0,
+        "elo": 1555,
+        "prev_elo": 1555,
         "prev_problem_count": 200,
         "current_problem_delta": 14,
         "problems_each_week": [],
