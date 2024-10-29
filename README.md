@@ -8,7 +8,6 @@ The project is pure react React
 
 Node version is `v20.5.1`
 
-
 ### To run:
 
 git clone the repo
@@ -27,7 +26,6 @@ Make sure you ran `npm install` beforehand
 
 You should see the homepage which loads the leaderboard.
 
-
 ### Main Files
 
 99% of logic is `src/components/leaderboard.js`
@@ -36,13 +34,27 @@ This displays the leaderboard and imports data from a json that contains all use
 
 The JSON file is located in `public/leaderboard.json`
 
+# To Add New Users via a Google Form
+
+```
+- create a google form
+- make a question "What is your leetcode username"
+- make sure the sheet that the responses are stored in is public
+- get the link to the sheet
+- use the link in the wget command below
+
+cd query_scripts
+
+wget --no-check-certificate --output-document=users.csv '[public link to google sheet for example https://docs.google.com/spreadsheets/d/11_utLlhDXp8BGzKDW954O3l93v9ahFVOXHBavsaemBQ/]export?format=csv'
+
+python3 add_users_to_json.py
+```
+
 ## Ideas for Improvement
 
-##### People can't add themselves into the list
+##### People can't remove themselves from the list
 
-solutions -> Google Form for signing people up / removing people
-
-Twitch authentication -> Give a key/ID to each user and allow them to add and remove the user that matches their ID
+solutions -> Google Form for removing people with script that updates the JSON
 
 ##### Prediction rating should be overwritten after Wednesday for official rating
 Add a new key to the JSON for is_predicted_elo
