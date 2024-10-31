@@ -914,5 +914,50 @@
         "current_problem_delta": 0,
         "problems_each_week": [],
         "current_problem_count": 106
+    },
+    {
+        "name": "RadwanCoder",
+        "elo": 0,
+        "prev_elo": 0,
+        "prev_problem_count": 0,
+        "current_problem_delta": 0,
+        "problems_each_week": [],
+        "current_problem_count": 102
+    },
+    {
+        "name": "diabloeme",
+        "elo": 0,
+        "prev_elo": 0,
+        "prev_problem_count": 0,
+        "current_problem_delta": 0,
+        "problems_each_week": [],
+        "current_problem_count": 208
+    },
+    {
+        "name": "gruzintsev",
+        "elo": 0,
+        "prev_elo": 0,
+        "prev_problem_count": 0,
+        "current_problem_delta": 0,
+        "problems_each_week": [],
+        "current_problem_count": 880
+    },
+    {
+        "name": "RichaGandhi",
+        "elo": 0,
+        "prev_elo": 0,
+        "prev_problem_count": 0,
+        "current_problem_delta": 0,
+        "problems_each_week": [],
+        "current_problem_count": 22
+    },
+    {
+        "name": "Fariha-shah12",
+        "elo": 0,
+        "prev_elo": 0,
+        "prev_problem_count": 0,
+        "current_problem_delta": 0,
+        "problems_each_week": [],
+        "current_problem_count": 35
     }
 ]
