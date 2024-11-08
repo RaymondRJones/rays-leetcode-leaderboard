@@ -1,8 +1,8 @@
 [
     {
         "name": "TheRealRaymondJones",
-        "elo": 1866,
-        "prev_elo": 1866,
+        "elo": 1959,
+        "prev_elo": 1959,
         "prev_problem_count": 1183,
         "current_problem_delta": 11,
         "problems_each_week": [
@@ -312,8 +312,8 @@
     },
     {
         "name": "koliyayyt",
-        "elo": 1604,
-        "prev_elo": 1604,
+        "elo": 1599,
+        "prev_elo": 1599,
         "prev_problem_count": 301,
         "current_problem_delta": 31,
         "problems_each_week": [
@@ -892,8 +892,8 @@
     },
     {
         "name": "hnko__",
-        "elo": 0,
-        "prev_elo": 0,
+        "elo": 1524,
+        "prev_elo": 1524,
         "prev_problem_count": 634,
         "current_problem_delta": 27,
         "problems_each_week": [
@@ -936,8 +936,8 @@
     },
     {
         "name": "qlwentt",
-        "elo": 0,
-        "prev_elo": 0,
+        "elo": 1562,
+        "prev_elo": 1562,
         "prev_problem_count": 713,
         "current_problem_delta": 5,
         "problems_each_week": [
@@ -947,8 +947,8 @@
     },
     {
         "name": "sanjeevbrin",
-        "elo": 0,
-        "prev_elo": 0,
+        "elo": 1372,
+        "prev_elo": 1372,
         "prev_problem_count": 225,
         "current_problem_delta": 1,
         "problems_each_week": [
@@ -958,8 +958,8 @@
     },
     {
         "name": "flyotter",
-        "elo": 0,
-        "prev_elo": 0,
+        "elo": 1464,
+        "prev_elo": 1464,
         "prev_problem_count": 790,
         "current_problem_delta": 0,
         "problems_each_week": [
@@ -1002,8 +1002,8 @@
     },
     {
         "name": "RadwanCoder",
-        "elo": 0,
-        "prev_elo": 0,
+        "elo": 1412,
+        "prev_elo": 1412,
         "prev_problem_count": 102,
         "current_problem_delta": 1,
         "problems_each_week": [
@@ -1066,8 +1066,8 @@
     },
     {
         "name": "syzygy67",
-        "elo": 0,
-        "prev_elo": 0,
+        "elo": 1494,
+        "prev_elo": 1494,
         "prev_problem_count": 0,
         "current_problem_delta": 0,
         "problems_each_week": [],
