@@ -20,7 +20,7 @@
         "elo": 1696,
         "prev_elo": 1696,
         "prev_problem_count": 863,
-        "current_problem_delta": 3,
+        "current_problem_delta": 6,
         "problems_each_week": [
             742,
             742,
@@ -29,7 +29,7 @@
             859,
             863
         ],
-        "current_problem_count": 866
+        "current_problem_count": 869
     },
     {
         "name": "rufesd",
@@ -163,7 +163,7 @@
         "elo": 1520,
         "prev_elo": 1520,
         "prev_problem_count": 256,
-        "current_problem_delta": 10,
+        "current_problem_delta": 13,
         "problems_each_week": [
             102,
             102,
@@ -172,14 +172,14 @@
             225,
             256
         ],
-        "current_problem_count": 266
+        "current_problem_count": 269
     },
     {
         "name": "anikin_aa",
         "elo": 1567,
         "prev_elo": 1567,
         "prev_problem_count": 655,
-        "current_problem_delta": 11,
+        "current_problem_delta": 14,
         "problems_each_week": [
             483,
             483,
@@ -188,7 +188,7 @@
             640,
             655
         ],
-        "current_problem_count": 666
+        "current_problem_count": 669
     },
     {
         "name": "Raj04",
@@ -243,7 +243,7 @@
         "elo": 1374,
         "prev_elo": 1374,
         "prev_problem_count": 324,
-        "current_problem_delta": 0,
+        "current_problem_delta": 1,
         "problems_each_week": [
             0,
             290,
@@ -252,7 +252,7 @@
             321,
             324
         ],
-        "current_problem_count": 324
+        "current_problem_count": 325
     },
     {
         "name": "elolelo",
@@ -298,45 +298,45 @@
     },
     {
         "name": "subhash-vadlamani",
-        "elo": 1389,
+        "elo": 1415,
         "prev_elo": 1389,
         "prev_problem_count": 259,
-        "current_problem_delta": 16,
+        "current_problem_delta": 20,
         "problems_each_week": [
             187,
             211,
             211,
             259
         ],
-        "current_problem_count": 275
+        "current_problem_count": 279
     },
     {
         "name": "koliyayyt",
-        "elo": 1599,
+        "elo": 1601,
         "prev_elo": 1599,
         "prev_problem_count": 301,
-        "current_problem_delta": 33,
+        "current_problem_delta": 42,
         "problems_each_week": [
             158,
             238,
             240,
             301
         ],
-        "current_problem_count": 334
+        "current_problem_count": 343
     },
     {
         "name": "ojhaprakash",
         "elo": 1595,
         "prev_elo": 1595,
         "prev_problem_count": 539,
-        "current_problem_delta": 3,
+        "current_problem_delta": 5,
         "problems_each_week": [
             498,
             522,
             522,
             539
         ],
-        "current_problem_count": 542
+        "current_problem_count": 544
     },
     {
         "name": "user4587U",
@@ -399,28 +399,28 @@
         "elo": 1509,
         "prev_elo": 1509,
         "prev_problem_count": 407,
-        "current_problem_delta": 12,
+        "current_problem_delta": 20,
         "problems_each_week": [
             206,
             283,
             284,
             407
         ],
-        "current_problem_count": 419
+        "current_problem_count": 427
     },
     {
         "name": "dev_shubham1",
         "elo": 1618,
         "prev_elo": 1618,
         "prev_problem_count": 384,
-        "current_problem_delta": 8,
+        "current_problem_delta": 16,
         "problems_each_week": [
             346,
             383,
             383,
             384
         ],
-        "current_problem_count": 392
+        "current_problem_count": 400
     },
     {
         "name": "EscubyDu",
@@ -497,14 +497,14 @@
         "elo": 0,
         "prev_elo": 0,
         "prev_problem_count": 130,
-        "current_problem_delta": 3,
+        "current_problem_delta": 15,
         "problems_each_week": [
             83,
             83,
             84,
             130
         ],
-        "current_problem_count": 133
+        "current_problem_count": 145
     },
     {
         "name": "ta1k5ick",
@@ -553,14 +553,14 @@
         "elo": 0,
         "prev_elo": 0,
         "prev_problem_count": 268,
-        "current_problem_delta": 0,
+        "current_problem_delta": 6,
         "problems_each_week": [
             249,
             265,
             265,
             268
         ],
-        "current_problem_count": 268
+        "current_problem_count": 274
     },
     {
         "name": "mustafa-jalal",
@@ -741,30 +741,17 @@
         "current_problem_count": 16
     },
     {
-        "name": "vatsala_singh",
-        "elo": 0,
-        "prev_elo": 0,
-        "prev_problem_count": 142,
-        "current_problem_delta": 0,
-        "problems_each_week": [
-            142,
-            142,
-            142
-        ],
-        "current_problem_count": 142
-    },
-    {
         "name": "AdhithyanM",
         "elo": 0,
         "prev_elo": 0,
         "prev_problem_count": 371,
-        "current_problem_delta": 7,
+        "current_problem_delta": 8,
         "problems_each_week": [
             357,
             357,
             371
         ],
-        "current_problem_count": 378
+        "current_problem_count": 379
     },
     {
         "name": "user6212RJ",
@@ -823,13 +810,13 @@
         "elo": 1603,
         "prev_elo": 1603,
         "prev_problem_count": 721,
-        "current_problem_delta": 24,
+        "current_problem_delta": 33,
         "problems_each_week": [
             655,
             657,
             721
         ],
-        "current_problem_count": 745
+        "current_problem_count": 754
     },
     {
         "name": "efrain-palacios",
@@ -871,13 +858,13 @@
         "elo": 0,
         "prev_elo": 0,
         "prev_problem_count": 130,
-        "current_problem_delta": 28,
+        "current_problem_delta": 33,
         "problems_each_week": [
             69,
             70,
             130
         ],
-        "current_problem_count": 158
+        "current_problem_count": 163
     },
     {
         "name": "ChewManDo",
@@ -917,11 +904,11 @@
         "elo": 0,
         "prev_elo": 0,
         "prev_problem_count": 45,
-        "current_problem_delta": 3,
+        "current_problem_delta": 4,
         "problems_each_week": [
             45
         ],
-        "current_problem_count": 48
+        "current_problem_count": 49
     },
     {
         "name": "beypazari97",
@@ -939,11 +926,11 @@
         "elo": 1562,
         "prev_elo": 1562,
         "prev_problem_count": 713,
-        "current_problem_delta": 6,
+        "current_problem_delta": 9,
         "problems_each_week": [
             713
         ],
-        "current_problem_count": 719
+        "current_problem_count": 722
     },
     {
         "name": "sanjeevbrin",
@@ -972,33 +959,33 @@
         "elo": 0,
         "prev_elo": 0,
         "prev_problem_count": 66,
-        "current_problem_delta": 16,
+        "current_problem_delta": 20,
         "problems_each_week": [
             66
         ],
-        "current_problem_count": 82
+        "current_problem_count": 86
     },
     {
         "name": "owlart",
-        "elo": 0,
+        "elo": 1423,
         "prev_elo": 0,
         "prev_problem_count": 110,
-        "current_problem_delta": 23,
+        "current_problem_delta": 26,
         "problems_each_week": [
             110
         ],
-        "current_problem_count": 133
+        "current_problem_count": 136
     },
     {
         "name": "DivineTheNoob",
         "elo": 0,
         "prev_elo": 0,
         "prev_problem_count": 106,
-        "current_problem_delta": 7,
+        "current_problem_delta": 10,
         "problems_each_week": [
             106
         ],
-        "current_problem_count": 113
+        "current_problem_count": 116
     },
     {
         "name": "RadwanCoder",
@@ -1016,11 +1003,11 @@
         "elo": 0,
         "prev_elo": 0,
         "prev_problem_count": 208,
-        "current_problem_delta": 9,
+        "current_problem_delta": 11,
         "problems_each_week": [
             208
         ],
-        "current_problem_count": 217
+        "current_problem_count": 219
     },
     {
         "name": "gruzintsev",
@@ -1071,6 +1058,6 @@
         "prev_problem_count": 0,
         "current_problem_delta": 0,
         "problems_each_week": [],
-        "current_problem_count": 596
+        "current_problem_count": 600
     }
 ]
