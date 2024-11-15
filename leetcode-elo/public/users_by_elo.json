@@ -163,7 +163,7 @@
         "elo": 1520,
         "prev_elo": 1520,
         "prev_problem_count": 256,
-        "current_problem_delta": 15,
+        "current_problem_delta": 16,
         "problems_each_week": [
             102,
             102,
@@ -172,7 +172,7 @@
             225,
             256
         ],
-        "current_problem_count": 271
+        "current_problem_count": 272
     },
     {
         "name": "anikin_aa",
@@ -227,7 +227,7 @@
         "elo": 1458,
         "prev_elo": 1458,
         "prev_problem_count": 372,
-        "current_problem_delta": 2,
+        "current_problem_delta": 3,
         "problems_each_week": [
             269,
             269,
@@ -236,7 +236,7 @@
             364,
             372
         ],
-        "current_problem_count": 374
+        "current_problem_count": 375
     },
     {
         "name": "perezalan",
@@ -315,14 +315,14 @@
         "elo": 1604,
         "prev_elo": 1604,
         "prev_problem_count": 301,
-        "current_problem_delta": 55,
+        "current_problem_delta": 59,
         "problems_each_week": [
             158,
             238,
             240,
             301
         ],
-        "current_problem_count": 356
+        "current_problem_count": 360
     },
     {
         "name": "ojhaprakash",
@@ -399,14 +399,14 @@
         "elo": 1504,
         "prev_elo": 1504,
         "prev_problem_count": 407,
-        "current_problem_delta": 30,
+        "current_problem_delta": 31,
         "problems_each_week": [
             206,
             283,
             284,
             407
         ],
-        "current_problem_count": 437
+        "current_problem_count": 438
     },
     {
         "name": "dev_shubham1",
@@ -836,11 +836,11 @@
         "elo": 0,
         "prev_elo": 0,
         "prev_problem_count": 53,
-        "current_problem_delta": 6,
+        "current_problem_delta": 7,
         "problems_each_week": [
             53
         ],
-        "current_problem_count": 59
+        "current_problem_count": 60
     },
     {
         "name": "mishrasandeep1105",
@@ -871,11 +871,11 @@
         "elo": 0,
         "prev_elo": 0,
         "prev_problem_count": 244,
-        "current_problem_delta": 15,
+        "current_problem_delta": 16,
         "problems_each_week": [
             244
         ],
-        "current_problem_count": 259
+        "current_problem_count": 260
     },
     {
         "name": "hnko__",
@@ -904,11 +904,11 @@
         "elo": 1410,
         "prev_elo": 1410,
         "prev_problem_count": 45,
-        "current_problem_delta": 9,
+        "current_problem_delta": 11,
         "problems_each_week": [
             45
         ],
-        "current_problem_count": 54
+        "current_problem_count": 56
     },
     {
         "name": "beypazari97",
@@ -926,11 +926,11 @@
         "elo": 1553,
         "prev_elo": 1553,
         "prev_problem_count": 713,
-        "current_problem_delta": 13,
+        "current_problem_delta": 14,
         "problems_each_week": [
             713
         ],
-        "current_problem_count": 726
+        "current_problem_count": 727
     },
     {
         "name": "sanjeevbrin",
@@ -981,11 +981,11 @@
         "elo": 0,
         "prev_elo": 0,
         "prev_problem_count": 106,
-        "current_problem_delta": 19,
+        "current_problem_delta": 20,
         "problems_each_week": [
             106
         ],
-        "current_problem_count": 125
+        "current_problem_count": 126
     },
     {
         "name": "RadwanCoder",
@@ -1003,11 +1003,11 @@
         "elo": 0,
         "prev_elo": 0,
         "prev_problem_count": 208,
-        "current_problem_delta": 13,
+        "current_problem_delta": 14,
         "problems_each_week": [
             208
         ],
-        "current_problem_count": 221
+        "current_problem_count": 222
     },
     {
         "name": "gruzintsev",
@@ -1076,6 +1076,6 @@
         "prev_problem_count": 0,
         "current_problem_delta": 0,
         "problems_each_week": [],
-        "current_problem_count": 15
+        "current_problem_count": 16
     }
 ]
