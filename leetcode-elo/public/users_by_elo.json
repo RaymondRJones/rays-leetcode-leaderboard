@@ -1077,5 +1077,23 @@
         "current_problem_delta": 0,
         "problems_each_week": [],
         "current_problem_count": 16
+    },
+    {
+        "name": "b3loreto",
+        "elo": 0,
+        "prev_elo": 0,
+        "prev_problem_count": 0,
+        "current_problem_delta": 0,
+        "problems_each_week": [],
+        "current_problem_count": 197
+    },
+    {
+        "name": "akashgns",
+        "elo": 0,
+        "prev_elo": 0,
+        "prev_problem_count": 0,
+        "current_problem_delta": 0,
+        "problems_each_week": [],
+        "current_problem_count": 22
     }
 ]
