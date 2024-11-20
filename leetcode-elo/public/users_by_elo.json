@@ -289,14 +289,14 @@
         "elo": 1618,
         "prev_elo": 1618,
         "prev_problem_count": 384,
-        "current_problem_delta": 32,
+        "current_problem_delta": 36,
         "problems_each_week": [
             346,
             383,
             383,
             384
         ],
-        "current_problem_count": 416
+        "current_problem_count": 420
     },
     {
         "name": "EscubyDu",
@@ -669,22 +669,22 @@
         "elo": 1396,
         "prev_elo": 1396,
         "prev_problem_count": 110,
-        "current_problem_delta": 30,
+        "current_problem_delta": 31,
         "problems_each_week": [
             110
         ],
-        "current_problem_count": 140
+        "current_problem_count": 141
     },
     {
         "name": "DivineTheNoob",
         "elo": 0,
         "prev_elo": 0,
         "prev_problem_count": 106,
-        "current_problem_delta": 30,
+        "current_problem_delta": 31,
         "problems_each_week": [
             106
         ],
-        "current_problem_count": 136
+        "current_problem_count": 137
     },
     {
         "name": "RadwanCoder",
@@ -702,11 +702,11 @@
         "elo": 0,
         "prev_elo": 0,
         "prev_problem_count": 208,
-        "current_problem_delta": 17,
+        "current_problem_delta": 18,
         "problems_each_week": [
             208
         ],
-        "current_problem_count": 225
+        "current_problem_count": 226
     },
     {
         "name": "gruzintsev",
@@ -776,5 +776,23 @@
         "current_problem_delta": 0,
         "problems_each_week": [],
         "current_problem_count": 23
+    },
+    {
+        "name": "user1557r",
+        "elo": 0,
+        "prev_elo": 0,
+        "prev_problem_count": 0,
+        "current_problem_delta": 0,
+        "problems_each_week": [],
+        "current_problem_count": 22
+    },
+    {
+        "name": "StanleyEzeh",
+        "elo": 0,
+        "prev_elo": 0,
+        "prev_problem_count": 0,
+        "current_problem_delta": 0,
+        "problems_each_week": [],
+        "current_problem_count": 3
     }
 ]
