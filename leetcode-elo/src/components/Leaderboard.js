@@ -72,10 +72,10 @@ function Leaderboard() {
         </Grid>
         <Grid item xs={12} sm={8}>
           <Typography variant="h4" gutterBottom component="div" sx={{ fontFamily: "'Roboto', sans-serif", fontWeight: 500 }}>
-            November Leetcode Challenge 
+            New Years Leetcode Challenge 
           </Typography>
           <Typography variant="h6" gutterBottom component="div" sx={{ fontFamily: "'Roboto', sans-serif", fontWeight: 500 }}>
-            Solve 30 Problems for month of November 
+            Solve 5 Problems before New Years
           </Typography>
         </Grid>
       </Grid>
