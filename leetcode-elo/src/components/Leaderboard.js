@@ -101,7 +101,7 @@ function Leaderboard() {
                 <Grid item xs={3}>
                   <ListItem alignItems="flex-start">
                     <Typography variant="h6" component="span" sx={{ fontFamily: "'Roboto', sans-serif" }}>
-                      #{index + 1} {user.name}
+                      #{index + 1} {user.display_name ? user.display_name : user.name}
                     </Typography>
                   </ListItem>
                 </Grid>

@@ -1,5 +1,6 @@
 [
     {
+        "display_name": "Raymond Jones",
         "name": "TheRealRaymondJones",
         "elo": 1959,
         "prev_elo": 1959,
@@ -95,6 +96,7 @@
         "current_problem_count": 206
     },
     {
+        "display_name": "Marouen Ksentini",
         "name": "marouen8",
         "elo": 1520,
         "prev_elo": 1520,
@@ -237,6 +239,7 @@
         "current_problem_count": 640
     },
     {
+        "display_name": "Subhash Vadlamani",
         "name": "subhash-vadlamani",
         "elo": 1419,
         "prev_elo": 1419,
@@ -991,6 +994,7 @@
         "current_problem_count": 136
     },
     {
+        "display_name": "Artun",
         "name": "owlart",
         "elo": 1301,
         "prev_elo": 1301,
@@ -1029,6 +1033,7 @@
         "current_problem_count": 164
     },
     {
+        "display_name": "Radwan",
         "name": "RadwanCoder",
         "elo": 1412,
         "prev_elo": 1412,
@@ -1067,6 +1072,7 @@
         "current_problem_count": 266
     },
     {
+        "display_name": "Vladimir Gruzintsev",
         "name": "gruzintsev",
         "elo": 0,
         "prev_elo": 0,
@@ -1408,6 +1414,7 @@
         "current_problem_count": 1265
     },
     {
+        "display_name": "Ahmed Khan",
         "name": "ahmedkhandoit",
         "elo": 0,
         "prev_elo": 0,
