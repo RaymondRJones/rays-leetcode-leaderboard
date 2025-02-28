@@ -366,7 +366,7 @@
         "elo": 1438,
         "prev_elo": 1438,
         "prev_problem_count": 485,
-        "current_problem_delta": 27,
+        "current_problem_delta": 29,
         "problems_each_week": [
             455,
             455,
@@ -382,7 +382,7 @@
             482,
             485
         ],
-        "current_problem_count": 512
+        "current_problem_count": 514
     },
     {
         "name": "RoadmannCoder",
@@ -753,7 +753,7 @@
         "elo": 0,
         "prev_elo": 0,
         "prev_problem_count": 152,
-        "current_problem_delta": 19,
+        "current_problem_delta": 20,
         "problems_each_week": [
             62,
             62,
@@ -768,7 +768,7 @@
             146,
             152
         ],
-        "current_problem_count": 171
+        "current_problem_count": 172
     },
     {
         "name": "yashpawar642",
@@ -1380,7 +1380,7 @@
         "elo": 0,
         "prev_elo": 0,
         "prev_problem_count": 890,
-        "current_problem_delta": 5,
+        "current_problem_delta": 6,
         "problems_each_week": [
             0,
             859,
@@ -1390,7 +1390,7 @@
             886,
             890
         ],
-        "current_problem_count": 895
+        "current_problem_count": 896
     },
     {
         "name": "tgadgil",
@@ -1482,7 +1482,7 @@
         "elo": 0,
         "prev_elo": 0,
         "prev_problem_count": 687,
-        "current_problem_delta": 57,
+        "current_problem_delta": 58,
         "problems_each_week": [
             0,
             647,
@@ -1492,7 +1492,7 @@
             677,
             687
         ],
-        "current_problem_count": 744
+        "current_problem_count": 745
     },
     {
         "name": "djeon",
@@ -1533,13 +1533,13 @@
         "elo": 0,
         "prev_elo": 0,
         "prev_problem_count": 47,
-        "current_problem_delta": 10,
+        "current_problem_delta": 11,
         "problems_each_week": [
             0,
             41,
             47
         ],
-        "current_problem_count": 57
+        "current_problem_count": 58
     },
     {
         "name": "tm4",
@@ -1559,13 +1559,13 @@
         "elo": 0,
         "prev_elo": 0,
         "prev_problem_count": 43,
-        "current_problem_delta": 0,
+        "current_problem_delta": 2,
         "problems_each_week": [
             0,
             43,
             43
         ],
-        "current_problem_count": 43
+        "current_problem_count": 45
     },
     {
         "name": "mythily87",
