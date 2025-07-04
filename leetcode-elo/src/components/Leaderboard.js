@@ -72,7 +72,7 @@ function Leaderboard() {
         </Grid>
         <Grid item xs={12} sm={8}>
           <Typography variant="h4" gutterBottom component="div" sx={{ fontFamily: "'Roboto', sans-serif", fontWeight: 500 }}>
-            February Leetcode Challenge 
+            July Leetcode Challenge 
           </Typography>
           <Typography variant="h6" gutterBottom component="div" sx={{ fontFamily: "'Roboto', sans-serif", fontWeight: 500 }}>
             Solve 30 New Problems by August 4th
