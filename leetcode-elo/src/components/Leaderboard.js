@@ -75,7 +75,7 @@ function Leaderboard() {
             February Leetcode Challenge 
           </Typography>
           <Typography variant="h6" gutterBottom component="div" sx={{ fontFamily: "'Roboto', sans-serif", fontWeight: 500 }}>
-            Solve 30 New Problems by March 1st
+            Solve 30 New Problems by August 4th
           </Typography>
         </Grid>
       </Grid>
