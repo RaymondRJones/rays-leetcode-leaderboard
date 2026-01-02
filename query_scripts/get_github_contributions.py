@@ -3,6 +3,7 @@ import json
 from datetime import datetime
 from dotenv import load_dotenv
 import os
+from kv_client import get_users_list, get_github_data, put_github_data
 
 # Load environment variables
 load_dotenv()
@@ -57,18 +58,14 @@ def get_github_contributions(username):
         print(f"Response: {response.text}")
         return None
 
-def load_existing_data(filename):
-    """Load existing GitHub contributions data"""
-    try:
-        with open(filename, "r") as file:
-            return json.load(file)
-    except FileNotFoundError:
-        return []
+def load_existing_data(filename=None):
+    """Load existing GitHub contributions data from KV (filename param kept for compatibility)"""
+    return get_github_data()
 
 def update_json(filename, users):
-    """Update the JSON file with new contribution data"""
-    with open(filename, "w") as file:
-        json.dump(users, file, indent=4)
+    """Update KV with new contribution data (filename param kept for compatibility)"""
+    put_github_data(users)
+    print(f"Updated {len(users)} users in KV")
 
 def weekly_update(existing_users):
     """Weekly update with historical tracking"""
@@ -122,7 +119,34 @@ def daily_update(existing_users):
 
 def main(update_type):
     """Main function"""
-    existing_users = load_existing_data("../leetcode-elo/public/github_contributions.json")
+    # Get registered users from KV
+    registered_users = get_users_list()
+    print(f"Found {len(registered_users)} registered users")
+
+    # Load existing GitHub data from KV
+    existing_data = load_existing_data()
+
+    # Create mapping of username to data
+    data_map = {user['github_username']: user for user in existing_data}
+
+    # Initialize new users who don't have data yet
+    for reg_user in registered_users:
+        username = reg_user['github_username']
+        if username not in data_map:
+            print(f"Initializing new user: {username}")
+            data_map[username] = {
+                'github_username': username,
+                'display_name': reg_user.get('display_name', username),
+                'current_contributions': 0,
+                'prev_contributions': 0,
+                'contribution_delta': 0,
+                'contributions_each_week': [],
+                'calendar_data': [],
+                'last_updated': ''
+            }
+
+    # Convert map back to list
+    existing_users = list(data_map.values())
 
     if update_type == "weekly":
         weekly_update(existing_users)

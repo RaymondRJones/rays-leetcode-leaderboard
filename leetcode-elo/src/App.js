@@ -4,6 +4,7 @@ import SearchIcon from '@mui/icons-material/Search';
 import Leaderboard from './components/Leaderboard';
 import LeetcodeCoinCalculator from './components/LeetcodeCoinCalculator';
 import GitHubContributions from './components/GitHubContributions';
+import Register from './components/Register';
 import { BrowserRouter as Router, Routes, Route, Link } from 'react-router-dom';
 
 function App() {
@@ -82,6 +83,7 @@ function App() {
         <Link to="/zerotrac" style={{ color: 'white', textDecoration: 'none', margin: '0 10px' }}>Zerotrac</Link>
         <Link to="/" style={{ color: 'white', textDecoration: 'none', margin: '0 10px' }}>Leaderboard</Link>
         <Link to="/github" style={{ color: 'white', textDecoration: 'none', margin: '0 10px' }}>GitHub Contributions</Link>
+        <Link to="/register" style={{ color: 'white', textDecoration: 'none', margin: '0 10px' }}>Register</Link>
         <Link to="/calculator" style={{ color: 'white', textDecoration: 'none', margin: '0 10px' }}>Leetcode T-Shirt Calculator</Link>
       </Toolbar>
     </AppBar>
@@ -212,6 +214,7 @@ function App() {
       }/>
     <Route path="/" element={<Leaderboard />} />
     <Route path="/github" element={<GitHubContributions />} />
+    <Route path="/register" element={<Register />} />
     <Route path="/calculator" element={<LeetcodeCoinCalculator/>} />
   </Routes>
 </Router>

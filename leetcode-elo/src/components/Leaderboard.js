@@ -36,8 +36,20 @@ function Leaderboard() {
   useEffect(() => {
     const fetchLeaderboard = async () => {
       try {
-        const response = await fetch('/users_by_elo.json');
-        const data = await response.json();
+        const API_URL = process.env.REACT_APP_API_URL || 'https://weathered-dream-8f83.rayjones2170.workers.dev';
+        const response = await fetch(`${API_URL}?key=leetcode:data`);
+        const result = await response.json();
+
+        let data = [];
+        if (result.value && result.value !== 'null') {
+          try {
+            data = JSON.parse(result.value);
+          } catch (e) {
+            console.error("Failed to parse leetcode data:", e);
+            data = [];
+          }
+        }
+
         data.sort((a, b) => b.current_problem_delta - a.current_problem_delta);
         setLeaderboard(data);
       } catch (error) {
@@ -94,11 +106,12 @@ function Leaderboard() {
           </Typography>
         </Grid>
       </Grid>
+
       <TextField
         fullWidth
         label="Search by name"
         variant="outlined"
-        sx={{ mb: 2 }}
+        sx={{ mb: 2, mt: 2 }}
         value={searchTerm}
         onChange={(e) => setSearchTerm(e.target.value)}
       />

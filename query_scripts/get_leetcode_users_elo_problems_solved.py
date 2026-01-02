@@ -3,6 +3,7 @@ import sys
 import json
 from datetime import datetime
 from cookies import cookies
+from kv_client import get_users_list, get_leetcode_data, put_leetcode_data
 
 # Define the headers and cookies as given in your template
 
@@ -89,27 +90,15 @@ def get_elo_of_leetcoder(username):
         return None
 
 
-def load_existing_elos(filename):
-    with open(filename, "r") as file:
-        return json.load(file)
+def load_existing_elos(filename=None):
+    """Load existing data from KV (filename param kept for compatibility)"""
+    return get_leetcode_data()
 
 
 def update_json(filename, users):
-    data = []
-    for user in users:
-        data.append(
-            {
-                "name": user["name"],
-                "elo": user["elo"],
-                "prev_elo": user.get("prev_elo", 0),
-                "prev_problem_count": user["prev_problem_count"],
-                "current_problem_delta": user["current_problem_delta"],
-                "problems_each_week": user.get("problems_each_week", []),
-                "current_problem_count": user["current_problem_count"],
-            }
-        )
-    with open(filename, "w") as file:
-        json.dump(data, file, indent=4)
+    """Update KV with new data (filename param kept for compatibility)"""
+    put_leetcode_data(users)
+    print(f"Updated {len(users)} users in KV")
 
 
 def read_usernames_from_file(filename):
@@ -180,11 +169,42 @@ def weekly_update(existing_users):
 
 
 def main(weekly_or_daily):
-    existing_users = load_existing_elos("../leetcode-elo/public/users_by_elo.json")
+    # Get registered users from KV
+    registered_users = get_users_list()
+    print(f"Found {len(registered_users)} registered users")
+
+    # Load existing LeetCode data from KV
+    existing_data = load_existing_elos()
+
+    # Create mapping of username to data
+    data_map = {user['name']: user for user in existing_data}
+
+    # Initialize new users who don't have data yet
+    for reg_user in registered_users:
+        username = reg_user['leetcode_username']
+        if username not in data_map:
+            print(f"Initializing new user: {username}")
+            data_map[username] = {
+                'name': username,
+                'display_name': reg_user.get('display_name', username),
+                'elo': 0,
+                'prev_elo': 0,
+                'prev_problem_count': 0,
+                'current_problem_delta': 0,
+                'problems_each_week': [],
+                'current_problem_count': 0
+            }
+
+    # Convert map back to list
+    existing_users = list(data_map.values())
+
     if weekly_or_daily == "weekly":
         weekly_update(existing_users)
     elif weekly_or_daily == "daily":
         daily_update(existing_users)
+    else:
+        print("Usage: python script.py <weekly|daily>")
+
     print("finished..")
 
 

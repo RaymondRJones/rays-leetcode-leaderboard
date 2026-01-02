@@ -39,8 +39,20 @@ function GitHubContributions() {
   useEffect(() => {
     const fetchLeaderboard = async () => {
       try {
-        const response = await fetch('/github_contributions.json');
-        const data = await response.json();
+        const API_URL = process.env.REACT_APP_API_URL || 'https://weathered-dream-8f83.rayjones2170.workers.dev';
+        const response = await fetch(`${API_URL}?key=github:data`);
+        const result = await response.json();
+
+        let data = [];
+        if (result.value && result.value !== 'null') {
+          try {
+            data = JSON.parse(result.value);
+          } catch (e) {
+            console.error("Failed to parse github data:", e);
+            data = [];
+          }
+        }
+
         data.sort((a, b) => b.contribution_delta - a.contribution_delta);
         setLeaderboard(data);
       } catch (error) {
