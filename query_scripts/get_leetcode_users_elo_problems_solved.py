@@ -1,6 +1,7 @@
 import requests
 import sys
 import json
+from datetime import datetime
 from cookies import cookies
 
 # Define the headers and cookies as given in your template
@@ -48,10 +49,15 @@ def get_problems_solved(username):
     response = requests.post(url, headers=headers, cookies=cookies, json=payload)
     if response.status_code == 200:
         data = response.json()
-        total_problems_solved = data["data"]["matchedUser"]["submitStatsGlobal"][
-            "acSubmissionNum"
-        ][0]["count"]
-        return total_problems_solved
+        # Check if the user exists
+        if data.get("data") and data["data"].get("matchedUser"):
+            total_problems_solved = data["data"]["matchedUser"]["submitStatsGlobal"][
+                "acSubmissionNum"
+            ][0]["count"]
+            return total_problems_solved
+        else:
+            print(f"User {username} does not exist, skipping...")
+            return None
     else:
         print(
             f"Failed to retrieve problem stats for {username}: {response.status_code}"
@@ -121,11 +127,12 @@ def write_elos_to_json(filename, user_elos):
 
 
 def daily_update(existing_users):
+    valid_users = []
     for user in existing_users:
         username = user["name"]
         print("Getting problem count of...", username)
         problems_solved_count = get_problems_solved(username)
-        if problems_solved_count:
+        if problems_solved_count is not None:
             print("COUNT WAS", problems_solved_count)
             old_problems_count = user.get("prev_problem_count")
             user["current_problem_count"] = problems_solved_count
@@ -136,21 +143,29 @@ def daily_update(existing_users):
                     "prev_problem_count", problems_solved_count
                 )
             print("Problems solved by user...", problems_solved_count)
-    update_json("../leetcode-elo/public/users_by_elo.json", existing_users)
+            valid_users.append(user)
+    update_json("../leetcode-elo/public/users_by_elo.json", valid_users)
     pass
 
 
 def weekly_update(existing_users):
+    valid_users = []
     for user in existing_users:
         username = user["name"]
         print("Getting problem count of...", username)
         problems_solved_count = get_problems_solved(username)
-        if problems_solved_count:
+        if problems_solved_count is not None:
             print("COUNT WAS", problems_solved_count)
             if user.get("problems_each_week", []):
-                user["problems_each_week"].append(user.get("current_problem_count", 0))
+                user["problems_each_week"].append({
+                    "date": datetime.now().strftime("%Y-%m-%d"),
+                    "count": user.get("current_problem_count", 0)
+                })
             else:
-                user["problems_each_week"] = [user.get("current_problem_count", 0)]
+                user["problems_each_week"] = [{
+                    "date": datetime.now().strftime("%Y-%m-%d"),
+                    "count": user.get("current_problem_count", 0)
+                }]
 
             user["prev_problem_count"] = user.get(
                 "current_problem_count", problems_solved_count
@@ -160,7 +175,8 @@ def weekly_update(existing_users):
                 "prev_problem_count", problems_solved_count
             )
             print("Problems solved by user...", problems_solved_count)
-    update_json("../leetcode-elo/public/users_by_elo.json", existing_users)
+            valid_users.append(user)
+    update_json("../leetcode-elo/public/users_by_elo.json", valid_users)
 
 
 def main(weekly_or_daily):

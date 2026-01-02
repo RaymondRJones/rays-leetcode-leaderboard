@@ -3,6 +3,7 @@ import { AppBar, Toolbar, Typography, Container, TextField, Button, Box, Card, C
 import SearchIcon from '@mui/icons-material/Search';
 import Leaderboard from './components/Leaderboard';
 import LeetcodeCoinCalculator from './components/LeetcodeCoinCalculator';
+import GitHubContributions from './components/GitHubContributions';
 import { BrowserRouter as Router, Routes, Route, Link } from 'react-router-dom';
 
 function App() {
@@ -80,6 +81,7 @@ function App() {
         {/* Add navigation links */}
         <Link to="/zerotrac" style={{ color: 'white', textDecoration: 'none', margin: '0 10px' }}>Zerotrac</Link>
         <Link to="/" style={{ color: 'white', textDecoration: 'none', margin: '0 10px' }}>Leaderboard</Link>
+        <Link to="/github" style={{ color: 'white', textDecoration: 'none', margin: '0 10px' }}>GitHub Contributions</Link>
         <Link to="/calculator" style={{ color: 'white', textDecoration: 'none', margin: '0 10px' }}>Leetcode T-Shirt Calculator</Link>
       </Toolbar>
     </AppBar>
@@ -209,6 +211,7 @@ function App() {
     </div>
       }/>
     <Route path="/" element={<Leaderboard />} />
+    <Route path="/github" element={<GitHubContributions />} />
     <Route path="/calculator" element={<LeetcodeCoinCalculator/>} />
   </Routes>
 </Router>
