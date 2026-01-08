@@ -5,6 +5,7 @@ import Leaderboard from './components/Leaderboard';
 import LeetcodeCoinCalculator from './components/LeetcodeCoinCalculator';
 import GitHubContributions from './components/GitHubContributions';
 import Register from './components/Register';
+import ProblemsByCategory from './components/ProblemsByCategory';
 import { BrowserRouter as Router, Routes, Route, Link } from 'react-router-dom';
 
 function App() {
@@ -81,9 +82,9 @@ function App() {
         </Typography>
         {/* Add navigation links */}
         <Link to="/zerotrac" style={{ color: 'white', textDecoration: 'none', margin: '0 10px' }}>Zerotrac</Link>
+        <Link to="/categories" style={{ color: 'white', textDecoration: 'none', margin: '0 10px' }}>By Category</Link>
         <Link to="/" style={{ color: 'white', textDecoration: 'none', margin: '0 10px' }}>Leaderboard</Link>
         <Link to="/github" style={{ color: 'white', textDecoration: 'none', margin: '0 10px' }}>GitHub Contributions</Link>
-        <Link to="/register" style={{ color: 'white', textDecoration: 'none', margin: '0 10px' }}>Register</Link>
         <Link to="/calculator" style={{ color: 'white', textDecoration: 'none', margin: '0 10px' }}>Leetcode T-Shirt Calculator</Link>
       </Toolbar>
     </AppBar>
@@ -213,6 +214,7 @@ function App() {
     </div>
       }/>
     <Route path="/" element={<Leaderboard />} />
+    <Route path="/categories" element={<ProblemsByCategory />} />
     <Route path="/github" element={<GitHubContributions />} />
     <Route path="/register" element={<Register />} />
     <Route path="/calculator" element={<LeetcodeCoinCalculator/>} />
