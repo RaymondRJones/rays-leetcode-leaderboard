@@ -18,7 +18,7 @@ function App() {
   const [randomProblem, setRandomProblem] = useState(null);
 
   useEffect(() => {
-    document.title = "Leaderboard";
+    document.title = "Coding with Raymond - Leetcode Leaderboard";
     const fetchProblems = async () => {
       const response = await fetch('/ratings.json');
       const data = await response.json();
@@ -78,7 +78,7 @@ function App() {
     <AppBar position="static" color="primary">
       <Toolbar>
         <Typography variant="h6" component="div" sx={{ flexGrow: 1 }}>
-          Ray's DSA Leaderboard 
+          Coding with Raymond - Leetcode Leaderboard
         </Typography>
         {/* Add navigation links */}
         <Link to="/zerotrac" style={{ color: 'white', textDecoration: 'none', margin: '0 10px' }}>Zerotrac</Link>

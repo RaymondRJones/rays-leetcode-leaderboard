@@ -1,4 +1,4 @@
 #!/bin/bash
 
-# Run the Python script
-python query_users_elo_daily.py
+# Run the weekly update (fetches ELO + problem counts, writes to Cloudflare KV)
+python3 get_leetcode_users_elo_problems_solved.py weekly

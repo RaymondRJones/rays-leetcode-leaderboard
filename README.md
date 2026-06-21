@@ -1,60 +1,75 @@
-# Welcome to Twitch Stats 2024
+# Ray's DSA Leaderboard
 
-I made this to just show some of the twitch streamers and community members stats. It's just a basic JSON that displays all their ratings with their LC profiles.
+A React web app that tracks LeetCode ELO ratings and GitHub contributions for a group of users competing in coding challenges.
 
-# To Make Improvements
+## How It Works
 
-The project is pure react React
+### Data Storage — Cloudflare Workers KV
 
-Node version is `v20.5.1`
-
-### To run:
-
-git clone the repo
-
-cd into `leetcode-elo` like
+User and leaderboard data lives in **Cloudflare Workers KV**, accessed through a Cloudflare Worker at:
 
 ```
+https://weathered-dream-8f83.rayjones2170.workers.dev
+```
+
+Both the frontend and the Python data pipeline talk to this Worker. No database credentials needed — the Worker handles auth.
+
+**KV keys:**
+
+| Key | Contents |
+|-----|----------|
+| `leetcode:data` | Full leaderboard (ELO, problem counts, weekly history per user) |
+| `github:data` | GitHub contribution data per user |
+| `users:list` | Registered users (LeetCode username, GitHub username, display name) |
+
+### Frontend (`leetcode-elo/`)
+
+React + MUI app. Pages:
+
+- `/` — Leaderboard ranked by problems solved this month, with ELO and rating change indicators. Click a user to see their progress graph.
+- `/zerotrac` — LeetCode problems searchable and filterable by ELO rating
+- `/categories` — ~2000 problems browsable by category
+- `/github` — GitHub contribution history
+- `/register` — Register new users (writes directly to `users:list` in KV)
+- `/calculator` — LeetCode T-shirt coin calculator
+
+### Data Pipeline (`query_scripts/`)
+
+Python scripts that fetch fresh data and push it to KV:
+
+- `query_users_elo_daily.py` — fetches ELO and problem counts from the LeetCode GraphQL API
+- `get_leetcode_users_elo_problems_solved.py` — broader stats fetching
+- `kv_client.py` — shared helper for reading/writing KV via the Worker
+- `weekly_update_users_elo.sh` — shell script to run the weekly update
+
+## Running Locally
+
+Node version: `v20.5.1`
+
+```bash
 cd leetcode-elo
+npm install
+npm start
 ```
 
-Make sure you ran `npm install` beforehand
+The app will open at `http://localhost:3000` and load live data from the Cloudflare Worker.
 
-```
-  npm start
-```
+## Adding New Users
 
-You should see the homepage which loads the leaderboard.
+### Via the `/register` page
 
-### Main Files
+Fill out the form with a LeetCode username, GitHub username, and optional display name. The form reads `users:list` from KV, checks for duplicates, and writes the new user back. They will appear on the leaderboard after the next automated data update.
 
-99% of logic is `src/components/leaderboard.js`
+### Via Python script
 
-This displays the leaderboard and imports data from a json that contains all user profiles and elo, hardcoded values.
-
-The JSON file is located in `public/leaderboard.json`
-
-# To Add New Users via a Google Form
-
-```
-- create a google form
-- make a question "What is your leetcode username"
-- make sure the sheet that the responses are stored in is public
-- get the link to the sheet
-- use the link in the wget command below
-
+```bash
 cd query_scripts
-
-wget --no-check-certificate --output-document=users.csv '[public link to google sheet for example https://docs.google.com/spreadsheets/d/11_utLlhDXp8BGzKDW954O3l93v9ahFVOXHBavsaemBQ/]export?format=csv'
-
 python3 add_users_to_json.py
 ```
 
-## Ideas for Improvement
+## Environment Variables
 
-##### People can't remove themselves from the list
-
-solutions -> Google Form for removing people with script that updates the JSON
-
-##### Prediction rating should be overwritten after Wednesday for official rating
-Add a new key to the JSON for is_predicted_elo
+| Variable | Default | Purpose |
+|----------|---------|---------|
+| `REACT_APP_API_URL` | `https://weathered-dream-8f83.rayjones2170.workers.dev` | Cloudflare Worker URL |
+| `WORKER_URL` | same as above | Used by Python scripts (via `.env`) |
