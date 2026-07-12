@@ -4,6 +4,8 @@ import { styled } from '@mui/material/styles';
 import ArrowUpwardIcon from '@mui/icons-material/ArrowUpward';
 import ArrowDownwardIcon from '@mui/icons-material/ArrowDownward';
 import RemoveIcon from '@mui/icons-material/Remove';
+import PersonAddAltIcon from '@mui/icons-material/PersonAddAlt';
+import { Link as RouterLink } from 'react-router-dom';
 import UserProgressGraph from './UserProgressGraph';
 
 const CustomCard = styled(Box)(({ theme }) => ({
@@ -32,6 +34,10 @@ function Leaderboard() {
   const [searchTerm, setSearchTerm] = useState('');
   const [selectedUser, setSelectedUser] = useState(null);
   const [modalOpen, setModalOpen] = useState(false);
+  const currentDate = new Date();
+  const currentMonthName = currentDate.toLocaleString(undefined, { month: 'long' });
+  const nextMonthName = new Date(currentDate.getFullYear(), currentDate.getMonth() + 1, 1)
+    .toLocaleString(undefined, { month: 'long' });
 
   useEffect(() => {
     const fetchLeaderboard = async () => {
@@ -99,11 +105,20 @@ function Leaderboard() {
         </Grid>
         <Grid item xs={12} sm={8}>
           <Typography variant="h4" gutterBottom component="div" sx={{ fontFamily: "'Roboto', sans-serif", fontWeight: 500 }}>
-            July Leetcode Challenge
+            {currentMonthName} Leetcode Challenge
           </Typography>
           <Typography variant="h6" gutterBottom component="div" sx={{ fontFamily: "'Roboto', sans-serif", fontWeight: 500 }}>
-            Solve 30 New Problems by August 1st
+            Solve 30 New Problems by {nextMonthName} 1st
           </Typography>
+          <Button
+            component={RouterLink}
+            to="/register"
+            variant="contained"
+            startIcon={<PersonAddAltIcon />}
+            sx={{ mt: 2 }}
+          >
+            Add yourself
+          </Button>
         </Grid>
       </Grid>
 

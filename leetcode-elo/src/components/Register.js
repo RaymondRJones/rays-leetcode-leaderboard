@@ -20,7 +20,7 @@ function Register() {
           Join the Challenge
         </Typography>
         <Typography variant="h6" sx={{ opacity: 0.9 }}>
-          Track your LeetCode and GitHub progress alongside your peers
+          Add your LeetCode profile to the leaderboard
         </Typography>
       </HeroSection>
 
@@ -32,7 +32,7 @@ function Register() {
         </Typography>
         <Box sx={{ mt: 2 }}>
           <Typography variant="body1" paragraph>
-            <strong>1. Register:</strong> Enter your LeetCode and GitHub usernames to join the leaderboards.
+            <strong>1. Register:</strong> Enter your LeetCode username, GitHub username, and display name.
           </Typography>
           <Typography variant="body1" paragraph>
             <strong>2. Automatic Tracking:</strong> Your problem-solving progress and contributions are tracked automatically.

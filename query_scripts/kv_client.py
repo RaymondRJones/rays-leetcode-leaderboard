@@ -7,13 +7,20 @@ load_dotenv()
 
 # Use the Worker URL as the bridge to KV
 WORKER_URL = os.getenv('WORKER_URL', 'https://weathered-dream-8f83.rayjones2170.workers.dev')
+KV_ADMIN_TOKEN = os.getenv('KV_ADMIN_TOKEN')
+
+def _headers():
+    headers = {}
+    if KV_ADMIN_TOKEN:
+        headers['Authorization'] = f'Bearer {KV_ADMIN_TOKEN}'
+    return headers
 
 def get_kv(key):
     """Get value from KV store via Worker"""
     url = f"{WORKER_URL}?key={key}"
 
     try:
-        response = requests.get(url)
+        response = requests.get(url, headers=_headers())
 
         if response.status_code == 200:
             data = response.json()
@@ -48,7 +55,7 @@ def put_kv(key, value):
             'value': value_str
         }
 
-        response = requests.post(WORKER_URL, json=payload)
+        response = requests.post(WORKER_URL, json=payload, headers=_headers())
 
         if response.status_code == 200:
             return True

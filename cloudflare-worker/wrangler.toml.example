@@ -1,0 +1,15 @@
+name = "rays-leetcode-leaderboard-api"
+main = "worker.js"
+compatibility_date = "2026-07-01"
+
+[[kv_namespaces]]
+binding = "LEADERBOARD_KV"
+id = "replace-with-your-kv-namespace-id"
+
+[vars]
+# Comma-separate production and local origins.
+CORS_ALLOW_ORIGIN = "https://your-site.example.com,http://localhost:3000"
+
+# Set secrets with:
+# wrangler secret put ADMIN_API_TOKEN
+# wrangler secret put TURNSTILE_SECRET_KEY

@@ -84,6 +84,7 @@ function App() {
         <Link to="/zerotrac" style={{ color: 'white', textDecoration: 'none', margin: '0 10px' }}>Zerotrac</Link>
         <Link to="/categories" style={{ color: 'white', textDecoration: 'none', margin: '0 10px' }}>By Category</Link>
         <Link to="/" style={{ color: 'white', textDecoration: 'none', margin: '0 10px' }}>Leaderboard</Link>
+        <Link to="/register" style={{ color: 'white', textDecoration: 'none', margin: '0 10px' }}>Join</Link>
         <Link to="/github" style={{ color: 'white', textDecoration: 'none', margin: '0 10px' }}>GitHub Contributions</Link>
         <Link to="/calculator" style={{ color: 'white', textDecoration: 'none', margin: '0 10px' }}>Leetcode T-Shirt Calculator</Link>
       </Toolbar>
