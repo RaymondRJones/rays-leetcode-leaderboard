@@ -20,7 +20,18 @@ import {
 // Memoized Problem Card Component
 const ProblemCard = React.memo(({ problem, selectedCategory, onCategoryClick }) => {
   return (
-    <Card variant="outlined" sx={{ mb: 2, width: '100%' }}>
+    <Card
+      variant="outlined"
+      sx={{
+        width: '100%',
+        transition: 'border-color 160ms ease, background 160ms ease, transform 160ms ease',
+        '&:hover': {
+          transform: 'translateY(-2px)',
+          borderColor: '#3a414a',
+          bgcolor: 'rgba(20, 23, 27, 0.72)',
+        },
+      }}
+    >
       <CardContent>
         <Box sx={{ display: 'flex', justifyContent: 'space-between', alignItems: 'flex-start', mb: 1 }}>
           <Typography variant="h6" component="h2">
@@ -199,17 +210,23 @@ function ProblemsByCategory() {
   }
 
   return (
-    <Container maxWidth="lg" sx={{ mt: 4, mb: 4 }}>
-      <Typography variant="h4" component="h1" gutterBottom>
+    <Container maxWidth="lg" sx={{ py: { xs: 6, md: 9 } }}>
+      <Box sx={{ maxWidth: 760, mx: 'auto', textAlign: 'center', mb: 6 }}>
+      <Typography variant="overline" sx={{ color: 'text.disabled', fontWeight: 800, letterSpacing: '0.14em' }}>
+        Problem Bank
+      </Typography>
+      <Typography variant="h3" component="h1" sx={{ mt: 1 }}>
         LeetCode Problems by Category
       </Typography>
 
-      <Typography variant="body1" color="text.secondary" gutterBottom sx={{ mb: 3 }}>
+      <Typography variant="body1" color="text.secondary" sx={{ mt: 2, lineHeight: 1.65 }}>
         Browse and filter LeetCode problems by topic/category and difficulty rating
       </Typography>
+      </Box>
 
       {/* Filters */}
-      <Box sx={{ mb: 4 }}>
+      <Card variant="outlined" sx={{ mb: 4 }}>
+      <CardContent sx={{ p: { xs: 2, md: 3 } }}>
         <Grid container spacing={2}>
           <Grid item xs={12} md={6}>
             <FormControl fullWidth>
@@ -284,11 +301,12 @@ function ProblemsByCategory() {
             </Button>
           </Grid>
         </Grid>
-      </Box>
+      </CardContent>
+      </Card>
 
       {/* Results Summary */}
       <Box sx={{ mb: 2, display: 'flex', justifyContent: 'space-between', alignItems: 'center' }}>
-        <Typography variant="h6" color="primary">
+        <Typography variant="h6" color="text.primary">
           {filteredProblems.length} problem{filteredProblems.length !== 1 ? 's' : ''} found
           {selectedCategory && ` in ${selectedCategory}`}
         </Typography>
@@ -300,11 +318,13 @@ function ProblemsByCategory() {
       </Box>
 
       {/* Problems List */}
-      <Box display="flex" flexDirection="column" alignItems="center">
+      <Box display="grid" gap={1.5}>
         {filteredProblems.length === 0 ? (
-          <Typography variant="body1" color="text.secondary" sx={{ mt: 4 }}>
+          <Box sx={{ display: 'grid', placeItems: 'center', minHeight: 220, p: 4, border: 1, borderStyle: 'dashed', borderColor: 'divider', borderRadius: 1 }}>
+          <Typography variant="body1" color="text.secondary">
             No problems found matching your criteria.
           </Typography>
+          </Box>
         ) : (
           <>
             {paginatedProblems.map((problem) => (

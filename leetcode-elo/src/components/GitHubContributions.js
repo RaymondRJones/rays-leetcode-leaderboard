@@ -7,20 +7,25 @@ import RemoveIcon from '@mui/icons-material/Remove';
 import GitHubContributionsGraph from './GitHubContributionsGraph';
 
 const CustomCard = styled(Box)(({ theme }) => ({
-  marginBottom: theme.spacing(2),
+  marginBottom: theme.spacing(1.5),
+  border: `1px solid ${theme.palette.divider}`,
   borderRadius: theme.shape.borderRadius,
-  boxShadow: '0 4px 20px rgba(0,0,0,0.1)',
-  transition: '0.3s',
+  background: 'rgba(13, 15, 18, 0.72)',
+  transition: 'border-color 160ms ease, background 160ms ease, transform 160ms ease',
   '&:hover': {
-    transform: 'scale(1.02)',
-    boxShadow: '0 6px 24px rgba(0,0,0,0.15)',
+    transform: 'translateY(-2px)',
+    borderColor: '#3a414a',
+    background: 'rgba(20, 23, 27, 0.72)',
   },
 }));
 
 const ImageContainer = styled(Paper)(({ theme }) => ({
   height: 200,
   width: '100%',
-  backgroundImage: 'linear-gradient(135deg, #667eea 0%, #764ba2 100%)',
+  overflow: 'hidden',
+  borderRadius: theme.shape.borderRadius,
+  borderColor: theme.palette.divider,
+  backgroundImage: 'linear-gradient(135deg, rgba(239, 93, 168, 0.2), transparent 58%), linear-gradient(135deg, rgba(53, 196, 134, 0.16), transparent), #14171b',
   backgroundSize: 'cover',
   backgroundPosition: 'center',
   marginBottom: theme.spacing(2),
@@ -90,29 +95,55 @@ function GitHubContributions() {
 
   const filteredLeaderboard = searchTerm
     ? leaderboard.filter((user) =>
-        user.display_name.toLowerCase().includes(searchTerm.toLowerCase()) ||
-        user.github_username.toLowerCase().includes(searchTerm.toLowerCase())
+        String(user.display_name || '').toLowerCase().includes(searchTerm.toLowerCase()) ||
+        String(user.github_username || '').toLowerCase().includes(searchTerm.toLowerCase())
       )
     : leaderboard;
 
+  const totalContributions = leaderboard.reduce((sum, user) => sum + (user.contribution_delta ?? 0), 0);
+  const topContributor = leaderboard[0];
+
   return (
-    <Container maxWidth="md" sx={{ mt: 4, mb: 4 }}>
-      <Grid container spacing={2} alignItems="center">
+    <Container maxWidth="lg" sx={{ py: { xs: 6, md: 9 } }}>
+      <Grid container spacing={4} alignItems="center" sx={{ mb: 5 }}>
         <Grid item xs={12} sm={4}>
           <ImageContainer>
-            <Typography variant="h3" sx={{ color: 'white', fontWeight: 'bold' }}>
+            <Typography variant="h3" sx={{ color: 'text.primary', fontWeight: 700 }}>
               GitHub
             </Typography>
           </ImageContainer>
         </Grid>
         <Grid item xs={12} sm={8}>
-          <Typography variant="h4" gutterBottom component="div" sx={{ fontFamily: "'Roboto', sans-serif", fontWeight: 500 }}>
+          <Typography variant="overline" sx={{ color: 'text.disabled', fontWeight: 800, letterSpacing: '0.14em' }}>
+            Activity
+          </Typography>
+          <Typography variant="h3" gutterBottom component="h1" sx={{ mt: 1 }}>
             GitHub Contributions Leaderboard
           </Typography>
-          <Typography variant="h6" gutterBottom component="div" sx={{ fontFamily: "'Roboto', sans-serif", fontWeight: 400 }}>
+          <Typography variant="h6" gutterBottom component="div" color="text.secondary" sx={{ maxWidth: 560, lineHeight: 1.55 }}>
             Track Your GitHub Activity
           </Typography>
         </Grid>
+      </Grid>
+
+      <Grid container spacing={0.125} sx={{ mb: 5, overflow: 'hidden', border: 1, borderColor: 'divider', borderRadius: 1, bgcolor: 'divider' }}>
+        {[
+          ['Players', leaderboard.length],
+          ['Contribution change', totalContributions],
+          ['Current leader', topContributor?.display_name || topContributor?.github_username || 'None'],
+          ['Signal', 'Public activity'],
+        ].map(([label, value]) => (
+          <Grid key={label} item xs={12} sm={6} md={3}>
+            <Box sx={{ minHeight: 92, p: 2.25, bgcolor: 'rgba(13, 15, 18, 0.86)' }}>
+              <Typography variant="h5" component="strong" sx={{ display: 'block' }}>
+                {value}
+              </Typography>
+              <Typography variant="caption" sx={{ display: 'block', mt: 1, color: 'text.disabled', fontWeight: 800, letterSpacing: '0.08em', textTransform: 'uppercase' }}>
+                {label}
+              </Typography>
+            </Box>
+          </Grid>
+        ))}
       </Grid>
 
       <TextField
@@ -124,7 +155,7 @@ function GitHubContributions() {
         onChange={(e) => setSearchTerm(e.target.value)}
       />
 
-      <Grid container spacing={2} sx={{ fontWeight: 'bold' }}>
+      <Grid container spacing={2} sx={{ px: 2, py: 1.5, color: 'text.disabled', fontSize: 12, fontWeight: 800, letterSpacing: '0.08em' }}>
         <Grid item xs={3}>NAME</Grid>
         <Grid item xs={3}>TOTAL CONTRIBUTIONS</Grid>
         <Grid item xs={3}>CONTRIBUTION CHANGE</Grid>
@@ -134,7 +165,7 @@ function GitHubContributions() {
       <List sx={{ width: '100%', bgcolor: 'background.paper' }}>
         {filteredLeaderboard.map((user, index) => (
           <CustomCard key={index}>
-            <CardActionArea onClick={() => handleCardClick(user)}>
+            <CardActionArea onClick={() => handleCardClick(user)} sx={{ p: { xs: 1, sm: 0 } }}>
               <Grid container justifyContent="space-between" alignItems="center">
                 <Grid item xs={3}>
                   <Typography variant="h6" component="span" sx={{ fontFamily: "'Roboto', sans-serif", p: 2 }}>
@@ -148,11 +179,11 @@ function GitHubContributions() {
                 </Grid>
                 <Grid item xs={3}>
                   {user.prev_contributions !== undefined && (
-                    <Box sx={{ display: 'flex', justifyContent: 'flex-start', alignItems: 'center', bgcolor: 'rgba(0,0,0,0.1)', p: 0.5, borderRadius: 1, width: 'fit-content' }}>
+                    <Box sx={{ display: 'flex', justifyContent: 'flex-start', alignItems: 'center', bgcolor: 'rgba(20, 23, 27, 0.9)', p: 0.5, borderRadius: 1, width: 'fit-content' }}>
                       {user.contribution_delta > 0 ? (
-                        <ArrowUpwardIcon sx={{ color: 'green' }} />
+                        <ArrowUpwardIcon sx={{ color: 'primary.main' }} />
                       ) : user.contribution_delta < 0 ? (
-                        <ArrowDownwardIcon sx={{ color: 'red' }} />
+                        <ArrowDownwardIcon sx={{ color: 'secondary.main' }} />
                       ) : (
                         <RemoveIcon sx={{ color: 'grey' }} />
                       )}

@@ -26,11 +26,11 @@ function GitHubContributionsGraph({ userData }) {
   };
 
   const getContributionColor = (count) => {
-    if (count === 0) return '#ebedf0';
-    if (count < 5) return '#9be9a8';
-    if (count < 10) return '#40c463';
-    if (count < 15) return '#30a14e';
-    return '#216e39';
+    if (count === 0) return '#1b2026';
+    if (count < 5) return 'rgba(53, 196, 134, 0.32)';
+    if (count < 10) return 'rgba(53, 196, 134, 0.58)';
+    if (count < 15) return 'rgba(53, 196, 134, 0.78)';
+    return '#35c486';
   };
 
   const chartData = normalizeData(userData.contributions_each_week);
@@ -76,24 +76,25 @@ function GitHubContributionsGraph({ userData }) {
           </Typography>
           <ResponsiveContainer width="100%" height={300}>
             <LineChart data={chartData} margin={{ top: 5, right: 30, left: 20, bottom: 5 }}>
-              <CartesianGrid strokeDasharray="3 3" />
+              <CartesianGrid strokeDasharray="3 3" stroke="rgba(167, 173, 180, 0.22)" />
               <XAxis
                 dataKey="date"
                 tickFormatter={formatDate}
                 angle={-45}
                 textAnchor="end"
                 height={80}
+                stroke="#a7adb4"
               />
-              <YAxis label={{ value: 'Total Contributions', angle: -90, position: 'insideLeft' }} />
+              <YAxis stroke="#a7adb4" label={{ value: 'Total Contributions', angle: -90, position: 'insideLeft', fill: '#a7adb4' }} />
               <Tooltip content={<CustomTooltip />} />
-              <Legend />
+              <Legend wrapperStyle={{ color: '#a7adb4' }} />
               <Line
                 type="monotone"
                 dataKey="count"
                 name="Total Contributions"
-                stroke="#1976d2"
+                stroke="#35c486"
                 strokeWidth={2}
-                dot={{ fill: '#1976d2', r: 4 }}
+                dot={{ fill: '#35c486', r: 4 }}
                 activeDot={{ r: 6 }}
               />
             </LineChart>

@@ -134,11 +134,11 @@ function RegisterForm() {
   };
 
   return (
-    <Paper elevation={3} sx={{ p: 3, mb: 4, bgcolor: 'primary.light', color: 'white' }}>
-      <Typography variant="h5" gutterBottom sx={{ fontWeight: 'bold' }}>
+    <Paper elevation={0} sx={{ p: { xs: 2, md: 3 }, mb: 4, bgcolor: 'rgba(13, 15, 18, 0.72)' }}>
+      <Typography variant="h5" gutterBottom>
         Join the Leaderboard!
       </Typography>
-      <Typography variant="body2" sx={{ mb: 2 }}>
+      <Typography variant="body2" color="text.secondary" sx={{ mb: 2 }}>
         Your profile is verified before it is added.
       </Typography>
 
@@ -159,7 +159,7 @@ function RegisterForm() {
           required
           value={formData.leetcode_username}
           onChange={handleChange}
-          sx={{ flex: 1, minWidth: 200, bgcolor: 'white', borderRadius: 1 }}
+          sx={{ flex: 1, minWidth: 200 }}
         />
         <TextField
           name="github_username"
@@ -168,7 +168,7 @@ function RegisterForm() {
           required
           value={formData.github_username}
           onChange={handleChange}
-          sx={{ flex: 1, minWidth: 200, bgcolor: 'white', borderRadius: 1 }}
+          sx={{ flex: 1, minWidth: 200 }}
         />
         <TextField
           name="display_name"
@@ -176,14 +176,14 @@ function RegisterForm() {
           variant="filled"
           value={formData.display_name}
           onChange={handleChange}
-          sx={{ flex: 1, minWidth: 200, bgcolor: 'white', borderRadius: 1 }}
+          sx={{ flex: 1, minWidth: 200 }}
         />
         <TurnstileChallenge onVerify={setTurnstileToken} />
         <Button
           type="submit"
           variant="contained"
           disabled={loading || (Boolean(TURNSTILE_SITE_KEY) && !turnstileToken)}
-          sx={{ bgcolor: 'secondary.main', '&:hover': { bgcolor: 'secondary.dark' }, height: 56 }}
+          sx={{ height: 56, px: 3 }}
         >
           {loading ? 'Registering...' : 'Register'}
         </Button>

@@ -4,22 +4,25 @@ import { styled } from '@mui/material/styles';
 import RegisterForm from './RegisterForm';
 
 const HeroSection = styled(Paper)(({ theme }) => ({
-  background: 'linear-gradient(135deg, #667eea 0%, #764ba2 100%)',
+  background: 'linear-gradient(135deg, rgba(53, 196, 134, 0.12), transparent 58%), rgba(13, 15, 18, 0.72)',
+  borderColor: theme.palette.divider,
   padding: theme.spacing(6),
   marginBottom: theme.spacing(4),
   borderRadius: theme.shape.borderRadius,
-  color: 'white',
   textAlign: 'center',
 }));
 
 function Register() {
   return (
-    <Container maxWidth="md" sx={{ mt: 4, mb: 4 }}>
-      <HeroSection elevation={3}>
-        <Typography variant="h3" gutterBottom sx={{ fontWeight: 'bold' }}>
+    <Container maxWidth="md" sx={{ py: { xs: 6, md: 9 } }}>
+      <HeroSection elevation={0}>
+        <Typography variant="overline" sx={{ color: 'text.disabled', fontWeight: 800, letterSpacing: '0.14em' }}>
+          Self Registration
+        </Typography>
+        <Typography variant="h3" gutterBottom sx={{ mt: 1 }}>
           Join the Challenge
         </Typography>
-        <Typography variant="h6" sx={{ opacity: 0.9 }}>
+        <Typography variant="h6" color="text.secondary" sx={{ maxWidth: 560, mx: 'auto', lineHeight: 1.55 }}>
           Add your LeetCode profile to the leaderboard
         </Typography>
       </HeroSection>
@@ -27,10 +30,10 @@ function Register() {
       <RegisterForm />
 
       <Box sx={{ mt: 4 }}>
-        <Typography variant="h5" gutterBottom sx={{ fontWeight: 500 }}>
+        <Typography variant="h5" gutterBottom>
           How it works
         </Typography>
-        <Box sx={{ mt: 2 }}>
+        <Box sx={{ mt: 2, display: 'grid', gap: 1.5 }}>
           <Typography variant="body1" paragraph>
             <strong>1. Register:</strong> Enter your LeetCode username, GitHub username, and display name.
           </Typography>

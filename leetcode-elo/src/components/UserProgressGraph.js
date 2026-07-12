@@ -51,24 +51,25 @@ function UserProgressGraph({ userData }) {
       </Typography>
       <ResponsiveContainer width="100%" height="100%">
         <LineChart data={chartData} margin={{ top: 5, right: 30, left: 20, bottom: 5 }}>
-          <CartesianGrid strokeDasharray="3 3" />
+          <CartesianGrid strokeDasharray="3 3" stroke="rgba(167, 173, 180, 0.22)" />
           <XAxis
             dataKey="date"
             tickFormatter={formatDate}
             angle={-45}
             textAnchor="end"
             height={80}
+            stroke="#a7adb4"
           />
-          <YAxis label={{ value: 'Problems Solved', angle: -90, position: 'insideLeft' }} />
+          <YAxis stroke="#a7adb4" label={{ value: 'Problems Solved', angle: -90, position: 'insideLeft', fill: '#a7adb4' }} />
           <Tooltip content={<CustomTooltip />} />
-          <Legend />
+          <Legend wrapperStyle={{ color: '#a7adb4' }} />
           <Line
             type="monotone"
             dataKey="count"
             name="Problems Solved"
-            stroke="#1976d2"
+            stroke="#35c486"
             strokeWidth={2}
-            dot={{ fill: '#1976d2', r: 4 }}
+            dot={{ fill: '#35c486', r: 4 }}
             activeDot={{ r: 6 }}
           />
         </LineChart>
