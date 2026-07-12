@@ -35,10 +35,10 @@ function Register() {
         </Typography>
         <Box sx={{ mt: 2, display: 'grid', gap: 1.5 }}>
           <Typography variant="body1" paragraph>
-            <strong>1. Register:</strong> Enter your LeetCode username, GitHub username, and display name.
+            <strong>1. Register:</strong> Enter your LeetCode username, optional GitHub username, and display name.
           </Typography>
           <Typography variant="body1" paragraph>
-            <strong>2. Automatic Tracking:</strong> Your problem-solving progress and contributions are tracked automatically.
+            <strong>2. Automatic Tracking:</strong> Your LeetCode progress is tracked automatically. GitHub contributions are tracked only if you add a GitHub username.
           </Typography>
           <Typography variant="body1" paragraph>
             <strong>3. Compete:</strong> See how you rank against others and track your improvement over time.

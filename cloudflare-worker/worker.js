@@ -109,7 +109,7 @@ async function register(request, env) {
 
   const [leetcodeExists, githubExists] = await Promise.all([
     verifyLeetCodeUser(candidate.leetcode_username),
-    verifyGitHubUser(candidate.github_username)
+    candidate.github_username ? verifyGitHubUser(candidate.github_username) : Promise.resolve(true)
   ]);
 
   if (!leetcodeExists) {
@@ -127,7 +127,7 @@ async function register(request, env) {
 
   const alreadyRegistered = users.some((user) =>
     String(user.leetcode_username || '').toLowerCase() === leetcodeLower ||
-    String(user.github_username || '').toLowerCase() === githubLower
+    (githubLower && String(user.github_username || '').toLowerCase() === githubLower)
   );
 
   const alreadyRanked = leaderboard.some((user) =>
@@ -141,7 +141,7 @@ async function register(request, env) {
   users.push({
     id: crypto.randomUUID(),
     leetcode_username: candidate.leetcode_username,
-    github_username: candidate.github_username,
+    github_username: candidate.github_username || '',
     display_name: candidate.display_name || candidate.leetcode_username,
     created_at: new Date().toISOString(),
     source: 'self-registration'
@@ -181,7 +181,7 @@ function validateRegistration(candidate) {
     return 'LeetCode username must be 3-32 letters, numbers, underscores, or hyphens.';
   }
 
-  if (!/^[A-Za-z0-9](?:[A-Za-z0-9-]{0,37}[A-Za-z0-9])?$/.test(candidate.github_username)) {
+  if (candidate.github_username && !/^[A-Za-z0-9](?:[A-Za-z0-9-]{0,37}[A-Za-z0-9])?$/.test(candidate.github_username)) {
     return 'GitHub username is not valid.';
   }
 

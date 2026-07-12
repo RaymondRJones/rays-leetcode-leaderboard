@@ -7,7 +7,9 @@ import LeetcodeCoinCalculator from './components/LeetcodeCoinCalculator';
 import GitHubContributions from './components/GitHubContributions';
 import Register from './components/Register';
 import ProblemsByCategory from './components/ProblemsByCategory';
-import { BrowserRouter as Router, Routes, Route, NavLink } from 'react-router-dom';
+import PrivacyPolicy from './components/PrivacyPolicy';
+import TermsOfUse from './components/TermsOfUse';
+import { BrowserRouter as Router, Routes, Route, NavLink, Link } from 'react-router-dom';
 
 const navItems = [
   { to: '/', label: 'Leaderboard' },
@@ -95,6 +97,36 @@ function SiteNav() {
         </Box>
       </Toolbar>
     </AppBar>
+  );
+}
+
+function SiteFooter() {
+  return (
+    <Box
+      component="footer"
+      sx={{
+        width: 'min(1344px, 100%)',
+        mx: 'auto',
+        px: { xs: 2, md: 4 },
+        py: 4,
+        borderTop: 1,
+        borderColor: 'divider',
+        display: 'flex',
+        flexWrap: 'wrap',
+        alignItems: 'center',
+        justifyContent: 'space-between',
+        gap: 2,
+        color: 'text.disabled',
+      }}
+    >
+      <Typography variant="body2">
+        Ray's LeetCode Leaderboard
+      </Typography>
+      <Box sx={{ display: 'flex', gap: 2 }}>
+        <Link to="/privacy">Privacy</Link>
+        <Link to="/terms">Terms</Link>
+      </Box>
+    </Box>
   );
 }
 
@@ -301,7 +333,10 @@ function App() {
     <Route path="/github" element={<GitHubContributions />} />
     <Route path="/register" element={<Register />} />
     <Route path="/calculator" element={<LeetcodeCoinCalculator/>} />
+    <Route path="/privacy" element={<PrivacyPolicy />} />
+    <Route path="/terms" element={<TermsOfUse />} />
   </Routes>
+  <SiteFooter />
   </Box>
 </Router>
   );

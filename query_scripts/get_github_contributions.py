@@ -71,7 +71,10 @@ def weekly_update(existing_users):
     """Weekly update with historical tracking"""
     valid_users = []
     for user in existing_users:
-        username = user["github_username"]
+        username = user.get("github_username")
+        if not username:
+            print("Skipping user without GitHub username")
+            continue
         print(f"Getting GitHub contributions for {username}...")
 
         contributions = get_github_contributions(username)
@@ -104,7 +107,10 @@ def daily_update(existing_users):
     """Daily update of GitHub contributions"""
     valid_users = []
     for user in existing_users:
-        username = user["github_username"]
+        username = user.get("github_username")
+        if not username:
+            print("Skipping user without GitHub username")
+            continue
         print(f"Getting GitHub contributions for {username}...")
 
         contributions = get_github_contributions(username)
@@ -127,11 +133,17 @@ def main(update_type):
     existing_data = load_existing_data()
 
     # Create mapping of username to data
-    data_map = {user['github_username']: user for user in existing_data}
+    data_map = {
+        user['github_username']: user
+        for user in existing_data
+        if user.get('github_username')
+    }
 
     # Initialize new users who don't have data yet
     for reg_user in registered_users:
-        username = reg_user['github_username']
+        username = reg_user.get('github_username')
+        if not username:
+            continue
         if username not in data_map:
             print(f"Initializing new user: {username}")
             data_map[username] = {

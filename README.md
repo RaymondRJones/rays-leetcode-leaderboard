@@ -30,8 +30,10 @@ React + MUI app. Pages:
 - `/zerotrac` — LeetCode problems searchable and filterable by ELO rating
 - `/categories` — ~2000 problems browsable by category
 - `/github` — GitHub contribution history
-- `/register` — Register new users through the Worker `/register` endpoint
+- `/register` — Register new users through the Worker `/register` endpoint; GitHub username is optional
 - `/calculator` — LeetCode T-shirt coin calculator
+- `/privacy` — Privacy policy
+- `/terms` — Terms of use
 
 ### Data Pipeline (`query_scripts/`)
 
@@ -58,7 +60,7 @@ The app will open at `http://localhost:3000` and load live data from the Cloudfl
 
 ### Via the `/register` page
 
-Fill out the form with a LeetCode username, GitHub username, and optional display name. The browser submits to the Cloudflare Worker `/register` endpoint; the Worker verifies the LeetCode and GitHub profiles, rate-limits submissions, checks duplicates against KV, and appends the user to `users:list`. They will appear on the leaderboard after the next automated data update.
+Fill out the form with a LeetCode username, optional GitHub username, and optional display name. The browser submits to the Cloudflare Worker `/register` endpoint; the Worker verifies submitted profiles, rate-limits submissions, checks duplicates against KV, and appends the user to `users:list`. They will appear on the leaderboard after the next automated data update.
 
 ### Via Python script
 

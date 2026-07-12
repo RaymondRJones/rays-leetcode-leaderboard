@@ -1,5 +1,6 @@
 import React, { useEffect, useRef, useState } from 'react';
-import { Box, TextField, Button, Typography, Paper, Alert } from '@mui/material';
+import { Box, TextField, Button, Typography, Paper, Alert, Link } from '@mui/material';
+import { Link as RouterLink } from 'react-router-dom';
 
 const WORKER_URL = process.env.REACT_APP_API_URL || 'https://weathered-dream-8f83.rayjones2170.workers.dev';
 const TURNSTILE_SITE_KEY = process.env.REACT_APP_TURNSTILE_SITE_KEY;
@@ -83,9 +84,8 @@ function RegisterForm() {
     setStatus({ type: '', message: '' });
 
     try {
-      // Validate required fields
-      if (!formData.leetcode_username || !formData.github_username) {
-        setStatus({ type: 'error', message: 'LeetCode and GitHub usernames are required' });
+      if (!formData.leetcode_username) {
+        setStatus({ type: 'error', message: 'LeetCode username is required' });
         setLoading(false);
         return;
       }
@@ -139,7 +139,7 @@ function RegisterForm() {
         Join the Leaderboard!
       </Typography>
       <Typography variant="body2" color="text.secondary" sx={{ mb: 2 }}>
-        Your profile is verified before it is added.
+        Your LeetCode profile is verified before it is added. GitHub is optional.
       </Typography>
 
       <Box component="form" onSubmit={handleSubmit} sx={{ display: 'flex', gap: 2, flexWrap: 'wrap', alignItems: 'flex-end' }}>
@@ -163,9 +163,8 @@ function RegisterForm() {
         />
         <TextField
           name="github_username"
-          label="GitHub Username"
+          label="GitHub Username (Optional)"
           variant="filled"
-          required
           value={formData.github_username}
           onChange={handleChange}
           sx={{ flex: 1, minWidth: 200 }}
@@ -187,6 +186,12 @@ function RegisterForm() {
         >
           {loading ? 'Registering...' : 'Register'}
         </Button>
+        <Typography variant="caption" color="text.secondary" sx={{ width: '100%' }}>
+          By registering, you agree to the{' '}
+          <Link component={RouterLink} to="/terms" color="inherit" underline="always">Terms</Link>
+          {' '}and acknowledge the{' '}
+          <Link component={RouterLink} to="/privacy" color="inherit" underline="always">Privacy Policy</Link>.
+        </Typography>
       </Box>
 
       {status.message && (
