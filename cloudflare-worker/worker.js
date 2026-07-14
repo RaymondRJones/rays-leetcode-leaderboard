@@ -2,7 +2,8 @@ const PUBLIC_READ_KEYS = new Set(['leetcode:data', 'github:data']);
 const ADMIN_READ_KEYS = new Set(['users:list', 'leetcode:data', 'github:data']);
 const REGISTER_DAILY_LIMIT = 5;
 const REGISTER_MINUTE_LIMIT = 2;
-const MAX_BODY_BYTES = 4096;
+const MAX_REGISTER_BODY_BYTES = 4096;
+const MAX_ADMIN_BODY_BYTES = 5 * 1024 * 1024;
 
 class HttpError extends Error {
   constructor(message, status = 400) {
@@ -25,15 +26,15 @@ export default {
       }
 
       if (url.pathname === '/register' && request.method === 'POST') {
-        return register(request, env);
+        return await register(request, env);
       }
 
       if (url.pathname === '/' && request.method === 'GET') {
-        return getValue(request, env, url.searchParams.get('key'));
+        return await getValue(request, env, url.searchParams.get('key'));
       }
 
       if (url.pathname === '/' && request.method === 'POST') {
-        return putValue(request, env);
+        return await putValue(request, env);
       }
 
       return json({ error: 'Not found' }, 404, request, env);
@@ -67,7 +68,7 @@ async function putValue(request, env) {
     return json({ error: 'Admin token required' }, 401, request, env);
   }
 
-  const body = await readJsonBody(request);
+  const body = await readJsonBody(request, MAX_ADMIN_BODY_BYTES);
   if (!body.key || typeof body.value !== 'string') {
     return json({ error: 'Expected { key, value }' }, 400, request, env);
   }
@@ -91,7 +92,7 @@ async function register(request, env) {
     return json({ error: 'Too many registration attempts. Try again later.' }, 429, request, env);
   }
 
-  const body = await readJsonBody(request);
+  const body = await readJsonBody(request, MAX_REGISTER_BODY_BYTES);
   if (body.website) {
     return json({ error: 'Registration rejected' }, 400, request, env);
   }
@@ -155,14 +156,19 @@ async function register(request, env) {
   }, 201, request, env);
 }
 
-async function readJsonBody(request) {
+async function readJsonBody(request, maxBodyBytes) {
   const contentLength = Number(request.headers.get('content-length') || 0);
-  if (contentLength > MAX_BODY_BYTES) {
+  if (contentLength > maxBodyBytes) {
+    throw new HttpError('Request body is too large', 413);
+  }
+
+  const rawBody = await request.text();
+  if (new TextEncoder().encode(rawBody).byteLength > maxBodyBytes) {
     throw new HttpError('Request body is too large', 413);
   }
 
   try {
-    return await request.json();
+    return JSON.parse(rawBody);
   } catch (error) {
     throw new HttpError('Request body must be valid JSON', 400);
   }

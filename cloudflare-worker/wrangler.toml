@@ -1,0 +1,17 @@
+name = "weathered-dream-8f83"
+main = "worker.js"
+compatibility_date = "2026-07-01"
+preview_urls = false
+
+[[kv_namespaces]]
+binding = "LEADERBOARD_KV"
+id = "58c4c6dd8b684fe2a460cd928f533d68"
+
+[vars]
+CORS_ALLOW_ORIGIN = "https://leaderboard.raymondjones.dev,https://rays-leetcode-leaderboard.pages.dev,http://localhost:3000,http://127.0.0.1:3000,http://localhost:3021,http://127.0.0.1:3021"
+
+[observability]
+enabled = true
+
+[observability.logs]
+enabled = true

@@ -71,6 +71,10 @@ def get_users_list():
     users = get_kv('users:list')
     return users if users else []
 
+def put_users_list(users):
+    """Save registered users to KV"""
+    return put_kv('users:list', users)
+
 def get_leetcode_data():
     """Get LeetCode data from KV"""
     data = get_kv('leetcode:data')

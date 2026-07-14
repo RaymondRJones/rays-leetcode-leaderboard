@@ -41,8 +41,23 @@ Python scripts that fetch fresh data and push it to KV:
 
 - `query_users_elo_daily.py` — fetches ELO and problem counts from the LeetCode GraphQL API
 - `get_leetcode_users_elo_problems_solved.py` — broader stats fetching
+- `initialize_new_users.py` — adds only registered users missing from the leaderboard, with a zero starting delta
+- `initialize_monthly_baselines.py` — safely adds missing monthly baselines while preserving current scores
+- `remove_user.py` — permanently removes a user from registration and leaderboard data, with dry-run protection
 - `kv_client.py` — shared helper for reading/writing KV via the Worker
 - `weekly_update_users_elo.sh` — shell script to run the weekly update
+
+Monthly scores use `month_start_problem_count` as a fixed baseline. Existing records derive this baseline from their current count and monthly delta, while new users start at zero monthly progress. The baseline advances only on the first day of a new month; weekly history snapshots do not reset it.
+
+To initialize missing baselines without fetching LeetCode or changing current monthly scores:
+
+```bash
+cd query_scripts
+python3 initialize_monthly_baselines.py --dry-run
+python3 initialize_monthly_baselines.py
+```
+
+Profile fetch failures are handled conservatively. HTTP errors, malformed responses, and GraphQL errors preserve the existing user without adding a strike. After three confirmed `matchedUser: null` responses, the user is marked inactive and hidden from the public leaderboard while their history remains in KV. A later successful response automatically reactivates the profile.
 
 ## Running Locally
 
@@ -61,6 +76,23 @@ The app will open at `http://localhost:3000` and load live data from the Cloudfl
 ### Via the `/register` page
 
 Fill out the form with a LeetCode username, optional GitHub username, and optional display name. The browser submits to the Cloudflare Worker `/register` endpoint; the Worker verifies submitted profiles, rate-limits submissions, checks duplicates against KV, and appends the user to `users:list`. They will appear on the leaderboard after the next automated data update.
+
+To add only newly registered users without changing any existing user's problem counts, ELO, or monthly delta:
+
+```bash
+cd query_scripts
+python3 initialize_new_users.py --dry-run
+python3 initialize_new_users.py
+```
+
+To permanently remove a registration and its leaderboard history, preview the change first and then confirm it explicitly:
+
+```bash
+cd query_scripts
+python3 remove_user.py LeetCodeUsername
+python3 remove_user.py LeetCodeUsername --yes
+python3 remove_user.py FirstUsername SecondUsername --yes
+```
 
 ### Via Python script
 
@@ -91,3 +123,10 @@ wrangler deploy
 ```
 
 Set the same `ADMIN_API_TOKEN` value as `KV_ADMIN_TOKEN` in the Python pipeline environment. `TURNSTILE_SECRET_KEY` is optional, but recommended for production self-registration.
+
+After deployment, verify that the secured Worker is live:
+
+```bash
+curl https://your-worker.workers.dev/health
+# {"ok":true}
+```

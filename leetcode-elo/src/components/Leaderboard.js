@@ -61,6 +61,7 @@ function Leaderboard() {
           }
         }
 
+        data = data.filter((user) => user.is_active !== false);
         data.sort((a, b) => b.current_problem_delta - a.current_problem_delta);
         setLeaderboard(data);
       } catch (error) {
