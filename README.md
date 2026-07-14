@@ -21,6 +21,7 @@ Both the frontend and the Python data pipeline talk to this Worker. Public leade
 | `leetcode:data` | Full leaderboard (ELO, problem counts, weekly history per user) |
 | `github:data` | GitHub contribution data per user |
 | `users:list` | Registered users (LeetCode username, GitHub username, display name) |
+| `registrations:pending` | Private queue of self-registration requests awaiting owner review |
 
 ### Frontend (`leetcode-elo/`)
 
@@ -30,7 +31,7 @@ React + MUI app. Pages:
 - `/zerotrac` — LeetCode problems searchable and filterable by ELO rating
 - `/categories` — ~2000 problems browsable by category
 - `/github` — GitHub contribution history
-- `/register` — Register new users through the Worker `/register` endpoint; GitHub username is optional
+- `/register` — Submit a profile to the private moderation queue; GitHub username is optional
 - `/calculator` — LeetCode T-shirt coin calculator
 - `/privacy` — Privacy policy
 - `/terms` — Terms of use
@@ -43,6 +44,7 @@ Python scripts that fetch fresh data and push it to KV:
 - `get_leetcode_users_elo_problems_solved.py` — broader stats fetching
 - `initialize_new_users.py` — adds only registered users missing from the leaderboard, with a zero starting delta
 - `initialize_monthly_baselines.py` — safely adds missing monthly baselines while preserving current scores
+- `review_registrations.py` — privately lists, verifies, approves, or rejects pending registrations
 - `remove_user.py` — permanently removes a user from registration and leaderboard data, with dry-run protection
 - `kv_client.py` — shared helper for reading/writing KV via the Worker
 - `weekly_update_users_elo.sh` — shell script to run the weekly update
@@ -75,7 +77,19 @@ The app will open at `http://localhost:3000` and load live data from the Cloudfl
 
 ### Via the `/register` page
 
-Fill out the form with a LeetCode username, optional GitHub username, and optional display name. The browser submits to the Cloudflare Worker `/register` endpoint; the Worker verifies submitted profiles, rate-limits submissions, checks duplicates against KV, and appends the user to `users:list`. They will appear on the leaderboard after the next automated data update.
+Fill out the form with a LeetCode username, optional GitHub username, and optional display name. The browser submits to the Cloudflare Worker `/register` endpoint; the Worker verifies submitted profiles, rate-limits submissions, checks duplicates against KV, and adds the request to the private `registrations:pending` queue. Submissions do not enter `users:list` or appear publicly until the site owner approves them.
+
+Review pending submissions from `query_scripts/`:
+
+```bash
+python3 review_registrations.py list
+python3 review_registrations.py approve LeetCodeUsername
+python3 review_registrations.py approve LeetCodeUsername --yes
+python3 review_registrations.py reject LeetCodeUsername
+python3 review_registrations.py reject LeetCodeUsername --yes
+```
+
+Approval and rejection are dry runs unless `--yes` is provided. Approval reverifies the LeetCode profile, moves it to `users:list`, and leaves leaderboard initialization as a separate explicit step.
 
 To add only newly registered users without changing any existing user's problem counts, ELO, or monthly delta:
 

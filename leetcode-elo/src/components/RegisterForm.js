@@ -113,7 +113,7 @@ function RegisterForm() {
       const result = await saveResponse.json().catch(() => ({}));
 
       if (saveResponse.ok) {
-        setStatus({ type: 'success', message: result.message || 'Registration successful! You will appear on the leaderboards after the next update.' });
+        setStatus({ type: 'success', message: result.message || 'Registration submitted for review. Approved profiles appear after the next update.' });
         setFormData({ leetcode_username: '', github_username: '', display_name: '', website: '' });
         setTurnstileToken('');
         if (window.turnstile) {
@@ -139,7 +139,7 @@ function RegisterForm() {
         Join the Leaderboard!
       </Typography>
       <Typography variant="body2" color="text.secondary" sx={{ mb: 2 }}>
-        Your LeetCode profile is verified before it is added. GitHub is optional.
+        Your LeetCode profile is verified, then reviewed before it is added. GitHub is optional.
       </Typography>
 
       <Box component="form" onSubmit={handleSubmit} sx={{ display: 'flex', gap: 2, flexWrap: 'wrap', alignItems: 'flex-end' }}>

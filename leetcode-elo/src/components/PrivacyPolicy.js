@@ -6,14 +6,14 @@ const sections = [
   {
     title: 'Information We Collect',
     body: [
-      'When you add yourself to the leaderboard, we collect the LeetCode username you submit, an optional GitHub username, an optional display name, and basic registration metadata such as the time the entry was created.',
+      'When you apply to join the leaderboard, we collect the LeetCode username you submit, an optional GitHub username, an optional display name, and basic registration metadata such as the time the entry was created.',
       'The site also uses public LeetCode profile information and, if you provide a GitHub username, public GitHub contribution information to populate leaderboard views.',
     ],
   },
   {
     title: 'How We Use Information',
     body: [
-      'We use submitted usernames to verify profiles, add eligible users to the leaderboard, update public progress statistics, prevent duplicate entries, reduce spam, and keep the site working.',
+      'We use submitted usernames to verify and review profiles, add approved users to the leaderboard, update public progress statistics, prevent duplicate entries, reduce spam, and keep the site working.',
       'We do not sell submitted usernames or use them for advertising.',
     ],
   },
@@ -35,7 +35,7 @@ const sections = [
     title: 'Security and Retention',
     body: [
       'We use reasonable safeguards such as server-side validation, rate limits, bot checks, and restricted write endpoints. No website or storage system can be guaranteed perfectly secure.',
-      'Leaderboard records are kept while the leaderboard is active unless removal is requested or maintenance requires cleanup.',
+      'Pending submissions are kept while they await review and may be rejected or deleted. Approved leaderboard records are kept while the leaderboard is active unless removal is requested or maintenance requires cleanup.',
     ],
   },
   {
@@ -63,7 +63,7 @@ function PrivacyPolicy() {
           Privacy Policy
         </Typography>
         <Typography variant="body1" color="text.secondary" sx={{ mt: 2, lineHeight: 1.65 }}>
-          Effective July 12, 2026
+          Effective July 14, 2026
         </Typography>
       </Box>
 

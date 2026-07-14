@@ -75,6 +75,15 @@ def put_users_list(users):
     """Save registered users to KV"""
     return put_kv('users:list', users)
 
+def get_pending_registrations():
+    """Get registrations awaiting moderator review"""
+    registrations = get_kv('registrations:pending')
+    return registrations if registrations else []
+
+def put_pending_registrations(registrations):
+    """Save registrations awaiting moderator review"""
+    return put_kv('registrations:pending', registrations)
+
 def get_leetcode_data():
     """Get LeetCode data from KV"""
     data = get_kv('leetcode:data')

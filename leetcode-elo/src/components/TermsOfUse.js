@@ -14,6 +14,7 @@ const sections = [
     title: 'Self-Registration',
     body: [
       'When you submit a LeetCode username, you confirm that you have the right to submit it and that the information is not abusive, misleading, or impersonating someone else.',
+      'Submitting a profile does not guarantee acceptance. New submissions remain pending until the site owner reviews and approves or rejects them.',
       'GitHub usernames are optional. If provided, they may be used to show public contribution statistics.',
     ],
   },
@@ -63,7 +64,7 @@ function TermsOfUse() {
           Terms of Use
         </Typography>
         <Typography variant="body1" color="text.secondary" sx={{ mt: 2, lineHeight: 1.65 }}>
-          Effective July 12, 2026
+          Effective July 14, 2026
         </Typography>
       </Box>
 

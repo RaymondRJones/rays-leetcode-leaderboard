@@ -1,7 +1,8 @@
 const PUBLIC_READ_KEYS = new Set(['leetcode:data', 'github:data']);
-const ADMIN_READ_KEYS = new Set(['users:list', 'leetcode:data', 'github:data']);
+const ADMIN_READ_KEYS = new Set(['users:list', 'registrations:pending', 'leetcode:data', 'github:data']);
 const REGISTER_DAILY_LIMIT = 5;
 const REGISTER_MINUTE_LIMIT = 2;
+const MAX_PENDING_REGISTRATIONS = 500;
 const MAX_REGISTER_BODY_BYTES = 4096;
 const MAX_ADMIN_BODY_BYTES = 5 * 1024 * 1024;
 
@@ -121,8 +122,11 @@ async function register(request, env) {
     return json({ error: 'That GitHub username could not be verified.' }, 400, request, env);
   }
 
-  const users = await readJsonList(env, 'users:list');
-  const leaderboard = await readJsonList(env, 'leetcode:data');
+  const [users, pendingRegistrations, leaderboard] = await Promise.all([
+    readJsonList(env, 'users:list'),
+    readJsonList(env, 'registrations:pending'),
+    readJsonList(env, 'leetcode:data')
+  ]);
   const leetcodeLower = candidate.leetcode_username.toLowerCase();
   const githubLower = candidate.github_username.toLowerCase();
 
@@ -135,24 +139,38 @@ async function register(request, env) {
     String(user.name || '').toLowerCase() === leetcodeLower
   );
 
+  const alreadyPending = pendingRegistrations.some((user) =>
+    String(user.leetcode_username || '').toLowerCase() === leetcodeLower ||
+    (githubLower && String(user.github_username || '').toLowerCase() === githubLower)
+  );
+
   if (alreadyRegistered || alreadyRanked) {
     return json({ error: 'This profile is already registered.' }, 409, request, env);
   }
 
-  users.push({
+  if (alreadyPending) {
+    return json({ error: 'This profile is already awaiting review.' }, 409, request, env);
+  }
+
+  if (pendingRegistrations.length >= MAX_PENDING_REGISTRATIONS) {
+    return json({ error: 'The review queue is currently full. Try again later.' }, 503, request, env);
+  }
+
+  pendingRegistrations.push({
     id: crypto.randomUUID(),
     leetcode_username: candidate.leetcode_username,
     github_username: candidate.github_username || '',
     display_name: candidate.display_name || candidate.leetcode_username,
     created_at: new Date().toISOString(),
-    source: 'self-registration'
+    source: 'self-registration',
+    status: 'pending'
   });
 
-  await env.LEADERBOARD_KV.put('users:list', JSON.stringify(users));
+  await env.LEADERBOARD_KV.put('registrations:pending', JSON.stringify(pendingRegistrations));
 
   return json({
     ok: true,
-    message: 'Registration received! You will appear on the leaderboard after the next update.'
+    message: 'Registration submitted for review. Approved profiles appear after the next update.'
   }, 201, request, env);
 }
 
