@@ -29,7 +29,7 @@ React + MUI app. Pages:
 
 - `/` — Leaderboard ranked by problems solved this month, with ELO and rating change indicators. Click a user to see their progress graph.
 - `/zerotrac` — LeetCode problems searchable and filterable by ELO rating
-- `/categories` — ~2000 problems browsable by category
+- `/categories` — 2500+ rated problems browsable by category
 - `/github` — GitHub contribution history
 - `/register` — Submit a profile to the private moderation queue; GitHub username is optional
 - `/calculator` — LeetCode T-shirt coin calculator
@@ -48,6 +48,7 @@ Python scripts that fetch fresh data and push it to KV:
 - `remove_user.py` — permanently removes a user from registration and leaderboard data, with dry-run protection
 - `kv_client.py` — shared helper for reading/writing KV via the Worker
 - `weekly_update_users_elo.sh` — shell script to run the weekly update
+- `sync_zerotrac_catalog.py` — merges the latest upstream ZeroTrac ratings with cached topic metadata into the single frontend problem catalog
 
 Monthly scores use `month_start_problem_count` as a fixed baseline. Existing records derive this baseline from their current count and monthly delta, while new users start at zero monthly progress. The baseline advances only on the first day of a new month; weekly history snapshots do not reset it.
 
@@ -60,6 +61,25 @@ python3 initialize_monthly_baselines.py
 ```
 
 Profile fetch failures are handled conservatively. HTTP errors, malformed responses, and GraphQL errors preserve the existing user without adding a strike. After three confirmed `matchedUser: null` responses, the user is marked inactive and hidden from the public leaderboard while their history remains in KV. A later successful response automatically reactivates the profile.
+
+### Updating the problem catalog
+
+Both `/zerotrac` and `/categories` read
+`leetcode-elo/public/problems_with_categories.json`. To merge a current checkout
+of the upstream ZeroTrac repository while preserving all cached topic tags:
+
+```bash
+python3 query_scripts/sync_zerotrac_catalog.py --check
+python3 query_scripts/sync_zerotrac_catalog.py
+```
+
+Pass `--source /path/to/data.json` when the ZeroTrac repository is not checked
+out beside this repository. The sync rejects malformed data, duplicate problem
+slugs, and unexpected catalog shrinkage.
+
+Problem ratings are derived from the
+[ZeroTrac LeetCode Problem Rating](https://github.com/zerotrac/leetcode_problem_rating)
+dataset. See `THIRD_PARTY_NOTICES.md` for attribution and license details.
 
 ## Running Locally
 

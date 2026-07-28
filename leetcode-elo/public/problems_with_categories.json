@@ -969,6 +969,18 @@
     ]
   },
   {
+    "Rating": 2672.423145098,
+    "ID": 3962,
+    "Title": "Maximum Subarray Sum After at Most K Swaps",
+    "TitleZH": "\u81f3\u591a K \u6b21\u4ea4\u6362\u540e\u6700\u5927\u5b50\u6570\u7ec4\u548c",
+    "TitleSlug": "maximum-subarray-sum-after-at-most-k-swaps",
+    "ContestSlug": "weekly-contest-506",
+    "ProblemIndex": "Q4",
+    "ContestID_en": "Weekly Contest 506",
+    "ContestID_zh": "\u7b2c 506 \u573a\u5468\u8d5b",
+    "Topics": []
+  },
+  {
     "Rating": 2671.1046123182,
     "ID": 3454,
     "Title": "Separate Squares II",
@@ -1427,6 +1439,18 @@
       "Dynamic Programming",
       "Combinatorics"
     ]
+  },
+  {
+    "Rating": 2611.407493072,
+    "ID": 3957,
+    "Title": "Maximum Sum of M Non-Overlapping Subarrays II",
+    "TitleZH": "M \u4e2a\u975e\u91cd\u53e0\u5b50\u6570\u7ec4\u6700\u5927\u548c II",
+    "TitleSlug": "maximum-sum-of-m-non-overlapping-subarrays-ii",
+    "ContestSlug": "weekly-contest-505",
+    "ProblemIndex": "Q4",
+    "ContestID_en": "Weekly Contest 505",
+    "ContestID_zh": "\u7b2c 505 \u573a\u5468\u8d5b",
+    "Topics": []
   },
   {
     "Rating": 2610.9906730644,
@@ -1964,6 +1988,18 @@
       "Tree",
       "Depth-First Search"
     ]
+  },
+  {
+    "Rating": 2544.8104481675,
+    "ID": 3901,
+    "Title": "Good Subsequence Queries",
+    "TitleZH": "\u597d\u5b50\u5e8f\u5217\u67e5\u8be2",
+    "TitleSlug": "good-subsequence-queries",
+    "ContestSlug": "weekly-contest-497",
+    "ProblemIndex": "Q4",
+    "ContestID_en": "Weekly Contest 497",
+    "ContestID_zh": "\u7b2c 497 \u573a\u5468\u8d5b",
+    "Topics": []
   },
   {
     "Rating": 2540.7699757179,
@@ -3673,6 +3709,18 @@
     ]
   },
   {
+    "Rating": 2409.9040742694,
+    "ID": 3943,
+    "Title": "Number of Pairs After Increment",
+    "TitleZH": "\u9012\u589e\u540e\u7684\u6570\u5bf9\u6570\u91cf",
+    "TitleSlug": "number-of-pairs-after-increment",
+    "ContestSlug": "weekly-contest-503",
+    "ProblemIndex": "Q4",
+    "ContestID_en": "Weekly Contest 503",
+    "ContestID_zh": "\u7b2c 503 \u573a\u5468\u8d5b",
+    "Topics": []
+  },
+  {
     "Rating": 2409.7580728676,
     "ID": 1388,
     "Title": "Pizza With 3n Slices",
@@ -3772,6 +3820,18 @@
       "Dynamic Programming",
       "Combinatorics"
     ]
+  },
+  {
+    "Rating": 2398.613631879,
+    "ID": 3801,
+    "Title": "Minimum Cost to Merge Sorted Lists",
+    "TitleZH": "\u5408\u5e76\u6709\u5e8f\u5217\u8868\u7684\u6700\u5c0f\u6210\u672c",
+    "TitleSlug": "minimum-cost-to-merge-sorted-lists",
+    "ContestSlug": "weekly-contest-483",
+    "ProblemIndex": "Q4",
+    "ContestID_en": "Weekly Contest 483",
+    "ContestID_zh": "\u7b2c 483 \u573a\u5468\u8d5b",
+    "Topics": []
   },
   {
     "Rating": 2397.9722495587,
@@ -3924,6 +3984,18 @@
     ]
   },
   {
+    "Rating": 2390.1956069603,
+    "ID": 3953,
+    "Title": "Maximum Score with Co-Prime Element",
+    "TitleZH": "\u4e92\u8d28\u5143\u7d20\u7684\u6700\u5927\u5f97\u5206",
+    "TitleSlug": "maximum-score-with-co-prime-element",
+    "ContestSlug": "biweekly-contest-184",
+    "ProblemIndex": "Q4",
+    "ContestID_en": "Biweekly Contest 184",
+    "ContestID_zh": "\u7b2c 184 \u573a\u53cc\u5468\u8d5b",
+    "Topics": []
+  },
+  {
     "Rating": 2389.9634276167,
     "ID": 1681,
     "Title": "Minimum Incompatibility",
@@ -4012,6 +4084,18 @@
       "Matrix",
       "Bitmask"
     ]
+  },
+  {
+    "Rating": 2384.3989621291,
+    "ID": 3841,
+    "Title": "Palindromic Path Queries in a Tree",
+    "TitleZH": "\u67e5\u8be2\u6811\u4e0a\u56de\u6587\u8def\u5f84",
+    "TitleSlug": "palindromic-path-queries-in-a-tree",
+    "ContestSlug": "biweekly-contest-176",
+    "ProblemIndex": "Q4",
+    "ContestID_en": "Biweekly Contest 176",
+    "ContestID_zh": "\u7b2c 176 \u573a\u53cc\u5468\u8d5b",
+    "Topics": []
   },
   {
     "Rating": 2383.7724811656,
@@ -4197,6 +4281,18 @@
     ]
   },
   {
+    "Rating": 2376.616945774,
+    "ID": 3816,
+    "Title": "Lexicographically Smallest String After Deleting Duplicate Characters",
+    "TitleZH": "\u5220\u9664\u91cd\u590d\u5b57\u7b26\u540e\u7684\u5b57\u5178\u5e8f\u6700\u5c0f\u5b57\u7b26\u4e32",
+    "TitleSlug": "lexicographically-smallest-string-after-deleting-duplicate-characters",
+    "ContestSlug": "weekly-contest-485",
+    "ProblemIndex": "Q4",
+    "ContestID_en": "Weekly Contest 485",
+    "ContestID_zh": "\u7b2c 485 \u573a\u5468\u8d5b",
+    "Topics": []
+  },
+  {
     "Rating": 2375.9062896615,
     "ID": 3399,
     "Title": "Smallest Substring With Identical Characters II",
@@ -4210,6 +4306,18 @@
       "String",
       "Binary Search"
     ]
+  },
+  {
+    "Rating": 2375.5647445059,
+    "ID": 3797,
+    "Title": "Count Routes to Climb a Rectangular Grid",
+    "TitleZH": "\u7edf\u8ba1\u5728\u77e9\u5f62\u683c\u5b50\u91cc\u79fb\u52a8\u7684\u8def\u5f84\u6570\u76ee",
+    "TitleSlug": "count-routes-to-climb-a-rectangular-grid",
+    "ContestSlug": "biweekly-contest-173",
+    "ProblemIndex": "Q4",
+    "ContestID_en": "Biweekly Contest 173",
+    "ContestID_zh": "\u7b2c 173 \u573a\u53cc\u5468\u8d5b",
+    "Topics": []
   },
   {
     "Rating": 2375.0917527641,
@@ -4516,6 +4624,18 @@
     ]
   },
   {
+    "Rating": 2354.0101112594,
+    "ID": 3939,
+    "Title": "Count Non Adjacent Subsets in a Rooted Tree",
+    "TitleZH": "\u7edf\u8ba1\u6709\u6839\u6811\u4e2d\u4e0d\u76f8\u90bb\u5b50\u96c6\u7684\u6570\u76ee",
+    "TitleSlug": "count-non-adjacent-subsets-in-a-rooted-tree",
+    "ContestSlug": "biweekly-contest-183",
+    "ProblemIndex": "Q4",
+    "ContestID_en": "Biweekly Contest 183",
+    "ContestID_zh": "\u7b2c 183 \u573a\u53cc\u5468\u8d5b",
+    "Topics": []
+  },
+  {
     "Rating": 2352.795754512,
     "ID": 3530,
     "Title": "Maximum Profit from Valid Topological Order in DAG",
@@ -4641,6 +4761,18 @@
     ]
   },
   {
+    "Rating": 2347.4483641639,
+    "ID": 3845,
+    "Title": "Maximum Subarray XOR with Bounded Range",
+    "TitleZH": "\u6700\u5927\u5b50\u6570\u7ec4\u5f02\u6216\u503c",
+    "TitleSlug": "maximum-subarray-xor-with-bounded-range",
+    "ContestSlug": "weekly-contest-489",
+    "ProblemIndex": "Q4",
+    "ContestID_en": "Weekly Contest 489",
+    "ContestID_zh": "\u7b2c 489 \u573a\u5468\u8d5b",
+    "Topics": []
+  },
+  {
     "Rating": 2346.5717839654,
     "ID": 2258,
     "Title": "Escape the Spreading Fire",
@@ -4672,6 +4804,18 @@
       "Bit Manipulation",
       "Memoization"
     ]
+  },
+  {
+    "Rating": 2345.1150536403,
+    "ID": 3826,
+    "Title": "Minimum Partition Score",
+    "TitleZH": "\u6700\u5c0f\u5206\u5272\u5206\u6570",
+    "TitleSlug": "minimum-partition-score",
+    "ContestSlug": "biweekly-contest-175",
+    "ProblemIndex": "Q4",
+    "ContestID_en": "Biweekly Contest 175",
+    "ContestID_zh": "\u7b2c 175 \u573a\u53cc\u5468\u8d5b",
+    "Topics": []
   },
   {
     "Rating": 2344.3664724791,
@@ -5152,6 +5296,18 @@
     ]
   },
   {
+    "Rating": 2302.2950547766,
+    "ID": 3859,
+    "Title": "Count Subarrays With K Distinct Integers",
+    "TitleZH": "\u7edf\u8ba1\u5305\u542b K \u4e2a\u4e0d\u540c\u6574\u6570\u7684\u5b50\u6570\u7ec4",
+    "TitleSlug": "count-subarrays-with-k-distinct-integers",
+    "ContestSlug": "weekly-contest-491",
+    "ProblemIndex": "Q4",
+    "ContestID_en": "Weekly Contest 491",
+    "ContestID_zh": "\u7b2c 491 \u573a\u5468\u8d5b",
+    "Topics": []
+  },
+  {
     "Rating": 2301.4069974024,
     "ID": 2897,
     "Title": "Apply Operations on Array to Maximize Sum of Squares",
@@ -5391,6 +5547,18 @@
     ]
   },
   {
+    "Rating": 2288.0173330168,
+    "ID": 3915,
+    "Title": "Maximum Sum of Alternating Subsequence With Distance at Least K",
+    "TitleZH": "\u8ddd\u79bb\u81f3\u5c11\u4e3a K \u7684\u4ea4\u66ff\u5b50\u5e8f\u5217\u7684\u6700\u5927\u548c",
+    "TitleSlug": "maximum-sum-of-alternating-subsequence-with-distance-at-least-k",
+    "ContestSlug": "weekly-contest-499",
+    "ProblemIndex": "Q4",
+    "ContestID_en": "Weekly Contest 499",
+    "ContestID_zh": "\u7b2c 499 \u573a\u5468\u8d5b",
+    "Topics": []
+  },
+  {
     "Rating": 2286.2394574531,
     "ID": 3463,
     "Title": "Check If Digits Are Equal in String After Operations II",
@@ -5462,6 +5630,18 @@
       "Sorting",
       "Ordered Set"
     ]
+  },
+  {
+    "Rating": 2280.3553600661,
+    "ID": 3892,
+    "Title": "Minimum Operations to Achieve At Least K Peaks",
+    "TitleZH": "\u4ea7\u751f\u81f3\u5c11 K \u4e2a\u5cf0\u503c\u7684\u6700\u5c11\u64cd\u4f5c\u6b21\u6570",
+    "TitleSlug": "minimum-operations-to-achieve-at-least-k-peaks",
+    "ContestSlug": "weekly-contest-496",
+    "ProblemIndex": "Q4",
+    "ContestID_en": "Weekly Contest 496",
+    "ContestID_zh": "\u7b2c 496 \u573a\u5468\u8d5b",
+    "Topics": []
   },
   {
     "Rating": 2280.3143643878,
@@ -5792,6 +5972,18 @@
     ]
   },
   {
+    "Rating": 2263.6224926573,
+    "ID": 3920,
+    "Title": "Maximize Fixed Points After Deletions",
+    "TitleZH": "\u5220\u9664\u5143\u7d20\u540e\u6700\u5927\u56fa\u5b9a\u70b9\u6570\u76ee",
+    "TitleSlug": "maximize-fixed-points-after-deletions",
+    "ContestSlug": "weekly-contest-500",
+    "ProblemIndex": "Q4",
+    "ContestID_en": "Weekly Contest 500",
+    "ContestID_zh": "\u7b2c 500 \u573a\u5468\u8d5b",
+    "Topics": []
+  },
+  {
     "Rating": 2262.5641910108,
     "ID": 3048,
     "Title": "Earliest Second to Mark Indices I",
@@ -5854,6 +6046,18 @@
       "Sorting",
       "Heap (Priority Queue)"
     ]
+  },
+  {
+    "Rating": 2259.1651451394,
+    "ID": 3806,
+    "Title": "Maximum Bitwise AND After Increment Operations",
+    "TitleZH": "\u589e\u52a0\u64cd\u4f5c\u540e\u6700\u5927\u6309\u4f4d\u4e0e\u7684\u7ed3\u679c",
+    "TitleSlug": "maximum-bitwise-and-after-increment-operations",
+    "ContestSlug": "weekly-contest-484",
+    "ProblemIndex": "Q4",
+    "ContestID_en": "Weekly Contest 484",
+    "ContestID_zh": "\u7b2c 484 \u573a\u5468\u8d5b",
+    "Topics": []
   },
   {
     "Rating": 2258.6371797452,
@@ -5922,6 +6126,30 @@
       "Bit Manipulation",
       "Bitmask"
     ]
+  },
+  {
+    "Rating": 2254.7583594496,
+    "ID": 3869,
+    "Title": "Count Fancy Numbers in a Range",
+    "TitleZH": "\u7edf\u8ba1\u533a\u95f4\u5185\u5947\u5999\u6570\u7684\u6570\u76ee",
+    "TitleSlug": "count-fancy-numbers-in-a-range",
+    "ContestSlug": "biweekly-contest-178",
+    "ProblemIndex": "Q4",
+    "ContestID_en": "Biweekly Contest 178",
+    "ContestID_zh": "\u7b2c 178 \u573a\u53cc\u5468\u8d5b",
+    "Topics": []
+  },
+  {
+    "Rating": 2251.9378859552,
+    "ID": 3938,
+    "Title": "Maximum Path Intersection Sum in a Grid",
+    "TitleZH": "\u77e9\u9635\u4e2d\u6700\u5927\u5171\u4eab\u8def\u5f84\u548c",
+    "TitleSlug": "maximum-path-intersection-sum-in-a-grid",
+    "ContestSlug": "biweekly-contest-183",
+    "ProblemIndex": "Q3",
+    "ContestID_en": "Biweekly Contest 183",
+    "ContestID_zh": "\u7b2c 183 \u573a\u53cc\u5468\u8d5b",
+    "Topics": []
   },
   {
     "Rating": 2250.9318291559,
@@ -6347,6 +6575,18 @@
     ]
   },
   {
+    "Rating": 2230.1400164479,
+    "ID": 3878,
+    "Title": "Count Good Subarrays",
+    "TitleZH": "\u7edf\u8ba1\u597d\u5b50\u6570\u7ec4",
+    "TitleSlug": "count-good-subarrays",
+    "ContestSlug": "weekly-contest-494",
+    "ProblemIndex": "Q4",
+    "ContestID_en": "Weekly Contest 494",
+    "ContestID_zh": "\u7b2c 494 \u573a\u5468\u8d5b",
+    "Topics": []
+  },
+  {
     "Rating": 2228.3454693625,
     "ID": 2581,
     "Title": "Count Number of Possible Root Nodes",
@@ -6596,6 +6836,18 @@
     ]
   },
   {
+    "Rating": 2215.4516632445,
+    "ID": 3947,
+    "Title": "Maximum Number of Items From Sale II",
+    "TitleZH": "\u8d2d\u4e70\u6700\u591a\u7269\u54c1\u6570\u76ee II",
+    "TitleSlug": "maximum-number-of-items-from-sale-ii",
+    "ContestSlug": "weekly-contest-504",
+    "ProblemIndex": "Q3",
+    "ContestID_en": "Weekly Contest 504",
+    "ContestID_zh": "\u7b2c 504 \u573a\u5468\u8d5b",
+    "Topics": []
+  },
+  {
     "Rating": 2214.4798747386,
     "ID": 1889,
     "Title": "Minimum Space Wasted From Packaging",
@@ -6812,6 +7064,18 @@
     ]
   },
   {
+    "Rating": 2201.968109609,
+    "ID": 3985,
+    "Title": "Palindromic Subarray Sum",
+    "TitleZH": "\u56de\u6587\u5b50\u6570\u7ec4\u6c42\u548c",
+    "TitleSlug": "palindromic-subarray-sum",
+    "ContestSlug": "weekly-contest-509",
+    "ProblemIndex": "Q4",
+    "ContestID_en": "Weekly Contest 509",
+    "ContestID_zh": "\u7b2c 509 \u573a\u5468\u8d5b",
+    "Topics": []
+  },
+  {
     "Rating": 2201.8256032743,
     "ID": 3714,
     "Title": "Longest Balanced Substring II",
@@ -6956,6 +7220,18 @@
     ]
   },
   {
+    "Rating": 2198.1107944821,
+    "ID": 3873,
+    "Title": "Maximum Points Activated with One Addition",
+    "TitleZH": "\u6dfb\u52a0\u4e00\u4e2a\u70b9\u540e\u53ef\u6fc0\u6d3b\u7684\u6700\u5927\u70b9\u6570",
+    "TitleSlug": "maximum-points-activated-with-one-addition",
+    "ContestSlug": "weekly-contest-493",
+    "ProblemIndex": "Q4",
+    "ContestID_en": "Weekly Contest 493",
+    "ContestID_zh": "\u7b2c 493 \u573a\u5468\u8d5b",
+    "Topics": []
+  },
+  {
     "Rating": 2197.0951445919,
     "ID": 834,
     "Title": "Sum of Distances in Tree",
@@ -6991,6 +7267,18 @@
       "Heap (Priority Queue)",
       "Matrix"
     ]
+  },
+  {
+    "Rating": 2194.7888816521,
+    "ID": 3971,
+    "Title": "Maximum Total Value",
+    "TitleZH": "\u6700\u5927\u603b\u4ef7\u503c",
+    "TitleSlug": "maximum-total-value",
+    "ContestSlug": "weekly-contest-507",
+    "ProblemIndex": "Q4",
+    "ContestID_en": "Weekly Contest 507",
+    "ContestID_zh": "\u7b2c 507 \u573a\u5468\u8d5b",
+    "Topics": []
   },
   {
     "Rating": 2190.1757477854,
@@ -7040,6 +7328,18 @@
       "Array",
       "Dynamic Programming"
     ]
+  },
+  {
+    "Rating": 2186.6174607749,
+    "ID": 3928,
+    "Title": "Minimum Cost to Buy Apples II",
+    "TitleZH": "\u8d2d\u4e70\u82f9\u679c\u7684\u6700\u4f4e\u6210\u672c II",
+    "TitleSlug": "minimum-cost-to-buy-apples-ii",
+    "ContestSlug": "weekly-contest-501",
+    "ProblemIndex": "Q4",
+    "ContestID_en": "Weekly Contest 501",
+    "ContestID_zh": "\u7b2c 501 \u573a\u5468\u8d5b",
+    "Topics": []
   },
   {
     "Rating": 2186.3802199168,
@@ -7144,6 +7444,18 @@
     ]
   },
   {
+    "Rating": 2178.6491499415,
+    "ID": 3812,
+    "Title": "Minimum Edge Toggles on a Tree",
+    "TitleZH": "\u7ffb\u8f6c\u6811\u4e0a\u6700\u5c11\u8fb9",
+    "TitleSlug": "minimum-edge-toggles-on-a-tree",
+    "ContestSlug": "biweekly-contest-174",
+    "ProblemIndex": "Q4",
+    "ContestID_en": "Biweekly Contest 174",
+    "ContestID_zh": "\u7b2c 174 \u573a\u53cc\u5468\u8d5b",
+    "Topics": []
+  },
+  {
     "Rating": 2178.4249114144,
     "ID": 2065,
     "Title": "Maximum Path Quality of a Graph",
@@ -7225,6 +7537,18 @@
       "Heap (Priority Queue)",
       "Monotonic Stack"
     ]
+  },
+  {
+    "Rating": 2172.4115085517,
+    "ID": 3883,
+    "Title": "Count Non Decreasing Arrays With Given Digit Sums",
+    "TitleZH": "\u7edf\u8ba1\u6ee1\u8db3\u6570\u4f4d\u548c\u6570\u7ec4\u7684\u975e\u9012\u51cf\u6570\u7ec4\u6570\u76ee",
+    "TitleSlug": "count-non-decreasing-arrays-with-given-digit-sums",
+    "ContestSlug": "biweekly-contest-179",
+    "ProblemIndex": "Q4",
+    "ContestID_en": "Biweekly Contest 179",
+    "ContestID_zh": "\u7b2c 179 \u573a\u53cc\u5468\u8d5b",
+    "Topics": []
   },
   {
     "Rating": 2172.3890687963,
@@ -7390,6 +7714,42 @@
     ]
   },
   {
+    "Rating": 2162.530467026,
+    "ID": 3934,
+    "Title": "Smallest Unique Subarray",
+    "TitleZH": "\u6700\u77ed\u552f\u4e00\u5b50\u6570\u7ec4",
+    "TitleSlug": "smallest-unique-subarray",
+    "ContestSlug": "weekly-contest-502",
+    "ProblemIndex": "Q4",
+    "ContestID_en": "Weekly Contest 502",
+    "ContestID_zh": "\u7b2c 502 \u573a\u5468\u8d5b",
+    "Topics": []
+  },
+  {
+    "Rating": 2162.0729079623,
+    "ID": 3830,
+    "Title": "Longest Alternating Subarray After Removing At Most One Element",
+    "TitleZH": "\u79fb\u9664\u81f3\u591a\u4e00\u4e2a\u5143\u7d20\u540e\u7684\u6700\u957f\u4ea4\u66ff\u5b50\u6570\u7ec4",
+    "TitleSlug": "longest-alternating-subarray-after-removing-at-most-one-element",
+    "ContestSlug": "weekly-contest-487",
+    "ProblemIndex": "Q4",
+    "ContestID_en": "Weekly Contest 487",
+    "ContestID_zh": "\u7b2c 487 \u573a\u5468\u8d5b",
+    "Topics": []
+  },
+  {
+    "Rating": 2161.9707214195,
+    "ID": 3999,
+    "Title": "Minimum Number of String Groups Through Transformations",
+    "TitleZH": "\u5b57\u7b26\u4e32\u53d8\u6362\u540e\u7684\u6700\u5c11\u5206\u7ec4\u6570",
+    "TitleSlug": "minimum-number-of-string-groups-through-transformations",
+    "ContestSlug": "weekly-contest-511",
+    "ProblemIndex": "Q4",
+    "ContestID_en": "Weekly Contest 511",
+    "ContestID_zh": "\u7b2c 511 \u573a\u5468\u8d5b",
+    "Topics": []
+  },
+  {
     "Rating": 2161.6248796745,
     "ID": 3373,
     "Title": "Maximize the Number of Target Nodes After Connecting Trees II",
@@ -7404,6 +7764,18 @@
       "Depth-First Search",
       "Breadth-First Search"
     ]
+  },
+  {
+    "Rating": 2160.2886328928,
+    "ID": 3906,
+    "Title": "Count Good Integers on a Grid Path",
+    "TitleZH": "\u7edf\u8ba1\u7f51\u683c\u8def\u5f84\u4e2d\u597d\u6574\u6570\u7684\u6570\u76ee",
+    "TitleSlug": "count-good-integers-on-a-grid-path",
+    "ContestSlug": "weekly-contest-498",
+    "ProblemIndex": "Q4",
+    "ContestID_en": "Weekly Contest 498",
+    "ContestID_zh": "\u7b2c 498 \u573a\u5468\u8d5b",
+    "Topics": []
   },
   {
     "Rating": 2159.4844281244,
@@ -7541,6 +7913,18 @@
       "Sorting",
       "Prefix Sum"
     ]
+  },
+  {
+    "Rating": 2155.5770176064,
+    "ID": 3911,
+    "Title": "K-th Smallest Remaining Even Integer in Subarray Queries",
+    "TitleZH": "\u79fb\u9664\u5b50\u6570\u7ec4\u5143\u7d20\u540e\u7b2c K \u5c0f\u5076\u6570",
+    "TitleSlug": "k-th-smallest-remaining-even-integer-in-subarray-queries",
+    "ContestSlug": "biweekly-contest-181",
+    "ProblemIndex": "Q4",
+    "ContestID_en": "Biweekly Contest 181",
+    "ContestID_zh": "\u7b2c 181 \u573a\u53cc\u5468\u8d5b",
+    "Topics": []
   },
   {
     "Rating": 2155.3424932408,
@@ -7855,6 +8239,18 @@
     ]
   },
   {
+    "Rating": 2134.9861022118,
+    "ID": 3900,
+    "Title": "Longest Balanced Substring After One Swap",
+    "TitleZH": "\u4e00\u6b21\u4ea4\u6362\u540e\u7684\u6700\u957f\u5e73\u8861\u5b50\u4e32",
+    "TitleSlug": "longest-balanced-substring-after-one-swap",
+    "ContestSlug": "weekly-contest-497",
+    "ProblemIndex": "Q3",
+    "ContestID_en": "Weekly Contest 497",
+    "ContestID_zh": "\u7b2c 497 \u573a\u5468\u8d5b",
+    "Topics": []
+  },
+  {
     "Rating": 2134.5448970405,
     "ID": 910,
     "Title": "Smallest Range II",
@@ -8011,6 +8407,30 @@
     ]
   },
   {
+    "Rating": 2128.4247737794,
+    "ID": 3981,
+    "Title": "Count Distinct Ways to Form Target from Two Strings",
+    "TitleZH": "\u7edf\u8ba1\u4ece\u4e24\u4e2a\u5b57\u7b26\u4e32\u5f62\u6210\u76ee\u6807\u5b57\u7b26\u4e32\u7684\u4e0d\u540c\u65b9\u6848\u6570",
+    "TitleSlug": "count-distinct-ways-to-form-target-from-two-strings",
+    "ContestSlug": "biweekly-contest-186",
+    "ProblemIndex": "Q4",
+    "ContestID_en": "Biweekly Contest 186",
+    "ContestID_zh": "\u7b2c 186 \u573a\u53cc\u5468\u8d5b",
+    "Topics": []
+  },
+  {
+    "Rating": 2128.3128561163,
+    "ID": 3887,
+    "Title": "Incremental Even-Weighted Cycle Queries",
+    "TitleZH": "\u589e\u91cf\u5076\u6743\u73af\u67e5\u8be2",
+    "TitleSlug": "incremental-even-weighted-cycle-queries",
+    "ContestSlug": "weekly-contest-495",
+    "ProblemIndex": "Q4",
+    "ContestID_en": "Weekly Contest 495",
+    "ContestID_zh": "\u7b2c 495 \u573a\u5468\u8d5b",
+    "Topics": []
+  },
+  {
     "Rating": 2127.5100545681,
     "ID": 2939,
     "Title": "Maximum Xor Product",
@@ -8160,6 +8580,18 @@
       "Dynamic Programming",
       "Prefix Sum"
     ]
+  },
+  {
+    "Rating": 2122.2230904777,
+    "ID": 3948,
+    "Title": "Lexicographically Maximum MEX Array",
+    "TitleZH": "\u5b57\u5178\u5e8f\u6700\u5927\u7684 MEX \u6570\u7ec4",
+    "TitleSlug": "lexicographically-maximum-mex-array",
+    "ContestSlug": "weekly-contest-504",
+    "ProblemIndex": "Q4",
+    "ContestID_en": "Weekly Contest 504",
+    "ContestID_zh": "\u7b2c 504 \u573a\u5468\u8d5b",
+    "Topics": []
   },
   {
     "Rating": 2121.3147151648,
@@ -8427,6 +8859,18 @@
     ]
   },
   {
+    "Rating": 2102.9932435222,
+    "ID": 3977,
+    "Title": "Minimum Time to Reach Target With Limited Power",
+    "TitleZH": "\u6709\u9650\u7535\u91cf\u5230\u8fbe\u76ee\u6807\u8282\u70b9\u7684\u6700\u5c11\u65f6\u95f4",
+    "TitleSlug": "minimum-time-to-reach-target-with-limited-power",
+    "ContestSlug": "weekly-contest-508",
+    "ProblemIndex": "Q4",
+    "ContestID_en": "Weekly Contest 508",
+    "ContestID_zh": "\u7b2c 508 \u573a\u5468\u8d5b",
+    "Topics": []
+  },
+  {
     "Rating": 2101.867342004,
     "ID": 2430,
     "Title": "Maximum Deletions on a String",
@@ -8443,6 +8887,18 @@
       "String Matching",
       "Hash Function"
     ]
+  },
+  {
+    "Rating": 2100.7367066386,
+    "ID": 3995,
+    "Title": "Minimum Cost to Convert String III",
+    "TitleZH": "\u8f6c\u6362\u5b57\u7b26\u4e32\u7684\u6700\u5c0f\u6210\u672c III",
+    "TitleSlug": "minimum-cost-to-convert-string-iii",
+    "ContestSlug": "biweekly-contest-187",
+    "ProblemIndex": "Q4",
+    "ContestID_en": "Biweekly Contest 187",
+    "ContestID_zh": "\u7b2c 187 \u573a\u53cc\u5468\u8d5b",
+    "Topics": []
   },
   {
     "Rating": 2100.3248877105,
@@ -8494,6 +8950,18 @@
       "String",
       "Sorting"
     ]
+  },
+  {
+    "Rating": 2095.4590096035,
+    "ID": 3854,
+    "Title": "Minimum Operations to Make Array Parity Alternating",
+    "TitleZH": "\u4f7f\u6570\u7ec4\u5947\u5076\u4ea4\u66ff\u7684\u6700\u5c11\u64cd\u4f5c",
+    "TitleSlug": "minimum-operations-to-make-array-parity-alternating",
+    "ContestSlug": "biweekly-contest-177",
+    "ProblemIndex": "Q3",
+    "ContestID_en": "Biweekly Contest 177",
+    "ContestID_zh": "\u7b2c 177 \u573a\u53cc\u5468\u8d5b",
+    "Topics": []
   },
   {
     "Rating": 2094.592426537,
@@ -8769,6 +9237,18 @@
     ]
   },
   {
+    "Rating": 2085.3980002157,
+    "ID": 3855,
+    "Title": "Sum of K-Digit Numbers in a Range",
+    "TitleZH": "\u7ed9\u5b9a\u8303\u56f4\u5185 K \u4f4d\u6570\u5b57\u4e4b\u548c",
+    "TitleSlug": "sum-of-k-digit-numbers-in-a-range",
+    "ContestSlug": "biweekly-contest-177",
+    "ProblemIndex": "Q4",
+    "ContestID_en": "Biweekly Contest 177",
+    "ContestID_zh": "\u7b2c 177 \u573a\u53cc\u5468\u8d5b",
+    "Topics": []
+  },
+  {
     "Rating": 2084.9697035674,
     "ID": 982,
     "Title": "Triples with Bitwise AND Equal To Zero",
@@ -9033,6 +9513,18 @@
       "Dynamic Programming",
       "Combinatorics"
     ]
+  },
+  {
+    "Rating": 2079.5200791317,
+    "ID": 3924,
+    "Title": "Minimum Threshold Path With Limited Heavy Edges",
+    "TitleZH": "\u6709\u9650\u91cd\u8fb9\u7684\u6700\u5c0f\u9608\u503c\u8def\u5f84",
+    "TitleSlug": "minimum-threshold-path-with-limited-heavy-edges",
+    "ContestSlug": "biweekly-contest-182",
+    "ProblemIndex": "Q4",
+    "ContestID_en": "Biweekly Contest 182",
+    "ContestID_zh": "\u7b2c 182 \u573a\u53cc\u5468\u8d5b",
+    "Topics": []
   },
   {
     "Rating": 2079.1911227043,
@@ -9393,6 +9885,18 @@
     ]
   },
   {
+    "Rating": 2069.1534510743,
+    "ID": 3821,
+    "Title": "Find Nth Smallest Integer With K One Bits",
+    "TitleZH": "\u4e8c\u8fdb\u5236\u4e2d\u6070\u597dK\u4e2a1\u7684\u7b2cN\u5c0f\u6574\u6570",
+    "TitleSlug": "find-nth-smallest-integer-with-k-one-bits",
+    "ContestSlug": "weekly-contest-486",
+    "ProblemIndex": "Q4",
+    "ContestID_en": "Weekly Contest 486",
+    "ContestID_zh": "\u7b2c 486 \u573a\u5468\u8d5b",
+    "Topics": []
+  },
+  {
     "Rating": 2068.806637566,
     "ID": 1368,
     "Title": "Minimum Cost to Make at Least One Valid Path in a Grid",
@@ -9543,6 +10047,18 @@
     ]
   },
   {
+    "Rating": 2060.7171353186,
+    "ID": 3956,
+    "Title": "Maximum Sum of M Non-Overlapping Subarrays I",
+    "TitleZH": "M \u4e2a\u975e\u91cd\u53e0\u5b50\u6570\u7ec4\u6700\u5927\u548c I",
+    "TitleSlug": "maximum-sum-of-m-non-overlapping-subarrays-i",
+    "ContestSlug": "weekly-contest-505",
+    "ProblemIndex": "Q3",
+    "ContestID_en": "Weekly Contest 505",
+    "ContestID_zh": "\u7b2c 505 \u573a\u5468\u8d5b",
+    "Topics": []
+  },
+  {
     "Rating": 2060.379991517,
     "ID": 2366,
     "Title": "Minimum Replacements to Sort the Array",
@@ -9672,6 +10188,18 @@
     ]
   },
   {
+    "Rating": 2054.6741405769,
+    "ID": 3988,
+    "Title": "Create Grid With Exactly K Paths I",
+    "TitleZH": "\u521b\u5efa\u4e00\u4e2a\u6070\u597d\u6709 K \u6761\u8def\u5f84\u7684\u7f51\u683c\u56fe I",
+    "TitleSlug": "create-grid-with-exactly-k-paths-i",
+    "ContestSlug": "weekly-contest-510",
+    "ProblemIndex": "Q3",
+    "ContestID_en": "Weekly Contest 510",
+    "ContestID_zh": "\u7b2c 510 \u573a\u5468\u8d5b",
+    "Topics": []
+  },
+  {
     "Rating": 2053.7468090497,
     "ID": 839,
     "Title": "Similar String Groups",
@@ -9724,6 +10252,18 @@
       "Segment Tree",
       "Simulation"
     ]
+  },
+  {
+    "Rating": 2052.7953163019,
+    "ID": 3933,
+    "Title": "Largest Local Values in a Matrix II",
+    "TitleZH": "\u77e9\u9635\u4e2d\u7684\u5c40\u90e8\u6700\u5927\u503c II",
+    "TitleSlug": "largest-local-values-in-a-matrix-ii",
+    "ContestSlug": "weekly-contest-502",
+    "ProblemIndex": "Q3",
+    "ContestID_en": "Weekly Contest 502",
+    "ContestID_zh": "\u7b2c 502 \u573a\u5468\u8d5b",
+    "Topics": []
   },
   {
     "Rating": 2051.519347574,
@@ -9923,6 +10463,18 @@
       "Simulation",
       "Prefix Sum"
     ]
+  },
+  {
+    "Rating": 2042.0488515965,
+    "ID": 3872,
+    "Title": "Longest Arithmetic Sequence After Changing At Most One Element",
+    "TitleZH": "\u66ff\u6362\u6700\u591a\u4e00\u4e2a\u5143\u7d20\u540e\u7684\u6700\u957f\u7b49\u5dee\u5b50\u6570\u7ec4",
+    "TitleSlug": "longest-arithmetic-sequence-after-changing-at-most-one-element",
+    "ContestSlug": "weekly-contest-493",
+    "ProblemIndex": "Q3",
+    "ContestID_en": "Weekly Contest 493",
+    "ContestID_zh": "\u7b2c 493 \u573a\u5468\u8d5b",
+    "Topics": []
   },
   {
     "Rating": 2040.5621123027,
@@ -10226,6 +10778,18 @@
       "Heap (Priority Queue)",
       "Monotonic Queue"
     ]
+  },
+  {
+    "Rating": 2032.4612250461,
+    "ID": 3864,
+    "Title": "Minimum Cost to Partition a Binary String",
+    "TitleZH": "\u5212\u5206\u4e8c\u8fdb\u5236\u5b57\u7b26\u4e32\u7684\u6700\u5c0f\u8d39\u7528",
+    "TitleSlug": "minimum-cost-to-partition-a-binary-string",
+    "ContestSlug": "weekly-contest-492",
+    "ProblemIndex": "Q4",
+    "ContestID_en": "Weekly Contest 492",
+    "ContestID_zh": "\u7b2c 492 \u573a\u5468\u8d5b",
+    "Topics": []
   },
   {
     "Rating": 2030.922770301,
@@ -10698,6 +11262,18 @@
     ]
   },
   {
+    "Rating": 2013.6413901055,
+    "ID": 3989,
+    "Title": "Maximum Consistent Columns in a Grid",
+    "TitleZH": "\u7f51\u683c\u4e2d\u4fdd\u6301\u4e00\u81f4\u7684\u6700\u5927\u5217\u6570",
+    "TitleSlug": "maximum-consistent-columns-in-a-grid",
+    "ContestSlug": "weekly-contest-510",
+    "ProblemIndex": "Q4",
+    "ContestID_en": "Weekly Contest 510",
+    "ContestID_zh": "\u7b2c 510 \u573a\u5468\u8d5b",
+    "Topics": []
+  },
+  {
     "Rating": 2013.4354344791,
     "ID": 2472,
     "Title": "Maximum Number of Non-overlapping Palindrome Substrings",
@@ -10863,6 +11439,30 @@
     ]
   },
   {
+    "Rating": 2006.0956272819,
+    "ID": 3966,
+    "Title": "Count Good Integers in a Range",
+    "TitleZH": "\u7edf\u8ba1\u8303\u56f4\u5185\u7684\u597d\u6574\u6570",
+    "TitleSlug": "count-good-integers-in-a-range",
+    "ContestSlug": "biweekly-contest-185",
+    "ProblemIndex": "Q4",
+    "ContestID_en": "Biweekly Contest 185",
+    "ContestID_zh": "\u7b2c 185 \u573a\u53cc\u5468\u8d5b",
+    "Topics": []
+  },
+  {
+    "Rating": 2005.6235019774,
+    "ID": 3811,
+    "Title": "Number of Alternating XOR Partitions",
+    "TitleZH": "\u4ea4\u66ff\u6309\u4f4d\u5f02\u6216\u5206\u5272\u7684\u6570\u76ee",
+    "TitleSlug": "number-of-alternating-xor-partitions",
+    "ContestSlug": "biweekly-contest-174",
+    "ProblemIndex": "Q3",
+    "ContestID_en": "Biweekly Contest 174",
+    "ContestID_zh": "\u7b2c 174 \u573a\u53cc\u5468\u8d5b",
+    "Topics": []
+  },
+  {
     "Rating": 2005.5862669078,
     "ID": 1888,
     "Title": "Minimum Number of Flips to Make the Binary String Alternating",
@@ -11021,6 +11621,18 @@
     ]
   },
   {
+    "Rating": 1999.2742892673,
+    "ID": 3886,
+    "Title": "Sum of Sortable Integers",
+    "TitleZH": "\u53ef\u6392\u5e8f\u6574\u6570\u6c42\u548c",
+    "TitleSlug": "sum-of-sortable-integers",
+    "ContestSlug": "weekly-contest-495",
+    "ProblemIndex": "Q3",
+    "ContestID_en": "Weekly Contest 495",
+    "ContestID_zh": "\u7b2c 495 \u573a\u5468\u8d5b",
+    "Topics": []
+  },
+  {
     "Rating": 1999.1208076854,
     "ID": 765,
     "Title": "Couples Holding Hands",
@@ -11053,6 +11665,18 @@
       "Hash Table",
       "Prefix Sum"
     ]
+  },
+  {
+    "Rating": 1998.3906211301,
+    "ID": 3897,
+    "Title": "Maximum Value of Concatenated Binary Segments",
+    "TitleZH": "\u8fde\u63a5\u4e8c\u8fdb\u5236\u7247\u6bb5\u5f97\u5230\u7684\u6700\u5927\u503c",
+    "TitleSlug": "maximum-value-of-concatenated-binary-segments",
+    "ContestSlug": "biweekly-contest-180",
+    "ProblemIndex": "Q4",
+    "ContestID_en": "Biweekly Contest 180",
+    "ContestID_zh": "\u7b2c 180 \u573a\u53cc\u5468\u8d5b",
+    "Topics": []
   },
   {
     "Rating": 1998.0432529701,
@@ -11225,6 +11849,18 @@
     ]
   },
   {
+    "Rating": 1989.5764824732,
+    "ID": 3844,
+    "Title": "Longest Almost-Palindromic Substring",
+    "TitleZH": "\u6700\u957f\u7684\u51c6\u56de\u6587\u5b50\u5b57\u7b26\u4e32",
+    "TitleSlug": "longest-almost-palindromic-substring",
+    "ContestSlug": "weekly-contest-489",
+    "ProblemIndex": "Q3",
+    "ContestID_en": "Weekly Contest 489",
+    "ContestID_zh": "\u7b2c 489 \u573a\u5468\u8d5b",
+    "Topics": []
+  },
+  {
     "Rating": 1989.5369509422,
     "ID": 902,
     "Title": "Numbers At Most N Given Digit Set",
@@ -11241,6 +11877,18 @@
       "Binary Search",
       "Dynamic Programming"
     ]
+  },
+  {
+    "Rating": 1987.9947081035,
+    "ID": 3836,
+    "Title": "Maximum Score Using Exactly K Pairs",
+    "TitleZH": "\u6070\u597d K \u4e2a\u4e0b\u6807\u5bf9\u7684\u6700\u5927\u5f97\u5206",
+    "TitleSlug": "maximum-score-using-exactly-k-pairs",
+    "ContestSlug": "weekly-contest-488",
+    "ProblemIndex": "Q4",
+    "ContestID_en": "Weekly Contest 488",
+    "ContestID_zh": "\u7b2c 488 \u573a\u5468\u8d5b",
+    "Topics": []
   },
   {
     "Rating": 1985.2504512337,
@@ -11425,6 +12073,18 @@
       "Array",
       "Binary Search"
     ]
+  },
+  {
+    "Rating": 1981.0453403379,
+    "ID": 3976,
+    "Title": "Maximum Subarray Sum After Multiplier",
+    "TitleZH": "\u4e58\u4ee5\u7cfb\u6570\u540e\u6700\u5927\u5b50\u6570\u7ec4\u548c",
+    "TitleSlug": "maximum-subarray-sum-after-multiplier",
+    "ContestSlug": "weekly-contest-508",
+    "ProblemIndex": "Q3",
+    "ContestID_en": "Weekly Contest 508",
+    "ContestID_zh": "\u7b2c 508 \u573a\u5468\u8d5b",
+    "Topics": []
   },
   {
     "Rating": 1979.9454101467,
@@ -11733,6 +12393,18 @@
     ]
   },
   {
+    "Rating": 1964.6174369373,
+    "ID": 3850,
+    "Title": "Count Sequences to K",
+    "TitleZH": "\u7edf\u8ba1\u7ed3\u679c\u7b49\u4e8e K \u7684\u5e8f\u5217\u6570\u76ee",
+    "TitleSlug": "count-sequences-to-k",
+    "ContestSlug": "weekly-contest-490",
+    "ProblemIndex": "Q4",
+    "ContestID_en": "Weekly Contest 490",
+    "ContestID_zh": "\u7b2c 490 \u573a\u5468\u8d5b",
+    "Topics": []
+  },
+  {
     "Rating": 1964.3793590858,
     "ID": 815,
     "Title": "Bus Routes",
@@ -11952,6 +12624,18 @@
     ]
   },
   {
+    "Rating": 1952.7914119963,
+    "ID": 3891,
+    "Title": "Minimum Increase to Maximize Special Indices",
+    "TitleZH": "\u6700\u5927\u5316\u7279\u6b8a\u4e0b\u6807\u6570\u76ee\u7684\u6700\u5c11\u589e\u52a0\u6b21\u6570",
+    "TitleSlug": "minimum-increase-to-maximize-special-indices",
+    "ContestSlug": "weekly-contest-496",
+    "ProblemIndex": "Q3",
+    "ContestID_en": "Weekly Contest 496",
+    "ContestID_zh": "\u7b2c 496 \u573a\u5468\u8d5b",
+    "Topics": []
+  },
+  {
     "Rating": 1952.7073399331,
     "ID": 1737,
     "Title": "Change Minimum Characters to Satisfy One of Three Conditions",
@@ -12085,6 +12769,18 @@
     ]
   },
   {
+    "Rating": 1947.355455517,
+    "ID": 3858,
+    "Title": "Minimum Bitwise OR From Grid",
+    "TitleZH": "\u6309\u4f4d\u6216\u7684\u6700\u5c0f\u503c",
+    "TitleSlug": "minimum-bitwise-or-from-grid",
+    "ContestSlug": "weekly-contest-491",
+    "ProblemIndex": "Q3",
+    "ContestID_en": "Weekly Contest 491",
+    "ContestID_zh": "\u7b2c 491 \u573a\u5468\u8d5b",
+    "Topics": []
+  },
+  {
     "Rating": 1945.7515607928,
     "ID": 1793,
     "Title": "Maximum Score of a Good Subarray",
@@ -12134,6 +12830,18 @@
       "Design",
       "Trie"
     ]
+  },
+  {
+    "Rating": 1944.4722266435,
+    "ID": 3984,
+    "Title": "Divisible Game",
+    "TitleZH": "\u53ef\u6574\u9664\u6e38\u620f",
+    "TitleSlug": "divisible-game",
+    "ContestSlug": "weekly-contest-509",
+    "ProblemIndex": "Q3",
+    "ContestID_en": "Weekly Contest 509",
+    "ContestID_zh": "\u7b2c 509 \u573a\u5468\u8d5b",
+    "Topics": []
   },
   {
     "Rating": 1943.095489145,
@@ -13504,6 +14212,18 @@
     ]
   },
   {
+    "Rating": 1883.4152059972,
+    "ID": 3923,
+    "Title": "Minimum Generations to Target Point",
+    "TitleZH": "\u5f97\u5230\u76ee\u6807\u70b9\u7684\u6700\u5c11\u4ee3\u6570",
+    "TitleSlug": "minimum-generations-to-target-point",
+    "ContestSlug": "biweekly-contest-182",
+    "ProblemIndex": "Q3",
+    "ContestID_en": "Biweekly Contest 182",
+    "ContestID_zh": "\u7b2c 182 \u573a\u53cc\u5468\u8d5b",
+    "Topics": []
+  },
+  {
     "Rating": 1883.3541964032,
     "ID": 2054,
     "Title": "Two Best Non-Overlapping Events",
@@ -13656,6 +14376,18 @@
       "Graph",
       "Geometry"
     ]
+  },
+  {
+    "Rating": 1879.7915834684,
+    "ID": 3961,
+    "Title": "Maximize Sum of Device Ratings",
+    "TitleZH": "\u8bbe\u5907\u8bc4\u5206\u7684\u6700\u5927\u548c",
+    "TitleSlug": "maximize-sum-of-device-ratings",
+    "ContestSlug": "weekly-contest-506",
+    "ProblemIndex": "Q3",
+    "ContestID_en": "Weekly Contest 506",
+    "ContestID_zh": "\u7b2c 506 \u573a\u5468\u8d5b",
+    "Topics": []
   },
   {
     "Rating": 1877.8983358307,
@@ -14074,6 +14806,18 @@
     ]
   },
   {
+    "Rating": 1862.3952723083,
+    "ID": 3998,
+    "Title": "Transform Binary String Using Subsequence Sort",
+    "TitleZH": "\u4f7f\u7528\u5b50\u5e8f\u5217\u6392\u5e8f\u8f6c\u6362\u4e8c\u8fdb\u5236\u5b57\u7b26\u4e32",
+    "TitleSlug": "transform-binary-string-using-subsequence-sort",
+    "ContestSlug": "weekly-contest-511",
+    "ProblemIndex": "Q3",
+    "ContestID_en": "Weekly Contest 511",
+    "ContestID_zh": "\u7b2c 511 \u573a\u5468\u8d5b",
+    "Topics": []
+  },
+  {
     "Rating": 1861.7421056879,
     "ID": 3342,
     "Title": "Find Minimum Time to Reach Last Room II",
@@ -14144,6 +14888,30 @@
       "String",
       "String Matching"
     ]
+  },
+  {
+    "Rating": 1859.9958119266,
+    "ID": 3863,
+    "Title": "Minimum Operations to Sort a String",
+    "TitleZH": "\u5c06\u4e00\u4e2a\u5b57\u7b26\u4e32\u6392\u5e8f\u7684\u6700\u5c0f\u64cd\u4f5c\u6b21\u6570",
+    "TitleSlug": "minimum-operations-to-sort-a-string",
+    "ContestSlug": "weekly-contest-492",
+    "ProblemIndex": "Q3",
+    "ContestID_en": "Weekly Contest 492",
+    "ContestID_zh": "\u7b2c 492 \u573a\u5468\u8d5b",
+    "Topics": []
+  },
+  {
+    "Rating": 1859.4380732602,
+    "ID": 3910,
+    "Title": "Count Connected Subgraphs with Even Node Sum",
+    "TitleZH": "\u7edf\u8ba1\u8282\u70b9\u548c\u4e3a\u5076\u6570\u7684\u8fde\u901a\u5b50\u56fe",
+    "TitleSlug": "count-connected-subgraphs-with-even-node-sum",
+    "ContestSlug": "biweekly-contest-181",
+    "ProblemIndex": "Q3",
+    "ContestID_en": "Biweekly Contest 181",
+    "ContestID_zh": "\u7b2c 181 \u573a\u53cc\u5468\u8d5b",
+    "Topics": []
   },
   {
     "Rating": 1858.9581916885,
@@ -14314,6 +15082,18 @@
     ]
   },
   {
+    "Rating": 1854.8531323613,
+    "ID": 3942,
+    "Title": "Minimum Operations to Sort a Permutation",
+    "TitleZH": "\u6392\u5e8f\u6392\u5217\u7684\u6700\u5c11\u64cd\u4f5c\u6570",
+    "TitleSlug": "minimum-operations-to-sort-a-permutation",
+    "ContestSlug": "weekly-contest-503",
+    "ProblemIndex": "Q3",
+    "ContestID_en": "Weekly Contest 503",
+    "ContestID_zh": "\u7b2c 503 \u573a\u5468\u8d5b",
+    "Topics": []
+  },
+  {
     "Rating": 1854.0126399812,
     "ID": 1269,
     "Title": "Number of Ways to Stay in the Same Place After Some Steps",
@@ -14326,6 +15106,18 @@
     "Topics": [
       "Dynamic Programming"
     ]
+  },
+  {
+    "Rating": 1853.8452529101,
+    "ID": 3815,
+    "Title": "Design Auction System",
+    "TitleZH": "\u8bbe\u8ba1\u62cd\u5356\u7cfb\u7edf",
+    "TitleSlug": "design-auction-system",
+    "ContestSlug": "weekly-contest-485",
+    "ProblemIndex": "Q3",
+    "ContestID_en": "Weekly Contest 485",
+    "ContestID_zh": "\u7b2c 485 \u573a\u5468\u8d5b",
+    "Topics": []
   },
   {
     "Rating": 1853.6535583817,
@@ -14657,6 +15449,30 @@
     ]
   },
   {
+    "Rating": 1845.77150935,
+    "ID": 3825,
+    "Title": "Longest Strictly Increasing Subsequence With Non-Zero Bitwise AND",
+    "TitleZH": "\u6309\u4f4d\u4e0e\u7ed3\u679c\u975e\u96f6\u7684\u6700\u957f\u4e0a\u5347\u5b50\u5e8f\u5217",
+    "TitleSlug": "longest-strictly-increasing-subsequence-with-non-zero-bitwise-and",
+    "ContestSlug": "biweekly-contest-175",
+    "ProblemIndex": "Q3",
+    "ContestID_en": "Biweekly Contest 175",
+    "ContestID_zh": "\u7b2c 175 \u573a\u53cc\u5468\u8d5b",
+    "Topics": []
+  },
+  {
+    "Rating": 1845.6855148816,
+    "ID": 3980,
+    "Title": "Minimum Operations to Transform Binary String",
+    "TitleZH": "\u53d8\u6362\u4e8c\u8fdb\u5236\u5b57\u7b26\u4e32\u7684\u6700\u5c11\u64cd\u4f5c\u6b21\u6570",
+    "TitleSlug": "minimum-operations-to-transform-binary-string",
+    "ContestSlug": "biweekly-contest-186",
+    "ProblemIndex": "Q3",
+    "ContestID_en": "Biweekly Contest 186",
+    "ContestID_zh": "\u7b2c 186 \u573a\u53cc\u5468\u8d5b",
+    "Topics": []
+  },
+  {
     "Rating": 1845.6611654401,
     "ID": 2598,
     "Title": "Smallest Missing Non-negative Integer After Operations",
@@ -14773,6 +15589,18 @@
     ]
   },
   {
+    "Rating": 1840.9502412278,
+    "ID": 3800,
+    "Title": "Minimum Cost to Make Two Binary Strings Equal",
+    "TitleZH": "\u4f7f\u4e8c\u8fdb\u5236\u5b57\u7b26\u4e32\u76f8\u7b49\u7684\u6700\u5c0f\u6210\u672c",
+    "TitleSlug": "minimum-cost-to-make-two-binary-strings-equal",
+    "ContestSlug": "weekly-contest-483",
+    "ProblemIndex": "Q3",
+    "ContestID_en": "Weekly Contest 483",
+    "ContestID_zh": "\u7b2c 483 \u573a\u5468\u8d5b",
+    "Topics": []
+  },
+  {
     "Rating": 1840.9122452886,
     "ID": 2332,
     "Title": "The Latest Time to Catch a Bus",
@@ -14808,6 +15636,18 @@
       "Sorting",
       "Counting"
     ]
+  },
+  {
+    "Rating": 1840.160645972,
+    "ID": 3970,
+    "Title": "Shortest Path With At Most K Consecutive Identical Characters",
+    "TitleZH": "\u6700\u591a K \u4e2a\u8fde\u7eed\u76f8\u540c\u5b57\u7b26\u7684\u6700\u77ed\u8def\u5f84",
+    "TitleSlug": "shortest-path-with-at-most-k-consecutive-identical-characters",
+    "ContestSlug": "weekly-contest-507",
+    "ProblemIndex": "Q3",
+    "ContestID_en": "Weekly Contest 507",
+    "ContestID_zh": "\u7b2c 507 \u573a\u5468\u8d5b",
+    "Topics": []
   },
   {
     "Rating": 1839.9203623221,
@@ -14912,6 +15752,18 @@
       "String",
       "Dynamic Programming"
     ]
+  },
+  {
+    "Rating": 1832.8086148249,
+    "ID": 3796,
+    "Title": "Find Maximum Value in a Constrained Sequence",
+    "TitleZH": "\u627e\u5230\u5e26\u9650\u5236\u5e8f\u5217\u7684\u6700\u5927\u503c",
+    "TitleSlug": "find-maximum-value-in-a-constrained-sequence",
+    "ContestSlug": "biweekly-contest-173",
+    "ProblemIndex": "Q3",
+    "ContestID_en": "Biweekly Contest 173",
+    "ContestID_zh": "\u7b2c 173 \u573a\u53cc\u5468\u8d5b",
+    "Topics": []
   },
   {
     "Rating": 1832.7167755024,
@@ -15864,6 +16716,18 @@
     ]
   },
   {
+    "Rating": 1796.1227580681,
+    "ID": 3814,
+    "Title": "Maximum Capacity Within Budget",
+    "TitleZH": "\u9884\u7b97\u4e0b\u7684\u6700\u5927\u603b\u5bb9\u91cf",
+    "TitleSlug": "maximum-capacity-within-budget",
+    "ContestSlug": "weekly-contest-485",
+    "ProblemIndex": "Q2",
+    "ContestID_en": "Weekly Contest 485",
+    "ContestID_zh": "\u7b2c 485 \u573a\u5468\u8d5b",
+    "Topics": []
+  },
+  {
     "Rating": 1795.0422250815,
     "ID": 966,
     "Title": "Vowel Spellchecker",
@@ -16566,6 +17430,18 @@
     ]
   },
   {
+    "Rating": 1776.835397588,
+    "ID": 3919,
+    "Title": "Minimum Cost to Move Between Indices",
+    "TitleZH": "\u5728\u4e0b\u6807\u95f4\u79fb\u52a8\u7684\u6700\u5c0f\u4ee3\u4ef7",
+    "TitleSlug": "minimum-cost-to-move-between-indices",
+    "ContestSlug": "weekly-contest-500",
+    "ProblemIndex": "Q3",
+    "ContestID_en": "Weekly Contest 500",
+    "ContestID_zh": "\u7b2c 500 \u573a\u5468\u8d5b",
+    "Topics": []
+  },
+  {
     "Rating": 1775.854606648,
     "ID": 2531,
     "Title": "Make Number of Distinct Characters Equal",
@@ -16662,6 +17538,18 @@
       "Array",
       "Greedy"
     ]
+  },
+  {
+    "Rating": 1770.9328676037,
+    "ID": 3882,
+    "Title": "Minimum XOR Path in a Grid",
+    "TitleZH": "\u7f51\u683c\u56fe\u4e2d\u6700\u5c0f\u5f02\u6216\u8def\u5f84",
+    "TitleSlug": "minimum-xor-path-in-a-grid",
+    "ContestSlug": "biweekly-contest-179",
+    "ProblemIndex": "Q3",
+    "ContestID_en": "Biweekly Contest 179",
+    "ContestID_zh": "\u7b2c 179 \u573a\u53cc\u5468\u8d5b",
+    "Topics": []
   },
   {
     "Rating": 1770.8924569497,
@@ -16859,6 +17747,18 @@
     ]
   },
   {
+    "Rating": 1762.5072028268,
+    "ID": 3952,
+    "Title": "Maximum Total Value of Covered Indices",
+    "TitleZH": "\u4e0b\u6807\u8986\u76d6\u5904\u7684\u6700\u5927\u603b\u548c",
+    "TitleSlug": "maximum-total-value-of-covered-indices",
+    "ContestSlug": "biweekly-contest-184",
+    "ProblemIndex": "Q3",
+    "ContestID_en": "Biweekly Contest 184",
+    "ContestID_zh": "\u7b2c 184 \u573a\u53cc\u5468\u8d5b",
+    "Topics": []
+  },
+  {
     "Rating": 1762.3115124143,
     "ID": 948,
     "Title": "Bag of Tokens",
@@ -16941,6 +17841,18 @@
     ]
   },
   {
+    "Rating": 1760.7597743663,
+    "ID": 3881,
+    "Title": "Direction Assignments with Exactly K Visible People",
+    "TitleZH": "\u6070\u597d\u770b\u5230 K \u4e2a\u4eba\u7684\u65b9\u5411\u9009\u62e9",
+    "TitleSlug": "direction-assignments-with-exactly-k-visible-people",
+    "ContestSlug": "biweekly-contest-179",
+    "ProblemIndex": "Q2",
+    "ContestID_en": "Biweekly Contest 179",
+    "ContestID_zh": "\u7b2c 179 \u573a\u53cc\u5468\u8d5b",
+    "Topics": []
+  },
+  {
     "Rating": 1759.2287478055,
     "ID": 2075,
     "Title": "Decode the Slanted Ciphertext",
@@ -16954,6 +17866,30 @@
       "String",
       "Simulation"
     ]
+  },
+  {
+    "Rating": 1759.1992848083,
+    "ID": 3922,
+    "Title": "Minimum Flips to Make Binary String Coherent",
+    "TitleZH": "\u4f7f\u4e8c\u8fdb\u5236\u5b57\u7b26\u4e32\u8fde\u8d2f\u7684\u6700\u5c11\u7ffb\u8f6c\u6b21\u6570",
+    "TitleSlug": "minimum-flips-to-make-binary-string-coherent",
+    "ContestSlug": "biweekly-contest-182",
+    "ProblemIndex": "Q2",
+    "ContestID_en": "Biweekly Contest 182",
+    "ContestID_zh": "\u7b2c 182 \u573a\u53cc\u5468\u8d5b",
+    "Topics": []
+  },
+  {
+    "Rating": 1759.0629543156,
+    "ID": 3835,
+    "Title": "Count Subarrays With Cost Less Than or Equal to K",
+    "TitleZH": "\u5f00\u9500\u5c0f\u4e8e\u7b49\u4e8e K \u7684\u5b50\u6570\u7ec4\u6570\u76ee",
+    "TitleSlug": "count-subarrays-with-cost-less-than-or-equal-to-k",
+    "ContestSlug": "weekly-contest-488",
+    "ProblemIndex": "Q3",
+    "ContestID_en": "Weekly Contest 488",
+    "ContestID_zh": "\u7b2c 488 \u573a\u5468\u8d5b",
+    "Topics": []
   },
   {
     "Rating": 1759.0470795449,
@@ -17035,6 +17971,18 @@
       "Heap (Priority Queue)",
       "Shortest Path"
     ]
+  },
+  {
+    "Rating": 1754.7431866815,
+    "ID": 3983,
+    "Title": "Subsequence After One Replacement",
+    "TitleZH": "\u4e00\u6b21\u66ff\u6362\u540e\u7684\u5b50\u5e8f\u5217",
+    "TitleSlug": "subsequence-after-one-replacement",
+    "ContestSlug": "weekly-contest-509",
+    "ProblemIndex": "Q2",
+    "ContestID_en": "Weekly Contest 509",
+    "ContestID_zh": "\u7b2c 509 \u573a\u5468\u8d5b",
+    "Topics": []
   },
   {
     "Rating": 1754.1710323358,
@@ -17414,6 +18362,18 @@
     ]
   },
   {
+    "Rating": 1745.1254709049,
+    "ID": 3877,
+    "Title": "Minimum Removals to Achieve Target XOR",
+    "TitleZH": "\u8fbe\u5230\u76ee\u6807\u5f02\u6216\u503c\u7684\u6700\u5c11\u5220\u9664\u6b21\u6570",
+    "TitleSlug": "minimum-removals-to-achieve-target-xor",
+    "ContestSlug": "weekly-contest-494",
+    "ProblemIndex": "Q3",
+    "ContestID_en": "Weekly Contest 494",
+    "ContestID_zh": "\u7b2c 494 \u573a\u5468\u8d5b",
+    "Topics": []
+  },
+  {
     "Rating": 1745.073572838,
     "ID": 3433,
     "Title": "Count Mentions Per User",
@@ -17612,6 +18572,18 @@
       "Math",
       "Counting"
     ]
+  },
+  {
+    "Rating": 1737.2296628819,
+    "ID": 3960,
+    "Title": "Frequency Balance Subarray",
+    "TitleZH": "\u9891\u7387\u5e73\u8861\u5b50\u6570\u7ec4",
+    "TitleSlug": "frequency-balance-subarray",
+    "ContestSlug": "weekly-contest-506",
+    "ProblemIndex": "Q2",
+    "ContestID_en": "Weekly Contest 506",
+    "ContestID_zh": "\u7b2c 506 \u573a\u5468\u8d5b",
+    "Topics": []
   },
   {
     "Rating": 1737.2065180671,
@@ -17827,6 +18799,18 @@
     ]
   },
   {
+    "Rating": 1728.0374911688,
+    "ID": 3946,
+    "Title": "Maximum Number of Items From Sale I",
+    "TitleZH": "\u8d2d\u4e70\u6700\u591a\u7269\u54c1\u6570\u76ee I",
+    "TitleSlug": "maximum-number-of-items-from-sale-i",
+    "ContestSlug": "weekly-contest-504",
+    "ProblemIndex": "Q2",
+    "ContestID_en": "Weekly Contest 504",
+    "ContestID_zh": "\u7b2c 504 \u573a\u5468\u8d5b",
+    "Topics": []
+  },
+  {
     "Rating": 1725.4481937307,
     "ID": 1011,
     "Title": "Capacity To Ship Packages Within D Days",
@@ -17840,6 +18824,18 @@
       "Array",
       "Binary Search"
     ]
+  },
+  {
+    "Rating": 1725.2721958375,
+    "ID": 3820,
+    "Title": "Pythagorean Distance Nodes in a Tree",
+    "TitleZH": "\u6811\u4e0a\u7684\u52fe\u80a1\u8ddd\u79bb\u8282\u70b9",
+    "TitleSlug": "pythagorean-distance-nodes-in-a-tree",
+    "ContestSlug": "weekly-contest-486",
+    "ProblemIndex": "Q3",
+    "ContestID_en": "Weekly Contest 486",
+    "ContestID_zh": "\u7b2c 486 \u573a\u5468\u8d5b",
+    "Topics": []
   },
   {
     "Rating": 1725.1995150882,
@@ -18483,6 +19479,18 @@
     ]
   },
   {
+    "Rating": 1704.9360057053,
+    "ID": 3994,
+    "Title": "Minimum Adjacent Swaps to Partition Array",
+    "TitleZH": "\u5212\u5206\u6570\u7ec4\u7684\u6700\u5c11\u76f8\u90bb\u4ea4\u6362\u6b21\u6570",
+    "TitleSlug": "minimum-adjacent-swaps-to-partition-array",
+    "ContestSlug": "biweekly-contest-187",
+    "ProblemIndex": "Q3",
+    "ContestID_en": "Biweekly Contest 187",
+    "ContestID_zh": "\u7b2c 187 \u573a\u53cc\u5468\u8d5b",
+    "Topics": []
+  },
+  {
     "Rating": 1704.360891641,
     "ID": 1947,
     "Title": "Maximum Compatibility Score Sum",
@@ -18702,6 +19710,18 @@
     ]
   },
   {
+    "Rating": 1698.820018305,
+    "ID": 3965,
+    "Title": "Finish Time of Tasks I",
+    "TitleZH": "\u4efb\u52a1\u5b8c\u6210\u65f6\u95f4 I",
+    "TitleSlug": "finish-time-of-tasks-i",
+    "ContestSlug": "biweekly-contest-185",
+    "ProblemIndex": "Q3",
+    "ContestID_en": "Biweekly Contest 185",
+    "ContestID_zh": "\u7b2c 185 \u573a\u53cc\u5468\u8d5b",
+    "Topics": []
+  },
+  {
     "Rating": 1697.8500495479,
     "ID": 1017,
     "Title": "Convert to Base -2",
@@ -18714,6 +19734,18 @@
     "Topics": [
       "Math"
     ]
+  },
+  {
+    "Rating": 1697.4726349681,
+    "ID": 3862,
+    "Title": "Find the Smallest Balanced Index",
+    "TitleZH": "\u627e\u51fa\u6700\u5c0f\u5e73\u8861\u4e0b\u6807",
+    "TitleSlug": "find-the-smallest-balanced-index",
+    "ContestSlug": "weekly-contest-492",
+    "ProblemIndex": "Q2",
+    "ContestID_en": "Weekly Contest 492",
+    "ContestID_zh": "\u7b2c 492 \u573a\u5468\u8d5b",
+    "Topics": []
   },
   {
     "Rating": 1697.2356875149,
@@ -19580,6 +20612,18 @@
     ]
   },
   {
+    "Rating": 1671.4061227694,
+    "ID": 3905,
+    "Title": "Multi Source Flood Fill",
+    "TitleZH": "\u591a\u6e90\u56fe\u50cf\u6e32\u67d3",
+    "TitleSlug": "multi-source-flood-fill",
+    "ContestSlug": "weekly-contest-498",
+    "ProblemIndex": "Q3",
+    "ContestID_en": "Weekly Contest 498",
+    "ContestID_zh": "\u7b2c 498 \u573a\u5468\u8d5b",
+    "Topics": []
+  },
+  {
     "Rating": 1668.9941164204,
     "ID": 3761,
     "Title": "Minimum Absolute Distance Between Mirror Pairs",
@@ -19807,6 +20851,18 @@
       "Greedy",
       "Counting"
     ]
+  },
+  {
+    "Rating": 1662.1018866153,
+    "ID": 3914,
+    "Title": "Minimum Operations to Make Array Non Decreasing",
+    "TitleZH": "\u4f7f\u6570\u7ec4\u975e\u9012\u51cf\u9700\u8981\u7684\u6700\u5c0f\u7d2f\u8ba1\u503c",
+    "TitleSlug": "minimum-operations-to-make-array-non-decreasing",
+    "ContestSlug": "weekly-contest-499",
+    "ProblemIndex": "Q3",
+    "ContestID_en": "Weekly Contest 499",
+    "ContestID_zh": "\u7b2c 499 \u573a\u5468\u8d5b",
+    "Topics": []
   },
   {
     "Rating": 1661.0318170415,
@@ -20171,6 +21227,18 @@
       "Graph",
       "Sorting"
     ]
+  },
+  {
+    "Rating": 1651.6231918758,
+    "ID": 3927,
+    "Title": "Minimize Array Sum Using Divisible Replacements",
+    "TitleZH": "\u53ef\u6574\u9664\u66ff\u6362\u540e\u7684\u6570\u7ec4\u6700\u5c0f\u5143\u7d20\u548c",
+    "TitleSlug": "minimize-array-sum-using-divisible-replacements",
+    "ContestSlug": "weekly-contest-501",
+    "ProblemIndex": "Q3",
+    "ContestID_en": "Weekly Contest 501",
+    "ContestID_zh": "\u7b2c 501 \u573a\u5468\u8d5b",
+    "Topics": []
   },
   {
     "Rating": 1651.5845871727,
@@ -20898,6 +21966,18 @@
     ]
   },
   {
+    "Rating": 1626.2197044825,
+    "ID": 3937,
+    "Title": "Minimum Operations to Make Array Modulo Alternating I",
+    "TitleZH": "\u4f7f\u6570\u7ec4\u53d8\u4e3a\u6a21\u4ea4\u66ff\u6570\u7ec4\u7684\u6700\u5c11\u64cd\u4f5c\u6b21\u6570 I",
+    "TitleSlug": "minimum-operations-to-make-array-modulo-alternating-i",
+    "ContestSlug": "biweekly-contest-183",
+    "ProblemIndex": "Q2",
+    "ContestID_en": "Biweekly Contest 183",
+    "ContestID_zh": "\u7b2c 183 \u573a\u53cc\u5468\u8d5b",
+    "Topics": []
+  },
+  {
     "Rating": 1625.9636825798,
     "ID": 2684,
     "Title": "Maximum Number of Moves in a Grid",
@@ -20961,6 +22041,18 @@
       "Hash Table",
       "String"
     ]
+  },
+  {
+    "Rating": 1624.2918903909,
+    "ID": 3805,
+    "Title": "Count Caesar Cipher Pairs",
+    "TitleZH": "\u7edf\u8ba1\u51ef\u6492\u52a0\u5bc6\u5bf9\u6570\u76ee",
+    "TitleSlug": "count-caesar-cipher-pairs",
+    "ContestSlug": "weekly-contest-484",
+    "ProblemIndex": "Q3",
+    "ContestID_en": "Weekly Contest 484",
+    "ContestID_zh": "\u7b2c 484 \u573a\u5468\u8d5b",
+    "Topics": []
   },
   {
     "Rating": 1623.9443250479,
@@ -21077,6 +22169,18 @@
       "Math",
       "Greedy"
     ]
+  },
+  {
+    "Rating": 1618.9800584534,
+    "ID": 3840,
+    "Title": "House Robber V",
+    "TitleZH": "\u6253\u5bb6\u52ab\u820d V",
+    "TitleSlug": "house-robber-v",
+    "ContestSlug": "biweekly-contest-176",
+    "ProblemIndex": "Q3",
+    "ContestID_en": "Biweekly Contest 176",
+    "ContestID_zh": "\u7b2c 176 \u573a\u53cc\u5468\u8d5b",
+    "Topics": []
   },
   {
     "Rating": 1618.6016480451,
@@ -21274,6 +22378,18 @@
     ]
   },
   {
+    "Rating": 1608.2817385559,
+    "ID": 3926,
+    "Title": "Count Valid Word Occurrences",
+    "TitleZH": "\u6709\u6548\u5355\u8bcd\u8ba1\u6570",
+    "TitleSlug": "count-valid-word-occurrences",
+    "ContestSlug": "weekly-contest-501",
+    "ProblemIndex": "Q2",
+    "ContestID_en": "Weekly Contest 501",
+    "ContestID_zh": "\u7b2c 501 \u573a\u5468\u8d5b",
+    "Topics": []
+  },
+  {
     "Rating": 1607.9038975431,
     "ID": 3080,
     "Title": "Mark Elements on Array by Performing Queries",
@@ -21408,6 +22524,18 @@
       "String",
       "Sorting"
     ]
+  },
+  {
+    "Rating": 1606.0736676327,
+    "ID": 3799,
+    "Title": "Word Squares II",
+    "TitleZH": "\u5355\u8bcd\u65b9\u5757 II",
+    "TitleSlug": "word-squares-ii",
+    "ContestSlug": "weekly-contest-483",
+    "ProblemIndex": "Q2",
+    "ContestID_en": "Weekly Contest 483",
+    "ContestID_zh": "\u7b2c 483 \u573a\u5468\u8d5b",
+    "Topics": []
   },
   {
     "Rating": 1604.9805572557,
@@ -21739,6 +22867,18 @@
     ]
   },
   {
+    "Rating": 1593.9561579617,
+    "ID": 3829,
+    "Title": "Design Ride Sharing System",
+    "TitleZH": "\u8bbe\u8ba1\u5171\u4eab\u51fa\u884c\u7cfb\u7edf",
+    "TitleSlug": "design-ride-sharing-system",
+    "ContestSlug": "weekly-contest-487",
+    "ProblemIndex": "Q3",
+    "ContestID_en": "Weekly Contest 487",
+    "ContestID_zh": "\u7b2c 487 \u573a\u5468\u8d5b",
+    "Topics": []
+  },
+  {
     "Rating": 1593.8926580448,
     "ID": 1577,
     "Title": "Number of Ways Where Square of Number Is Equal to Product of Two Numbers",
@@ -21849,6 +22989,18 @@
       "Array",
       "Greedy"
     ]
+  },
+  {
+    "Rating": 1591.216420723,
+    "ID": 3828,
+    "Title": "Final Element After Subarray Deletions",
+    "TitleZH": "\u5220\u9664\u5b50\u6570\u7ec4\u540e\u7684\u6700\u7ec8\u5143\u7d20",
+    "TitleSlug": "final-element-after-subarray-deletions",
+    "ContestSlug": "weekly-contest-487",
+    "ProblemIndex": "Q2",
+    "ContestID_en": "Weekly Contest 487",
+    "ContestID_zh": "\u7b2c 487 \u573a\u5468\u8d5b",
+    "Topics": []
   },
   {
     "Rating": 1590.5791055102,
@@ -22171,6 +23323,18 @@
     ]
   },
   {
+    "Rating": 1578.9554353833,
+    "ID": 3868,
+    "Title": "Minimum Cost to Equalize Arrays Using Swaps",
+    "TitleZH": "\u901a\u8fc7\u4ea4\u6362\u4f7f\u6570\u7ec4\u76f8\u7b49\u7684\u6700\u5c0f\u82b1\u8d39",
+    "TitleSlug": "minimum-cost-to-equalize-arrays-using-swaps",
+    "ContestSlug": "biweekly-contest-178",
+    "ProblemIndex": "Q3",
+    "ContestID_en": "Biweekly Contest 178",
+    "ContestID_zh": "\u7b2c 178 \u573a\u53cc\u5468\u8d5b",
+    "Topics": []
+  },
+  {
     "Rating": 1578.8503818621,
     "ID": 1034,
     "Title": "Coloring A Border",
@@ -22334,6 +23498,18 @@
       "Bit Manipulation",
       "Matrix"
     ]
+  },
+  {
+    "Rating": 1572.3649510919,
+    "ID": 3964,
+    "Title": "Minimum Lights to Illuminate a Road",
+    "TitleZH": "\u7167\u4eae\u9053\u8def\u7684\u6700\u5c11\u706f\u6ce1\u6570",
+    "TitleSlug": "minimum-lights-to-illuminate-a-road",
+    "ContestSlug": "biweekly-contest-185",
+    "ProblemIndex": "Q2",
+    "ContestID_en": "Biweekly Contest 185",
+    "ContestID_zh": "\u7b2c 185 \u573a\u53cc\u5468\u8d5b",
+    "Topics": []
   },
   {
     "Rating": 1571.1721048101,
@@ -22827,6 +24003,18 @@
     ]
   },
   {
+    "Rating": 1556.4396462723,
+    "ID": 3849,
+    "Title": "Maximum Bitwise XOR After Rearrangement",
+    "TitleZH": "\u91cd\u65b0\u6392\u5217\u540e\u7684\u6700\u5927\u6309\u4f4d\u5f02\u6216\u503c",
+    "TitleSlug": "maximum-bitwise-xor-after-rearrangement",
+    "ContestSlug": "weekly-contest-490",
+    "ProblemIndex": "Q3",
+    "ContestID_en": "Weekly Contest 490",
+    "ContestID_zh": "\u7b2c 490 \u573a\u5468\u8d5b",
+    "Topics": []
+  },
+  {
     "Rating": 1556.3092642778,
     "ID": 3653,
     "Title": "XOR After Range Multiplication Queries I",
@@ -22939,6 +24127,30 @@
     ]
   },
   {
+    "Rating": 1549.6115401529,
+    "ID": 3987,
+    "Title": "Minimum Total Cost to Process All Elements",
+    "TitleZH": "\u5904\u7406\u6240\u6709\u5143\u7d20\u7684\u6210\u672c",
+    "TitleSlug": "minimum-total-cost-to-process-all-elements",
+    "ContestSlug": "weekly-contest-510",
+    "ProblemIndex": "Q2",
+    "ContestID_en": "Weekly Contest 510",
+    "ContestID_zh": "\u7b2c 510 \u573a\u5468\u8d5b",
+    "Topics": []
+  },
+  {
+    "Rating": 1548.8661885602,
+    "ID": 3932,
+    "Title": "Count K-th Roots in a Range",
+    "TitleZH": "\u7edf\u8ba1\u533a\u95f4\u5185\u7684\u5b8c\u5168 K \u6b21\u5e42\u6570\u91cf",
+    "TitleSlug": "count-k-th-roots-in-a-range",
+    "ContestSlug": "weekly-contest-502",
+    "ProblemIndex": "Q2",
+    "ContestID_en": "Weekly Contest 502",
+    "ContestID_zh": "\u7b2c 502 \u573a\u5468\u8d5b",
+    "Topics": []
+  },
+  {
     "Rating": 1548.4678056182,
     "ID": 1329,
     "Title": "Sort the Matrix Diagonally",
@@ -23018,6 +24230,18 @@
       "Array",
       "Simulation"
     ]
+  },
+  {
+    "Rating": 1548.0314387523,
+    "ID": 3885,
+    "Title": "Design Event Manager",
+    "TitleZH": "\u8bbe\u8ba1\u4e8b\u4ef6\u7ba1\u7406\u5668",
+    "TitleSlug": "design-event-manager",
+    "ContestSlug": "weekly-contest-495",
+    "ProblemIndex": "Q2",
+    "ContestID_en": "Weekly Contest 495",
+    "ContestID_zh": "\u7b2c 495 \u573a\u5468\u8d5b",
+    "Topics": []
   },
   {
     "Rating": 1547.5714796512,
@@ -23475,6 +24699,18 @@
     ]
   },
   {
+    "Rating": 1534.419464685,
+    "ID": 3890,
+    "Title": "Integers With Multiple Sum of Two Cubes",
+    "TitleZH": "\u53ef\u7531\u591a\u79cd\u7acb\u65b9\u548c\u6784\u9020\u7684\u6574\u6570",
+    "TitleSlug": "integers-with-multiple-sum-of-two-cubes",
+    "ContestSlug": "weekly-contest-496",
+    "ProblemIndex": "Q2",
+    "ContestID_en": "Weekly Contest 496",
+    "ContestID_zh": "\u7b2c 496 \u573a\u5468\u8d5b",
+    "Topics": []
+  },
+  {
     "Rating": 1534.325005151,
     "ID": 865,
     "Title": "Smallest Subtree with all the Deepest Nodes",
@@ -23574,6 +24810,18 @@
     ]
   },
   {
+    "Rating": 1533.1878282832,
+    "ID": 3975,
+    "Title": "Filter Occupied Intervals",
+    "TitleZH": "\u7b5b\u9009\u5fd9\u788c\u533a\u95f4",
+    "TitleSlug": "filter-occupied-intervals",
+    "ContestSlug": "weekly-contest-508",
+    "ProblemIndex": "Q2",
+    "ContestID_en": "Weekly Contest 508",
+    "ContestID_zh": "\u7b2c 508 \u573a\u5468\u8d5b",
+    "Topics": []
+  },
+  {
     "Rating": 1532.3349133769,
     "ID": 2429,
     "Title": "Minimize XOR",
@@ -23604,6 +24852,18 @@
       "Counting",
       "Iterator"
     ]
+  },
+  {
+    "Rating": 1531.0213602106,
+    "ID": 3824,
+    "Title": "Minimum K to Reduce Array Within Limit",
+    "TitleZH": "\u51cf\u5c0f\u6570\u7ec4\u4f7f\u5176\u6ee1\u8db3\u6761\u4ef6\u7684\u6700\u5c0f K \u503c",
+    "TitleSlug": "minimum-k-to-reduce-array-within-limit",
+    "ContestSlug": "biweekly-contest-175",
+    "ProblemIndex": "Q2",
+    "ContestID_en": "Biweekly Contest 175",
+    "ContestID_zh": "\u7b2c 175 \u573a\u53cc\u5468\u8d5b",
+    "Topics": []
   },
   {
     "Rating": 1530.6451141787,
@@ -23669,6 +24929,18 @@
       "Hash Table",
       "Counting"
     ]
+  },
+  {
+    "Rating": 1529.9171164552,
+    "ID": 3951,
+    "Title": "Minimum Energy to Maintain Brightness",
+    "TitleZH": "\u7ef4\u6301\u4eae\u5ea6\u7684\u6700\u5c0f\u603b\u80fd\u91cf",
+    "TitleSlug": "minimum-energy-to-maintain-brightness",
+    "ContestSlug": "biweekly-contest-184",
+    "ProblemIndex": "Q2",
+    "ContestID_en": "Biweekly Contest 184",
+    "ContestID_zh": "\u7b2c 184 \u573a\u53cc\u5468\u8d5b",
+    "Topics": []
   },
   {
     "Rating": 1529.7617243868,
@@ -23780,6 +25052,18 @@
     "Topics": [
       "Array"
     ]
+  },
+  {
+    "Rating": 1524.6509354074,
+    "ID": 3913,
+    "Title": "Sort Vowels by Frequency",
+    "TitleZH": "\u6309\u9891\u7387\u5bf9\u5143\u97f3\u6392\u5e8f",
+    "TitleSlug": "sort-vowels-by-frequency",
+    "ContestSlug": "weekly-contest-499",
+    "ProblemIndex": "Q2",
+    "ContestID_en": "Weekly Contest 499",
+    "ContestID_zh": "\u7b2c 499 \u573a\u5468\u8d5b",
+    "Topics": []
   },
   {
     "Rating": 1524.5856276651,
@@ -24438,6 +25722,18 @@
     ]
   },
   {
+    "Rating": 1504.5241924054,
+    "ID": 3795,
+    "Title": "Minimum Subarray Length With Distinct Sum At Least K",
+    "TitleZH": "\u4e0d\u540c\u5143\u7d20\u548c\u81f3\u5c11\u4e3a K \u7684\u6700\u77ed\u5b50\u6570\u7ec4\u957f\u5ea6",
+    "TitleSlug": "minimum-subarray-length-with-distinct-sum-at-least-k",
+    "ContestSlug": "biweekly-contest-173",
+    "ProblemIndex": "Q2",
+    "ContestID_en": "Biweekly Contest 173",
+    "ContestID_zh": "\u7b2c 173 \u573a\u53cc\u5468\u8d5b",
+    "Topics": []
+  },
+  {
     "Rating": 1504.2133321504,
     "ID": 2104,
     "Title": "Sum of Subarray Ranges",
@@ -24840,6 +26136,18 @@
       "String",
       "Prefix Sum"
     ]
+  },
+  {
+    "Rating": 1492.2307525794,
+    "ID": 3810,
+    "Title": "Minimum Operations to Reach Target Array",
+    "TitleZH": "\u53d8\u6210\u76ee\u6807\u6570\u7ec4\u7684\u6700\u5c11\u64cd\u4f5c\u6b21\u6570",
+    "TitleSlug": "minimum-operations-to-reach-target-array",
+    "ContestSlug": "biweekly-contest-174",
+    "ProblemIndex": "Q2",
+    "ContestID_en": "Biweekly Contest 174",
+    "ContestID_zh": "\u7b2c 174 \u573a\u53cc\u5468\u8d5b",
+    "Topics": []
   },
   {
     "Rating": 1491.4638194905,
@@ -25517,6 +26825,18 @@
     ]
   },
   {
+    "Rating": 1471.9513024584,
+    "ID": 3853,
+    "Title": "Merge Close Characters",
+    "TitleZH": "\u5408\u5e76\u9760\u8fd1\u5b57\u7b26",
+    "TitleSlug": "merge-close-characters",
+    "ContestSlug": "biweekly-contest-177",
+    "ProblemIndex": "Q2",
+    "ContestID_en": "Biweekly Contest 177",
+    "ContestID_zh": "\u7b2c 177 \u573a\u53cc\u5468\u8d5b",
+    "Topics": []
+  },
+  {
     "Rating": 1471.8964024887,
     "ID": 2047,
     "Title": "Number of Valid Words in a Sentence",
@@ -26040,6 +27360,18 @@
     ]
   },
   {
+    "Rating": 1452.2020731911,
+    "ID": 3993,
+    "Title": "Maximum Value of an Alternating Sequence",
+    "TitleZH": "\u4ea4\u66ff\u6570\u5217\u7684\u6700\u5927\u5143\u7d20",
+    "TitleSlug": "maximum-value-of-an-alternating-sequence",
+    "ContestSlug": "biweekly-contest-187",
+    "ProblemIndex": "Q2",
+    "ContestID_en": "Biweekly Contest 187",
+    "ContestID_zh": "\u7b2c 187 \u573a\u53cc\u5468\u8d5b",
+    "Topics": []
+  },
+  {
     "Rating": 1451.8103068349,
     "ID": 3227,
     "Title": "Vowels Game in a String",
@@ -26365,6 +27697,18 @@
     ]
   },
   {
+    "Rating": 1443.8082904044,
+    "ID": 3876,
+    "Title": "Construct Uniform Parity Array II",
+    "TitleZH": "\u6784\u9020\u5947\u5076\u4e00\u81f4\u7684\u6570\u7ec4 II",
+    "TitleSlug": "construct-uniform-parity-array-ii",
+    "ContestSlug": "weekly-contest-494",
+    "ProblemIndex": "Q2",
+    "ContestID_en": "Weekly Contest 494",
+    "ContestID_zh": "\u7b2c 494 \u573a\u5468\u8d5b",
+    "Topics": []
+  },
+  {
     "Rating": 1443.2353621969,
     "ID": 1560,
     "Title": "Most Visited Sector in  a Circular Track",
@@ -26631,6 +27975,18 @@
     ]
   },
   {
+    "Rating": 1435.3002996631,
+    "ID": 3896,
+    "Title": "Minimum Operations to Transform Array into Alternating Prime",
+    "TitleZH": "\u5c06\u6570\u7ec4\u8f6c\u6362\u4e3a\u4ea4\u66ff\u8d28\u6570\u6570\u7ec4\u7684\u6700\u5c11\u64cd\u4f5c\u6b21\u6570",
+    "TitleSlug": "minimum-operations-to-transform-array-into-alternating-prime",
+    "ContestSlug": "biweekly-contest-180",
+    "ProblemIndex": "Q3",
+    "ContestID_en": "Biweekly Contest 180",
+    "ContestID_zh": "\u7b2c 180 \u573a\u53cc\u5468\u8d5b",
+    "Topics": []
+  },
+  {
     "Rating": 1435.0179887342,
     "ID": 2559,
     "Title": "Count Vowel Strings in Ranges",
@@ -26854,6 +28210,18 @@
     ]
   },
   {
+    "Rating": 1429.0223792705,
+    "ID": 3955,
+    "Title": "Valid Binary Strings With Cost Limit",
+    "TitleZH": "\u6210\u672c\u9650\u5236\u7684\u6709\u6548\u4e8c\u8fdb\u5236\u5b57\u7b26\u4e32",
+    "TitleSlug": "valid-binary-strings-with-cost-limit",
+    "ContestSlug": "weekly-contest-505",
+    "ProblemIndex": "Q2",
+    "ContestID_en": "Weekly Contest 505",
+    "ContestID_zh": "\u7b2c 505 \u573a\u5468\u8d5b",
+    "Topics": []
+  },
+  {
     "Rating": 1428.7246677159,
     "ID": 2711,
     "Title": "Difference of Number of Distinct Values on Diagonals",
@@ -26899,6 +28267,18 @@
       "Design",
       "Heap (Priority Queue)"
     ]
+  },
+  {
+    "Rating": 1428.6483320166,
+    "ID": 3834,
+    "Title": "Merge Adjacent Equal Elements",
+    "TitleZH": "\u5408\u5e76\u76f8\u90bb\u4e14\u76f8\u7b49\u7684\u5143\u7d20",
+    "TitleSlug": "merge-adjacent-equal-elements",
+    "ContestSlug": "weekly-contest-488",
+    "ProblemIndex": "Q2",
+    "ContestID_en": "Weekly Contest 488",
+    "ContestID_zh": "\u7b2c 488 \u573a\u5468\u8d5b",
+    "Topics": []
   },
   {
     "Rating": 1428.1443796872,
@@ -26990,6 +28370,18 @@
       "String",
       "Stack"
     ]
+  },
+  {
+    "Rating": 1426.5661260433,
+    "ID": 3997,
+    "Title": "Count Dominant Nodes in a Binary Tree",
+    "TitleZH": "\u7edf\u8ba1\u4e8c\u53c9\u6811\u4e2d\u652f\u914d\u8282\u70b9\u7684\u6570\u91cf",
+    "TitleSlug": "count-dominant-nodes-in-a-binary-tree",
+    "ContestSlug": "weekly-contest-511",
+    "ProblemIndex": "Q2",
+    "ContestID_en": "Weekly Contest 511",
+    "ContestID_zh": "\u7b2c 511 \u573a\u5468\u8d5b",
+    "Topics": []
   },
   {
     "Rating": 1425.9672522649,
@@ -27219,6 +28611,18 @@
       "Array",
       "Sliding Window"
     ]
+  },
+  {
+    "Rating": 1420.0008738262,
+    "ID": 3848,
+    "Title": "Check Digitorial Permutation",
+    "TitleZH": "\u9636\u6570\u6570\u5b57\u6392\u5217",
+    "TitleSlug": "check-digitorial-permutation",
+    "ContestSlug": "weekly-contest-490",
+    "ProblemIndex": "Q2",
+    "ContestID_en": "Weekly Contest 490",
+    "ContestID_zh": "\u7b2c 490 \u573a\u5468\u8d5b",
+    "Topics": []
   },
   {
     "Rating": 1419.6326908404,
@@ -27572,6 +28976,18 @@
     ]
   },
   {
+    "Rating": 1408.9521530586,
+    "ID": 3909,
+    "Title": "Compare Sums of Bitonic Parts",
+    "TitleZH": "\u6bd4\u8f83\u53cc\u8c03\u90e8\u5206\u7684\u548c",
+    "TitleSlug": "compare-sums-of-bitonic-parts",
+    "ContestSlug": "biweekly-contest-181",
+    "ProblemIndex": "Q2",
+    "ContestID_en": "Biweekly Contest 181",
+    "ContestID_zh": "\u7b2c 181 \u573a\u53cc\u5468\u8d5b",
+    "Topics": []
+  },
+  {
     "Rating": 1408.7923640745,
     "ID": 1588,
     "Title": "Sum of All Odd Length Subarrays",
@@ -27654,6 +29070,18 @@
     ]
   },
   {
+    "Rating": 1407.1018903705,
+    "ID": 3899,
+    "Title": "Angles of a Triangle",
+    "TitleZH": "\u4e09\u89d2\u5f62\u7684\u5185\u89d2\u5ea6\u6570",
+    "TitleSlug": "angles-of-a-triangle",
+    "ContestSlug": "weekly-contest-497",
+    "ProblemIndex": "Q2",
+    "ContestID_en": "Weekly Contest 497",
+    "ContestID_zh": "\u7b2c 497 \u573a\u5468\u8d5b",
+    "Topics": []
+  },
+  {
     "Rating": 1407.0629410799,
     "ID": 1886,
     "Title": "Determine Whether Matrix Can Be Obtained By Rotation",
@@ -27667,6 +29095,18 @@
       "Array",
       "Matrix"
     ]
+  },
+  {
+    "Rating": 1406.6278665696,
+    "ID": 3867,
+    "Title": "Sum of GCD of Formed Pairs",
+    "TitleZH": "\u6570\u5bf9\u7684\u6700\u5927\u516c\u7ea6\u6570\u4e4b\u548c",
+    "TitleSlug": "sum-of-gcd-of-formed-pairs",
+    "ContestSlug": "biweekly-contest-178",
+    "ProblemIndex": "Q2",
+    "ContestID_en": "Biweekly Contest 178",
+    "ContestID_zh": "\u7b2c 178 \u573a\u53cc\u5468\u8d5b",
+    "Topics": []
   },
   {
     "Rating": 1406.1279714442,
@@ -27884,6 +29324,18 @@
     ]
   },
   {
+    "Rating": 1401.7975403221,
+    "ID": 3839,
+    "Title": "Number of Prefix Connected Groups",
+    "TitleZH": "\u524d\u7f00\u8fde\u63a5\u7ec4\u7684\u6570\u76ee",
+    "TitleSlug": "number-of-prefix-connected-groups",
+    "ContestSlug": "biweekly-contest-176",
+    "ProblemIndex": "Q2",
+    "ContestID_en": "Biweekly Contest 176",
+    "ContestID_zh": "\u7b2c 176 \u573a\u53cc\u5468\u8d5b",
+    "Topics": []
+  },
+  {
     "Rating": 1401.2732392084,
     "ID": 3111,
     "Title": "Minimum Rectangles to Cover Points",
@@ -28041,6 +29493,18 @@
       "Stack",
       "Simulation"
     ]
+  },
+  {
+    "Rating": 1397.1200270171,
+    "ID": 3969,
+    "Title": "Valid Subarrays With Matching Sum Digits I",
+    "TitleZH": "\u6c42\u548c\u540e\u9996\u5c3e\u6570\u5b57\u76f8\u540c\u7684\u6709\u6548\u5b50\u6570\u7ec4 I",
+    "TitleSlug": "valid-subarrays-with-matching-sum-digits-i",
+    "ContestSlug": "weekly-contest-507",
+    "ProblemIndex": "Q2",
+    "ContestID_en": "Weekly Contest 507",
+    "ContestID_zh": "\u7b2c 507 \u573a\u5468\u8d5b",
+    "Topics": []
   },
   {
     "Rating": 1396.8422030812,
@@ -28227,6 +29691,18 @@
       "Combinatorics",
       "Enumeration"
     ]
+  },
+  {
+    "Rating": 1393.2533223078,
+    "ID": 3804,
+    "Title": "Number of Centered Subarrays",
+    "TitleZH": "\u4e2d\u5fc3\u5b50\u6570\u7ec4\u7684\u6570\u91cf",
+    "TitleSlug": "number-of-centered-subarrays",
+    "ContestSlug": "weekly-contest-484",
+    "ProblemIndex": "Q2",
+    "ContestID_en": "Weekly Contest 484",
+    "ContestID_zh": "\u7b2c 484 \u573a\u5468\u8d5b",
+    "Topics": []
   },
   {
     "Rating": 1392.6601629182,
@@ -28704,6 +30180,18 @@
     ]
   },
   {
+    "Rating": 1381.4199385224,
+    "ID": 3819,
+    "Title": "Rotate Non Negative Elements",
+    "TitleZH": "\u975e\u8d1f\u5143\u7d20\u8f6e\u66ff",
+    "TitleSlug": "rotate-non-negative-elements",
+    "ContestSlug": "weekly-contest-486",
+    "ProblemIndex": "Q2",
+    "ContestID_en": "Weekly Contest 486",
+    "ContestID_zh": "\u7b2c 486 \u573a\u5468\u8d5b",
+    "Topics": []
+  },
+  {
     "Rating": 1381.2168789318,
     "ID": 1881,
     "Title": "Maximum Value after Insertion",
@@ -28748,6 +30236,18 @@
     "Topics": [
       "Array"
     ]
+  },
+  {
+    "Rating": 1380.5094817853,
+    "ID": 3871,
+    "Title": "Count Commas in Range II",
+    "TitleZH": "\u7edf\u8ba1\u8303\u56f4\u5185\u7684\u9017\u53f7 II",
+    "TitleSlug": "count-commas-in-range-ii",
+    "ContestSlug": "weekly-contest-493",
+    "ProblemIndex": "Q2",
+    "ContestID_en": "Weekly Contest 493",
+    "ContestID_zh": "\u7b2c 493 \u573a\u5468\u8d5b",
+    "Topics": []
   },
   {
     "Rating": 1380.1541980647,
@@ -29420,6 +30920,18 @@
     ]
   },
   {
+    "Rating": 1365.0489201345,
+    "ID": 3798,
+    "Title": "Largest Even Number",
+    "TitleZH": "\u6700\u5927\u7684\u5076\u6570",
+    "TitleSlug": "largest-even-number",
+    "ContestSlug": "weekly-contest-483",
+    "ProblemIndex": "Q1",
+    "ContestID_en": "Weekly Contest 483",
+    "ContestID_zh": "\u7b2c 483 \u573a\u5468\u8d5b",
+    "Topics": []
+  },
+  {
     "Rating": 1364.6787168645,
     "ID": 2260,
     "Title": "Minimum Consecutive Cards to Pick Up",
@@ -29637,6 +31149,18 @@
       "String",
       "Sliding Window"
     ]
+  },
+  {
+    "Rating": 1358.8885414219,
+    "ID": 3809,
+    "Title": "Best Reachable Tower",
+    "TitleZH": "\u6700\u597d\u53ef\u5230\u8fbe\u7684\u5854",
+    "TitleSlug": "best-reachable-tower",
+    "ContestSlug": "biweekly-contest-174",
+    "ProblemIndex": "Q1",
+    "ContestID_en": "Biweekly Contest 174",
+    "ContestID_zh": "\u7b2c 174 \u573a\u53cc\u5468\u8d5b",
+    "Topics": []
   },
   {
     "Rating": 1358.3561730566,
@@ -29903,6 +31427,18 @@
     ]
   },
   {
+    "Rating": 1351.729829883,
+    "ID": 3904,
+    "Title": "Smallest Stable Index II",
+    "TitleZH": "\u6700\u5c0f\u7a33\u5b9a\u4e0b\u6807 II",
+    "TitleSlug": "smallest-stable-index-ii",
+    "ContestSlug": "weekly-contest-498",
+    "ProblemIndex": "Q2",
+    "ContestID_en": "Weekly Contest 498",
+    "ContestID_zh": "\u7b2c 498 \u573a\u5468\u8d5b",
+    "Topics": []
+  },
+  {
     "Rating": 1351.6909336495,
     "ID": 2895,
     "Title": "Minimum Processing Time",
@@ -30095,6 +31631,18 @@
     ]
   },
   {
+    "Rating": 1347.2281380782,
+    "ID": 3843,
+    "Title": "First Element with Unique Frequency",
+    "TitleZH": "\u9891\u7387\u552f\u4e00\u7684\u7b2c\u4e00\u4e2a\u5143\u7d20",
+    "TitleSlug": "first-element-with-unique-frequency",
+    "ContestSlug": "weekly-contest-489",
+    "ProblemIndex": "Q2",
+    "ContestID_en": "Weekly Contest 489",
+    "ContestID_zh": "\u7b2c 489 \u573a\u5468\u8d5b",
+    "Topics": []
+  },
+  {
     "Rating": 1347.2146542772,
     "ID": 2829,
     "Title": "Determine the Minimum Sum of a k-avoiding Array",
@@ -30140,6 +31688,18 @@
       "String",
       "Greedy"
     ]
+  },
+  {
+    "Rating": 1346.14277742,
+    "ID": 3936,
+    "Title": "Minimum Swaps to Move Zeros to End",
+    "TitleZH": "\u5c06 0 \u79fb\u5230\u672b\u5c3e\u7684\u6700\u5c11\u4ea4\u6362\u6b21\u6570",
+    "TitleSlug": "minimum-swaps-to-move-zeros-to-end",
+    "ContestSlug": "biweekly-contest-183",
+    "ProblemIndex": "Q1",
+    "ContestID_en": "Biweekly Contest 183",
+    "ContestID_zh": "\u7b2c 183 \u573a\u53cc\u5468\u8d5b",
+    "Topics": []
   },
   {
     "Rating": 1345.737168609,
@@ -30802,6 +32362,18 @@
     ]
   },
   {
+    "Rating": 1328.0453094794,
+    "ID": 3979,
+    "Title": "Maximum Valid Pair Sum",
+    "TitleZH": "\u6700\u5927\u6709\u6548\u6570\u5bf9\u548c",
+    "TitleSlug": "maximum-valid-pair-sum",
+    "ContestSlug": "biweekly-contest-186",
+    "ProblemIndex": "Q2",
+    "ContestID_en": "Biweekly Contest 186",
+    "ContestID_zh": "\u7b2c 186 \u573a\u53cc\u5468\u8d5b",
+    "Topics": []
+  },
+  {
     "Rating": 1327.0282989915,
     "ID": 1086,
     "Title": "High Five",
@@ -31083,6 +32655,18 @@
     ]
   },
   {
+    "Rating": 1322.3675896606,
+    "ID": 3857,
+    "Title": "Minimum Cost to Split into Ones",
+    "TitleZH": "\u62c6\u5206\u5230 1 \u7684\u6700\u5c0f\u603b\u4ee3\u4ef7",
+    "TitleSlug": "minimum-cost-to-split-into-ones",
+    "ContestSlug": "weekly-contest-491",
+    "ProblemIndex": "Q2",
+    "ContestID_en": "Weekly Contest 491",
+    "ContestID_zh": "\u7b2c 491 \u573a\u5468\u8d5b",
+    "Topics": []
+  },
+  {
     "Rating": 1321.9346201204,
     "ID": 1694,
     "Title": "Reformat Phone Number",
@@ -31143,6 +32727,18 @@
       "Sorting",
       "Heap (Priority Queue)"
     ]
+  },
+  {
+    "Rating": 1319.3161840109,
+    "ID": 3908,
+    "Title": "Valid Digit Number",
+    "TitleZH": "\u6709\u6548\u6570\u5b57\u6574\u6570",
+    "TitleSlug": "valid-digit-number",
+    "ContestSlug": "biweekly-contest-181",
+    "ProblemIndex": "Q1",
+    "ContestID_en": "Biweekly Contest 181",
+    "ContestID_zh": "\u7b2c 181 \u573a\u53cc\u5468\u8d5b",
+    "Topics": []
   },
   {
     "Rating": 1317.9521104466,
@@ -31380,6 +32976,18 @@
     ]
   },
   {
+    "Rating": 1312.2328052186,
+    "ID": 3889,
+    "Title": "Mirror Frequency Distance",
+    "TitleZH": "\u955c\u50cf\u9891\u6b21\u8ddd\u79bb",
+    "TitleSlug": "mirror-frequency-distance",
+    "ContestSlug": "weekly-contest-496",
+    "ProblemIndex": "Q1",
+    "ContestID_en": "Weekly Contest 496",
+    "ContestID_zh": "\u7b2c 496 \u573a\u5468\u8d5b",
+    "Topics": []
+  },
+  {
     "Rating": 1311.979717243,
     "ID": 3191,
     "Title": "Minimum Operations to Make Binary Array Elements Equal to One I",
@@ -31439,6 +33047,18 @@
     "Topics": [
       "Linked List"
     ]
+  },
+  {
+    "Rating": 1310.8113888611,
+    "ID": 3963,
+    "Title": "Create Grid With Exactly One Path",
+    "TitleZH": "\u6784\u9020\u6070\u597d\u4e00\u6761\u8def\u5f84\u7684\u7f51\u683c",
+    "TitleSlug": "create-grid-with-exactly-one-path",
+    "ContestSlug": "biweekly-contest-185",
+    "ProblemIndex": "Q1",
+    "ContestID_en": "Biweekly Contest 185",
+    "ContestID_zh": "\u7b2c 185 \u573a\u53cc\u5468\u8d5b",
+    "Topics": []
   },
   {
     "Rating": 1309.8100518373,
@@ -31942,6 +33562,18 @@
       "Greedy",
       "Sorting"
     ]
+  },
+  {
+    "Rating": 1301.1804118587,
+    "ID": 3918,
+    "Title": "Sum of Primes Between Number and Its Reverse",
+    "TitleZH": "\u533a\u95f4\u5185\u7684\u8d28\u6570\u548c",
+    "TitleSlug": "sum-of-primes-between-number-and-its-reverse",
+    "ContestSlug": "weekly-contest-500",
+    "ProblemIndex": "Q2",
+    "ContestID_en": "Weekly Contest 500",
+    "ContestID_zh": "\u7b2c 500 \u573a\u5468\u8d5b",
+    "Topics": []
   },
   {
     "Rating": 1301.1576743638,
@@ -32590,6 +34222,18 @@
     ]
   },
   {
+    "Rating": 1287.4101648258,
+    "ID": 3852,
+    "Title": "Smallest Pair With Different Frequencies",
+    "TitleZH": "\u4e0d\u540c\u9891\u7387\u7684\u6700\u5c0f\u6570\u5bf9",
+    "TitleSlug": "smallest-pair-with-different-frequencies",
+    "ContestSlug": "biweekly-contest-177",
+    "ProblemIndex": "Q1",
+    "ContestID_en": "Biweekly Contest 177",
+    "ContestID_zh": "\u7b2c 177 \u573a\u53cc\u5468\u8d5b",
+    "Topics": []
+  },
+  {
     "Rating": 1287.1053917452,
     "ID": 1103,
     "Title": "Distribute Candies to People",
@@ -32760,6 +34404,18 @@
       "Sorting",
       "Counting"
     ]
+  },
+  {
+    "Rating": 1284.339107181,
+    "ID": 3941,
+    "Title": "Password Strength",
+    "TitleZH": "\u5bc6\u7801\u5f3a\u5ea6",
+    "TitleSlug": "password-strength",
+    "ContestSlug": "weekly-contest-503",
+    "ProblemIndex": "Q2",
+    "ContestID_en": "Weekly Contest 503",
+    "ContestID_zh": "\u7b2c 503 \u573a\u5468\u8d5b",
+    "Topics": []
   },
   {
     "Rating": 1283.6412252736,
@@ -33009,6 +34665,18 @@
     ]
   },
   {
+    "Rating": 1278.709532321,
+    "ID": 3968,
+    "Title": "Maximum Manhattan Distance After All Moves",
+    "TitleZH": "\u79fb\u52a8\u540e\u7684\u6700\u5927\u66fc\u54c8\u987f\u8ddd\u79bb",
+    "TitleSlug": "maximum-manhattan-distance-after-all-moves",
+    "ContestSlug": "weekly-contest-507",
+    "ProblemIndex": "Q1",
+    "ContestID_en": "Weekly Contest 507",
+    "ContestID_zh": "\u7b2c 507 \u573a\u5468\u8d5b",
+    "Topics": []
+  },
+  {
     "Rating": 1278.0092842613,
     "ID": 2582,
     "Title": "Pass the Pillow",
@@ -33128,6 +34796,18 @@
       "Greedy",
       "Sorting"
     ]
+  },
+  {
+    "Rating": 1273.3478695172,
+    "ID": 3912,
+    "Title": "Valid Elements in an Array",
+    "TitleZH": "\u6570\u7ec4\u4e2d\u7684\u6709\u6548\u5143\u7d20",
+    "TitleSlug": "valid-elements-in-an-array",
+    "ContestSlug": "weekly-contest-499",
+    "ProblemIndex": "Q1",
+    "ContestID_en": "Weekly Contest 499",
+    "ContestID_zh": "\u7b2c 499 \u573a\u5468\u8d5b",
+    "Topics": []
   },
   {
     "Rating": 1273.0588534723,
@@ -33253,6 +34933,18 @@
     ]
   },
   {
+    "Rating": 1270.4393027234,
+    "ID": 3950,
+    "Title": "Exactly One Consecutive Set Bits Pair",
+    "TitleZH": "\u6070\u597d\u4e00\u5bf9\u8fde\u7eed\u7f6e\u4f4d",
+    "TitleSlug": "exactly-one-consecutive-set-bits-pair",
+    "ContestSlug": "biweekly-contest-184",
+    "ProblemIndex": "Q1",
+    "ContestID_en": "Biweekly Contest 184",
+    "ContestID_zh": "\u7b2c 184 \u573a\u53cc\u5468\u8d5b",
+    "Topics": []
+  },
+  {
     "Rating": 1270.0775640451,
     "ID": 2873,
     "Title": "Maximum Value of an Ordered Triplet I",
@@ -33312,6 +35004,18 @@
       "Hash Table",
       "Bit Manipulation"
     ]
+  },
+  {
+    "Rating": 1269.6604781768,
+    "ID": 3895,
+    "Title": "Count Digit Appearances",
+    "TitleZH": "\u7edf\u8ba1\u6570\u5b57\u51fa\u73b0\u603b\u6b21\u6570",
+    "TitleSlug": "count-digit-appearances",
+    "ContestSlug": "biweekly-contest-180",
+    "ProblemIndex": "Q2",
+    "ContestID_en": "Biweekly Contest 180",
+    "ContestID_zh": "\u7b2c 180 \u573a\u53cc\u5468\u8d5b",
+    "Topics": []
   },
   {
     "Rating": 1268.5768566953,
@@ -33589,6 +35293,30 @@
     ]
   },
   {
+    "Rating": 1262.8839092977,
+    "ID": 3974,
+    "Title": "Maximum Total Sum of K Selected Elements",
+    "TitleZH": "K \u4e2a\u5143\u7d20\u7684\u6700\u5927\u603b\u548c",
+    "TitleSlug": "maximum-total-sum-of-k-selected-elements",
+    "ContestSlug": "weekly-contest-508",
+    "ProblemIndex": "Q1",
+    "ContestID_en": "Weekly Contest 508",
+    "ContestID_zh": "\u7b2c 508 \u573a\u5468\u8d5b",
+    "Topics": []
+  },
+  {
+    "Rating": 1262.6558200509,
+    "ID": 3921,
+    "Title": "Score Validator",
+    "TitleZH": "\u5206\u6570\u9a8c\u8bc1\u5668",
+    "TitleSlug": "score-validator",
+    "ContestSlug": "biweekly-contest-182",
+    "ProblemIndex": "Q1",
+    "ContestID_en": "Biweekly Contest 182",
+    "ContestID_zh": "\u7b2c 182 \u573a\u53cc\u5468\u8d5b",
+    "Topics": []
+  },
+  {
     "Rating": 1262.5890311992,
     "ID": 1089,
     "Title": "Duplicate Zeros",
@@ -33695,6 +35423,18 @@
     "Topics": [
       "Math"
     ]
+  },
+  {
+    "Rating": 1260.2059872115,
+    "ID": 3996,
+    "Title": "Even Number of Knight Moves",
+    "TitleZH": "\u5076\u6570\u6b21\u9a91\u58eb\u79fb\u52a8",
+    "TitleSlug": "even-number-of-knight-moves",
+    "ContestSlug": "weekly-contest-511",
+    "ProblemIndex": "Q1",
+    "ContestID_en": "Weekly Contest 511",
+    "ContestID_zh": "\u7b2c 511 \u573a\u5468\u8d5b",
+    "Topics": []
   },
   {
     "Rating": 1260.1755576607,
@@ -33897,6 +35637,18 @@
     "Topics": [
       "String"
     ]
+  },
+  {
+    "Rating": 1257.4825201873,
+    "ID": 3880,
+    "Title": "Minimum Absolute Difference Between Two Values",
+    "TitleZH": "\u4e24\u4e2a\u503c\u4e4b\u95f4\u7684\u6700\u5c0f\u7edd\u5bf9\u5dee\u503c",
+    "TitleSlug": "minimum-absolute-difference-between-two-values",
+    "ContestSlug": "biweekly-contest-179",
+    "ProblemIndex": "Q1",
+    "ContestID_en": "Biweekly Contest 179",
+    "ContestID_zh": "\u7b2c 179 \u573a\u53cc\u5468\u8d5b",
+    "Topics": []
   },
   {
     "Rating": 1257.323514611,
@@ -34245,6 +35997,18 @@
     ]
   },
   {
+    "Rating": 1251.3307194085,
+    "ID": 3992,
+    "Title": "Rearrange String to Avoid Character Pair",
+    "TitleZH": "\u91cd\u65b0\u6392\u5217\u5b57\u7b26\u4e32\u4ee5\u907f\u514d\u5b57\u7b26\u5bf9",
+    "TitleSlug": "rearrange-string-to-avoid-character-pair",
+    "ContestSlug": "biweekly-contest-187",
+    "ProblemIndex": "Q1",
+    "ContestID_en": "Biweekly Contest 187",
+    "ContestID_zh": "\u7b2c 187 \u573a\u53cc\u5468\u8d5b",
+    "Topics": []
+  },
+  {
     "Rating": 1250.8974254752,
     "ID": 2315,
     "Title": "Count Asterisks",
@@ -34272,6 +36036,18 @@
       "Array",
       "Math"
     ]
+  },
+  {
+    "Rating": 1250.1561837398,
+    "ID": 3823,
+    "Title": "Reverse Letters Then Special Characters in a String",
+    "TitleZH": "\u53cd\u8f6c\u4e00\u4e2a\u5b57\u7b26\u4e32\u91cc\u7684\u5b57\u6bcd\u540e\u53cd\u8f6c\u7279\u6b8a\u5b57\u7b26",
+    "TitleSlug": "reverse-letters-then-special-characters-in-a-string",
+    "ContestSlug": "biweekly-contest-175",
+    "ProblemIndex": "Q1",
+    "ContestID_en": "Biweekly Contest 175",
+    "ContestID_zh": "\u7b2c 175 \u573a\u53cc\u5468\u8d5b",
+    "Topics": []
   },
   {
     "Rating": 1250.0975318308,
@@ -34461,6 +36237,18 @@
       "Sliding Window",
       "Counting"
     ]
+  },
+  {
+    "Rating": 1248.1930285148,
+    "ID": 3803,
+    "Title": "Count Residue Prefixes",
+    "TitleZH": "\u7edf\u8ba1\u6b8b\u5dee\u524d\u7f00",
+    "TitleSlug": "count-residue-prefixes",
+    "ContestSlug": "weekly-contest-484",
+    "ProblemIndex": "Q1",
+    "ContestID_en": "Weekly Contest 484",
+    "ContestID_zh": "\u7b2c 484 \u573a\u5468\u8d5b",
+    "Topics": []
   },
   {
     "Rating": 1247.9346797909,
@@ -34864,6 +36652,18 @@
     ]
   },
   {
+    "Rating": 1240.5761017553,
+    "ID": 3838,
+    "Title": "Weighted Word Mapping",
+    "TitleZH": "\u5e26\u6743\u5355\u8bcd\u6620\u5c04",
+    "TitleSlug": "weighted-word-mapping",
+    "ContestSlug": "biweekly-contest-176",
+    "ProblemIndex": "Q1",
+    "ContestID_en": "Biweekly Contest 176",
+    "ContestID_zh": "\u7b2c 176 \u573a\u53cc\u5468\u8d5b",
+    "Topics": []
+  },
+  {
     "Rating": 1239.1621762681,
     "ID": 2788,
     "Title": "Split Strings by Separator",
@@ -35069,6 +36869,18 @@
     ]
   },
   {
+    "Rating": 1234.7518772931,
+    "ID": 3903,
+    "Title": "Smallest Stable Index I",
+    "TitleZH": "\u6700\u5c0f\u7a33\u5b9a\u4e0b\u6807 I",
+    "TitleSlug": "smallest-stable-index-i",
+    "ContestSlug": "weekly-contest-498",
+    "ProblemIndex": "Q1",
+    "ContestID_en": "Weekly Contest 498",
+    "ContestID_zh": "\u7b2c 498 \u573a\u5468\u8d5b",
+    "Topics": []
+  },
+  {
     "Rating": 1234.7084656358,
     "ID": 1009,
     "Title": "Complement of Base 10 Integer",
@@ -35233,6 +37045,18 @@
       "Hash Table",
       "Prefix Sum"
     ]
+  },
+  {
+    "Rating": 1229.6563395275,
+    "ID": 3794,
+    "Title": "Reverse String Prefix",
+    "TitleZH": "\u53cd\u8f6c\u5b57\u7b26\u4e32\u524d\u7f00",
+    "TitleSlug": "reverse-string-prefix",
+    "ContestSlug": "biweekly-contest-173",
+    "ProblemIndex": "Q1",
+    "ContestID_en": "Biweekly Contest 173",
+    "ContestID_zh": "\u7b2c 173 \u573a\u53cc\u5468\u8d5b",
+    "Topics": []
   },
   {
     "Rating": 1229.4850365142,
@@ -35534,6 +37358,18 @@
     ]
   },
   {
+    "Rating": 1223.4978877568,
+    "ID": 3847,
+    "Title": "Find the Score Difference in a Game",
+    "TitleZH": "\u8ba1\u7b97\u6bd4\u8d5b\u5206\u6570\u5dee",
+    "TitleSlug": "find-the-score-difference-in-a-game",
+    "ContestSlug": "weekly-contest-490",
+    "ProblemIndex": "Q1",
+    "ContestID_en": "Weekly Contest 490",
+    "ContestID_zh": "\u7b2c 490 \u573a\u5468\u8d5b",
+    "Topics": []
+  },
+  {
     "Rating": 1223.406570396,
     "ID": 2206,
     "Title": "Divide Array Into Equal Pairs",
@@ -35565,6 +37401,18 @@
       "String",
       "String Matching"
     ]
+  },
+  {
+    "Rating": 1222.9538878773,
+    "ID": 3894,
+    "Title": "Traffic Signal Color",
+    "TitleZH": "\u4ea4\u901a\u4fe1\u53f7\u706f\u7684\u989c\u8272",
+    "TitleSlug": "traffic-signal-color",
+    "ContestSlug": "biweekly-contest-180",
+    "ProblemIndex": "Q1",
+    "ContestID_en": "Biweekly Contest 180",
+    "ContestID_zh": "\u7b2c 180 \u573a\u53cc\u5468\u8d5b",
+    "Topics": []
   },
   {
     "Rating": 1222.2354919459,
@@ -35824,6 +37672,18 @@
     ]
   },
   {
+    "Rating": 1216.4439953203,
+    "ID": 3813,
+    "Title": "Vowel-Consonant Score",
+    "TitleZH": "\u5143\u97f3\u8f85\u97f3\u5f97\u5206",
+    "TitleSlug": "vowel-consonant-score",
+    "ContestSlug": "weekly-contest-485",
+    "ProblemIndex": "Q1",
+    "ContestID_en": "Weekly Contest 485",
+    "ContestID_zh": "\u7b2c 485 \u573a\u5468\u8d5b",
+    "Topics": []
+  },
+  {
     "Rating": 1215.7827321325,
     "ID": 2176,
     "Title": "Count Equal and Divisible Pairs in an Array",
@@ -36032,6 +37892,18 @@
     ]
   },
   {
+    "Rating": 1210.3149469758,
+    "ID": 3954,
+    "Title": "Sum of Compatible Numbers in Range I",
+    "TitleZH": "\u533a\u95f4\u5185\u7684\u517c\u5bb9\u6570\u5b57\u4e4b\u548c I",
+    "TitleSlug": "sum-of-compatible-numbers-in-range-i",
+    "ContestSlug": "weekly-contest-505",
+    "ProblemIndex": "Q1",
+    "ContestID_en": "Weekly Contest 505",
+    "ContestID_zh": "\u7b2c 505 \u573a\u5468\u8d5b",
+    "Topics": []
+  },
+  {
     "Rating": 1209.6571020247,
     "ID": 1822,
     "Title": "Sign of the Product of an Array",
@@ -36045,6 +37917,18 @@
       "Array",
       "Math"
     ]
+  },
+  {
+    "Rating": 1209.4414891571,
+    "ID": 3866,
+    "Title": "First Unique Even Element",
+    "TitleZH": "\u627e\u5230\u7b2c\u4e00\u4e2a\u552f\u4e00\u5076\u6570",
+    "TitleSlug": "first-unique-even-element",
+    "ContestSlug": "biweekly-contest-178",
+    "ProblemIndex": "Q1",
+    "ContestID_en": "Biweekly Contest 178",
+    "ContestID_zh": "\u7b2c 178 \u573a\u53cc\u5468\u8d5b",
+    "Topics": []
   },
   {
     "Rating": 1209.3722198224,
@@ -36195,6 +38079,18 @@
     ]
   },
   {
+    "Rating": 1206.1460383757,
+    "ID": 3818,
+    "Title": "Minimum Prefix Removal to Make Array Strictly Increasing",
+    "TitleZH": "\u79fb\u9664\u524d\u7f00\u4f7f\u6570\u7ec4\u4e25\u683c\u9012\u589e",
+    "TitleSlug": "minimum-prefix-removal-to-make-array-strictly-increasing",
+    "ContestSlug": "weekly-contest-486",
+    "ProblemIndex": "Q1",
+    "ContestID_en": "Weekly Contest 486",
+    "ContestID_zh": "\u7b2c 486 \u573a\u5468\u8d5b",
+    "Topics": []
+  },
+  {
     "Rating": 1206.1240971343,
     "ID": 1784,
     "Title": "Check if Binary String Has at Most One Segment of Ones",
@@ -36269,6 +38165,18 @@
       "Math",
       "String"
     ]
+  },
+  {
+    "Rating": 1205.3197977948,
+    "ID": 3986,
+    "Title": "Number of Elapsed Seconds Between Two Times",
+    "TitleZH": "\u7edf\u8ba1\u8d77\u6b62\u65f6\u95f4\u7ecf\u8fc7\u7684\u79d2\u6570",
+    "TitleSlug": "number-of-elapsed-seconds-between-two-times",
+    "ContestSlug": "weekly-contest-510",
+    "ProblemIndex": "Q1",
+    "ContestID_en": "Weekly Contest 510",
+    "ContestID_zh": "\u7b2c 510 \u573a\u5468\u8d5b",
+    "Topics": []
   },
   {
     "Rating": 1205.202753772,
@@ -36378,6 +38286,30 @@
     ]
   },
   {
+    "Rating": 1202.4960842955,
+    "ID": 3898,
+    "Title": "Find the Degree of Each Vertex",
+    "TitleZH": "\u7edf\u8ba1\u6bcf\u4e2a\u9876\u70b9\u7684\u5ea6",
+    "TitleSlug": "find-the-degree-of-each-vertex",
+    "ContestSlug": "weekly-contest-497",
+    "ProblemIndex": "Q1",
+    "ContestID_en": "Weekly Contest 497",
+    "ContestID_zh": "\u7b2c 497 \u573a\u5468\u8d5b",
+    "Topics": []
+  },
+  {
+    "Rating": 1201.9392007469,
+    "ID": 3940,
+    "Title": "Limit Occurrences in Sorted Array",
+    "TitleZH": "\u9650\u5236\u6709\u5e8f\u6570\u7ec4\u4e2d\u7684\u5143\u7d20\u51fa\u73b0\u6b21\u6570",
+    "TitleSlug": "limit-occurrences-in-sorted-array",
+    "ContestSlug": "weekly-contest-503",
+    "ProblemIndex": "Q1",
+    "ContestID_en": "Weekly Contest 503",
+    "ContestID_zh": "\u7b2c 503 \u573a\u5468\u8d5b",
+    "Topics": []
+  },
+  {
     "Rating": 1201.8730954169,
     "ID": 2148,
     "Title": "Count Elements With Strictly Smaller and Greater Elements ",
@@ -36469,6 +38401,18 @@
     ]
   },
   {
+    "Rating": 1201.2169110885,
+    "ID": 3945,
+    "Title": "Digit Frequency Score",
+    "TitleZH": "\u8ba1\u7b97\u6570\u5b57\u9891\u7387\u5f97\u5206",
+    "TitleSlug": "digit-frequency-score",
+    "ContestSlug": "weekly-contest-504",
+    "ProblemIndex": "Q1",
+    "ContestID_en": "Weekly Contest 504",
+    "ContestID_zh": "\u7b2c 504 \u573a\u5468\u8d5b",
+    "Topics": []
+  },
+  {
     "Rating": 1200.9464053417,
     "ID": 2319,
     "Title": "Check if Matrix Is X-Matrix",
@@ -36496,6 +38440,18 @@
     "Topics": [
       "Array"
     ]
+  },
+  {
+    "Rating": 1200.3250239331,
+    "ID": 3982,
+    "Title": "Sum of Integers with Maximum Digit Range",
+    "TitleZH": "\u6700\u5927\u6570\u5b57\u8303\u56f4\u7684\u6574\u6570\u4e4b\u548c",
+    "TitleSlug": "sum-of-integers-with-maximum-digit-range",
+    "ContestSlug": "weekly-contest-509",
+    "ProblemIndex": "Q1",
+    "ContestID_en": "Weekly Contest 509",
+    "ContestID_zh": "\u7b2c 509 \u573a\u5468\u8d5b",
+    "Topics": []
   },
   {
     "Rating": 1200.1921874908,
@@ -36556,6 +38512,18 @@
       "Math",
       "Prefix Sum"
     ]
+  },
+  {
+    "Rating": 1199.6286181975,
+    "ID": 3875,
+    "Title": "Construct Uniform Parity Array I",
+    "TitleZH": "\u6784\u9020\u5947\u5076\u4e00\u81f4\u7684\u6570\u7ec4 I",
+    "TitleSlug": "construct-uniform-parity-array-i",
+    "ContestSlug": "weekly-contest-494",
+    "ProblemIndex": "Q1",
+    "ContestID_en": "Weekly Contest 494",
+    "ContestID_zh": "\u7b2c 494 \u573a\u5468\u8d5b",
+    "Topics": []
   },
   {
     "Rating": 1199.4477805501,
@@ -36649,6 +38617,18 @@
       "Hash Table",
       "String"
     ]
+  },
+  {
+    "Rating": 1198.8640761901,
+    "ID": 3917,
+    "Title": "Count Indices With Opposite Parity",
+    "TitleZH": "\u7edf\u8ba1\u4e0b\u6807\u7684\u76f8\u53cd\u5947\u5076\u6027\u5f97\u5206",
+    "TitleSlug": "count-indices-with-opposite-parity",
+    "ContestSlug": "weekly-contest-500",
+    "ProblemIndex": "Q1",
+    "ContestID_en": "Weekly Contest 500",
+    "ContestID_zh": "\u7b2c 500 \u573a\u5468\u8d5b",
+    "Topics": []
   },
   {
     "Rating": 1198.8420836551,
@@ -36910,6 +38890,18 @@
     ]
   },
   {
+    "Rating": 1190.8529051552,
+    "ID": 3827,
+    "Title": "Count Monobit Integers",
+    "TitleZH": "\u7edf\u8ba1\u5355\u6bd4\u7279\u6574\u6570",
+    "TitleSlug": "count-monobit-integers",
+    "ContestSlug": "weekly-contest-487",
+    "ProblemIndex": "Q1",
+    "ContestID_en": "Weekly Contest 487",
+    "ContestID_zh": "\u7b2c 487 \u573a\u5468\u8d5b",
+    "Topics": []
+  },
+  {
     "Rating": 1190.6856174464,
     "ID": 3340,
     "Title": "Check Balanced String",
@@ -37124,6 +39116,18 @@
     ]
   },
   {
+    "Rating": 1182.987792522,
+    "ID": 3959,
+    "Title": "Check Good Integer",
+    "TitleZH": "\u5224\u5b9a\u597d\u6574\u6570",
+    "TitleSlug": "check-good-integer",
+    "ContestSlug": "weekly-contest-506",
+    "ProblemIndex": "Q1",
+    "ContestID_en": "Weekly Contest 506",
+    "ContestID_zh": "\u7b2c 506 \u573a\u5468\u8d5b",
+    "Topics": []
+  },
+  {
     "Rating": 1182.6489068544,
     "ID": 1672,
     "Title": "Richest Customer Wealth",
@@ -37242,6 +39246,18 @@
       "Array",
       "Matrix"
     ]
+  },
+  {
+    "Rating": 1180.4376959708,
+    "ID": 3978,
+    "Title": "Unique Middle Element",
+    "TitleZH": "\u552f\u4e00\u4e2d\u95f4\u5143\u7d20",
+    "TitleSlug": "unique-middle-element",
+    "ContestSlug": "biweekly-contest-186",
+    "ProblemIndex": "Q1",
+    "ContestID_en": "Biweekly Contest 186",
+    "ContestID_zh": "\u7b2c 186 \u573a\u53cc\u5468\u8d5b",
+    "Topics": []
   },
   {
     "Rating": 1180.3543157775,
@@ -37366,6 +39382,18 @@
     "Topics": [
       "Array"
     ]
+  },
+  {
+    "Rating": 1176.2218745016,
+    "ID": 3925,
+    "Title": "Concatenate Array With Reverse",
+    "TitleZH": "\u8fde\u63a5\u9006\u5e8f\u6570\u7ec4",
+    "TitleSlug": "concatenate-array-with-reverse",
+    "ContestSlug": "weekly-contest-501",
+    "ProblemIndex": "Q1",
+    "ContestID_en": "Weekly Contest 501",
+    "ContestID_zh": "\u7b2c 501 \u573a\u5468\u8d5b",
+    "Topics": []
   },
   {
     "Rating": 1175.637563525,
@@ -37534,6 +39562,18 @@
       "String",
       "Simulation"
     ]
+  },
+  {
+    "Rating": 1171.7374328673,
+    "ID": 3833,
+    "Title": "Count Dominant Indices",
+    "TitleZH": "\u7edf\u8ba1\u4e3b\u5bfc\u5143\u7d20\u4e0b\u6807\u6570",
+    "TitleSlug": "count-dominant-indices",
+    "ContestSlug": "weekly-contest-488",
+    "ProblemIndex": "Q1",
+    "ContestID_en": "Weekly Contest 488",
+    "ContestID_zh": "\u7b2c 488 \u573a\u5468\u8d5b",
+    "Topics": []
   },
   {
     "Rating": 1170.7936743933,
@@ -37733,6 +39773,18 @@
     ]
   },
   {
+    "Rating": 1165.8762341513,
+    "ID": 3931,
+    "Title": "Check Adjacent Digit Differences",
+    "TitleZH": "\u68c0\u67e5\u76f8\u90bb\u6570\u5b57\u5dee",
+    "TitleSlug": "check-adjacent-digit-differences",
+    "ContestSlug": "weekly-contest-502",
+    "ProblemIndex": "Q1",
+    "ContestID_en": "Weekly Contest 502",
+    "ContestID_zh": "\u7b2c 502 \u573a\u5468\u8d5b",
+    "Topics": []
+  },
+  {
     "Rating": 1165.8314068327,
     "ID": 3467,
     "Title": "Transform Array by Parity",
@@ -37926,6 +39978,30 @@
     ]
   },
   {
+    "Rating": 1161.1147504109,
+    "ID": 3884,
+    "Title": "First Matching Character From Both Ends",
+    "TitleZH": "\u53cc\u7aef\u5b57\u7b26\u5339\u914d",
+    "TitleSlug": "first-matching-character-from-both-ends",
+    "ContestSlug": "weekly-contest-495",
+    "ProblemIndex": "Q1",
+    "ContestID_en": "Weekly Contest 495",
+    "ContestID_zh": "\u7b2c 495 \u573a\u5468\u8d5b",
+    "Topics": []
+  },
+  {
+    "Rating": 1160.9529516199,
+    "ID": 3842,
+    "Title": "Toggle Light Bulbs",
+    "TitleZH": "\u5207\u6362\u706f\u6ce1\u5f00\u5173",
+    "TitleSlug": "toggle-light-bulbs",
+    "ContestSlug": "weekly-contest-489",
+    "ProblemIndex": "Q1",
+    "ContestID_en": "Weekly Contest 489",
+    "ContestID_zh": "\u7b2c 489 \u573a\u5468\u8d5b",
+    "Topics": []
+  },
+  {
     "Rating": 1160.8899403409,
     "ID": 1512,
     "Title": "Number of Good Pairs",
@@ -38017,6 +40093,18 @@
       "Array",
       "Sorting"
     ]
+  },
+  {
+    "Rating": 1154.1609831093,
+    "ID": 3861,
+    "Title": "Minimum Capacity Box",
+    "TitleZH": "\u5bb9\u91cf\u6700\u5c0f\u7684\u7bb1\u5b50",
+    "TitleSlug": "minimum-capacity-box",
+    "ContestSlug": "weekly-contest-492",
+    "ProblemIndex": "Q1",
+    "ContestID_en": "Weekly Contest 492",
+    "ContestID_zh": "\u7b2c 492 \u573a\u5468\u8d5b",
+    "Topics": []
   },
   {
     "Rating": 1153.427255962,
@@ -38215,6 +40303,18 @@
     ]
   },
   {
+    "Rating": 1149.480126418,
+    "ID": 3870,
+    "Title": "Count Commas in Range",
+    "TitleZH": "\u7edf\u8ba1\u8303\u56f4\u5185\u7684\u9017\u53f7",
+    "TitleSlug": "count-commas-in-range",
+    "ContestSlug": "weekly-contest-493",
+    "ProblemIndex": "Q1",
+    "ContestID_en": "Weekly Contest 493",
+    "ContestID_zh": "\u7b2c 493 \u573a\u5468\u8d5b",
+    "Topics": []
+  },
+  {
     "Rating": 1148.9437959817,
     "ID": 3622,
     "Title": "Check Divisibility by Digit Sum and Product",
@@ -38374,6 +40474,18 @@
       "Array",
       "Math"
     ]
+  },
+  {
+    "Rating": 1139.5275072,
+    "ID": 3856,
+    "Title": "Trim Trailing Vowels",
+    "TitleZH": "\u79fb\u9664\u5c3e\u90e8\u5143\u97f3\u5b57\u6bcd",
+    "TitleSlug": "trim-trailing-vowels",
+    "ContestSlug": "weekly-contest-491",
+    "ProblemIndex": "Q1",
+    "ContestID_en": "Weekly Contest 491",
+    "ContestID_zh": "\u7b2c 491 \u573a\u5468\u8d5b",
+    "Topics": []
   },
   {
     "Rating": 1139.4248492279,

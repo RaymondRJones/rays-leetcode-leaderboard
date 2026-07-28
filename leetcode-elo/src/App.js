@@ -142,7 +142,7 @@ function App() {
   useEffect(() => {
     document.title = "Coding with Raymond - Leetcode Leaderboard";
     const fetchProblems = async () => {
-      const response = await fetch('/ratings.json');
+      const response = await fetch('/problems_with_categories.json');
       const data = await response.json();
       setProblems(data);
       setOriginalProblems(data);
@@ -266,7 +266,7 @@ function App() {
               <Chip label="Random pick" color="primary" size="small" sx={{ mb: 1.5 }} />
               <Typography variant="h5" component="h2">
                 <a
-                  href={`https://leetcode.com/problems/${randomProblem["Title Slug"]}`}
+                  href={`https://leetcode.com/problems/${randomProblem.TitleSlug}`}
                   target="_blank"
                   rel="noopener noreferrer"
                   style={{ color: "inherit", textDecoration: "none" }}
@@ -277,12 +277,12 @@ function App() {
               <Typography color="textSecondary">
                 Contest:{' '}
                 <a
-                  href={`https://leetcode.com/contest/${randomProblem["Contest Slug"]}`}
+                  href={`https://leetcode.com/contest/${randomProblem.ContestSlug}`}
                   target="_blank"
                   rel="noopener noreferrer"
                   style={{ color: "inherit", textDecoration: "none" }}
                 >
-                  {randomProblem["Contest Slug"]}
+                  {randomProblem.ContestSlug}
                 </a>
               </Typography>
             </CardContent>
@@ -298,7 +298,7 @@ function App() {
                 <Box>
                 <Typography variant="h6" component="h2">
                   <a
-                    href={`https://leetcode.com/problems/${problem["Title Slug"]}`}
+                    href={`https://leetcode.com/problems/${problem.TitleSlug}`}
                     target="_blank"
                     rel="noopener noreferrer"
                     style={{ color: "inherit", textDecoration: "none" }}
@@ -309,13 +309,13 @@ function App() {
                 <Typography color="text.secondary" variant="body2" sx={{ mt: 0.75 }}>
                   Contest:{' '}
                   <a
-                    href={`https://leetcode.com/contest/${problem["Contest Slug"]}`}
+                    href={`https://leetcode.com/contest/${problem.ContestSlug}`}
                     target="_blank"
                     rel="noopener noreferrer"
                     style={{ color: "inherit", textDecoration: "none" }}
                   >
                     
-                    {problem["Contest Slug"]}
+                    {problem.ContestSlug}
                   </a>
                 </Typography>
                 </Box>

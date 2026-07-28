@@ -1,8 +1,36 @@
-import { render, screen } from '@testing-library/react';
+import { render, screen, waitFor } from '@testing-library/react';
 import App from './App';
 
-test('renders learn react link', () => {
+beforeEach(() => {
+  window.history.pushState({}, '', '/zerotrac');
+  global.fetch = jest.fn(() =>
+    Promise.resolve({
+      json: () =>
+        Promise.resolve([
+          {
+            ID: 1,
+            Title: 'A Test Problem',
+            TitleSlug: 'a-test-problem',
+            ContestSlug: 'weekly-contest-500',
+            Rating: 1500,
+            Topics: ['Array'],
+          },
+        ]),
+    })
+  );
+});
+
+afterEach(() => {
+  window.history.pushState({}, '', '/');
+  jest.restoreAllMocks();
+});
+
+test('loads the consolidated problem catalog', async () => {
   render(<App />);
-  const linkElement = screen.getByText(/learn react/i);
-  expect(linkElement).toBeInTheDocument();
+
+  expect(screen.getByRole('link', { name: 'Zerotrac' })).toBeInTheDocument();
+  expect(await screen.findByText('A Test Problem')).toBeInTheDocument();
+  await waitFor(() =>
+    expect(global.fetch).toHaveBeenCalledWith('/problems_with_categories.json')
+  );
 });

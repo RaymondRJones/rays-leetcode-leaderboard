@@ -170,7 +170,7 @@ function ProblemsByCategory() {
     }
 
     // Sort by rating (highest first)
-    return filtered.sort((a, b) => b.Rating - a.Rating);
+    return [...filtered].sort((a, b) => b.Rating - a.Rating);
   }, [allProblems, selectedCategory, debouncedSearchTerm, minElo, maxElo]);
 
   // Memoize paginated problems
