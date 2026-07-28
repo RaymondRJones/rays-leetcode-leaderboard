@@ -1,10 +1,18 @@
 {
   "manifest_version": 3,
   "name": "RayTrack for LeetCode",
-  "version": "0.1.0",
-  "description": "Reveal estimated problem ratings and privately track LeetCode practice.",
+  "version": "0.2.0",
+  "description": "Reveal problem ratings, track practice, and schedule private LeetCode reviews.",
   "minimum_chrome_version": "114",
+  "icons": {
+    "16": "assets/icon-128.png",
+    "32": "assets/icon-128.png",
+    "48": "assets/icon-128.png",
+    "128": "assets/icon-128.png"
+  },
   "permissions": [
+    "alarms",
+    "notifications",
     "sidePanel",
     "storage"
   ],
@@ -13,7 +21,8 @@
     "type": "module"
   },
   "action": {
-    "default_title": "Open RayTrack"
+    "default_title": "Open RayTrack",
+    "default_icon": "assets/icon-128.png"
   },
   "side_panel": {
     "default_path": "sidepanel.html"

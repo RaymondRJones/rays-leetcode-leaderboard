@@ -95,8 +95,9 @@ dataset. See `THIRD_PARTY_NOTICES.md` for attribution and license details.
 ## RayTrack Chrome extension
 
 `chrome-extension/` contains a local-first Manifest V3 extension that reveals
-the packaged ZeroTrac rating on LeetCode problem pages and lets learners
-privately record attempts and solves in a Chrome side panel.
+the packaged ZeroTrac rating on LeetCode problem pages, privately records
+practice in a Chrome side panel, schedules spaced-retrieval reviews and
+reminders, and picks random problems within a learner-selected ELO range.
 
 ```bash
 cd chrome-extension

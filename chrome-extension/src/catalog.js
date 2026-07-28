@@ -34,3 +34,8 @@ export async function getCatalogMetadata() {
     problemCount: catalog.problems.length
   };
 }
+
+export async function listProblems() {
+  const catalog = await loadCatalog();
+  return [...catalog.problems];
+}

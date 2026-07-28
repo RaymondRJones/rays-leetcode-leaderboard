@@ -16,17 +16,8 @@
         <span class="local-badge">Local only</span>
       </header>
 
-      <section class="panel current-panel" aria-labelledby="current-title">
-        <div id="empty-state">
-          <p class="eyebrow">Current problem</p>
-          <h2 id="current-title">Open a LeetCode problem</h2>
-          <p class="muted">
-            RayTrack matches the problem slug in the URL without reading the
-            problem statement or your code.
-          </p>
-        </div>
-
-        <div id="problem-state" hidden>
+      <section id="current-panel" class="panel current-panel" aria-labelledby="problem-title" hidden>
+        <div id="problem-state">
           <div class="problem-heading">
             <div>
               <p class="eyebrow">Current problem</p>
@@ -65,15 +56,101 @@
 
             <div class="button-row">
               <button id="mark-attempted" class="button secondary" type="button">
-                Mark attempted
+                Attempted &amp; close
               </button>
               <button id="mark-solved" class="button primary" type="button">
-                Mark solved
+                Solved &amp; close
+              </button>
+            </div>
+            <div id="review-action" class="review-action" hidden>
+              <p id="current-review-info" class="muted"></p>
+              <button id="complete-review" class="button review" type="button">
+                Complete review &amp; close
               </button>
             </div>
           </fieldset>
           <p id="save-message" class="save-message" role="status" aria-live="polite"></p>
         </div>
+      </section>
+
+      <section class="panel" aria-labelledby="picker-title">
+        <div class="section-heading">
+          <div>
+            <p class="eyebrow">Choose your challenge</p>
+            <h2 id="picker-title">Random problem by ELO</h2>
+          </div>
+        </div>
+        <div class="range-grid">
+          <label for="elo-min">
+            Minimum ELO
+            <input id="elo-min" type="number" min="0" max="5000" step="50">
+          </label>
+          <label for="elo-max">
+            Maximum ELO
+            <input id="elo-max" type="number" min="0" max="5000" step="50">
+          </label>
+        </div>
+        <label class="checkbox-row" for="prefer-unsolved">
+          <input id="prefer-unsolved" type="checkbox">
+          Prefer problems I have not solved
+        </label>
+        <button id="pick-problem" class="button primary full-width" type="button">
+          Pick a random problem
+        </button>
+        <p id="picker-message" class="save-message" role="status" aria-live="polite"></p>
+        <article id="picked-problem" class="picked-problem" hidden>
+          <div class="problem-heading">
+            <div>
+              <p class="eyebrow">Random pick</p>
+              <h3 id="picked-title"></h3>
+            </div>
+            <span id="picked-rating" class="rating-badge"></span>
+          </div>
+          <div id="picked-topics" class="topic-list" aria-label="Picked problem topics"></div>
+          <button id="open-picked-problem" class="button secondary full-width" type="button">
+            Open on LeetCode
+          </button>
+        </article>
+      </section>
+
+      <section class="panel" aria-labelledby="reviews-title">
+        <div class="section-heading">
+          <div>
+            <p class="eyebrow">Spaced retrieval</p>
+            <h2 id="reviews-title">Review queue</h2>
+          </div>
+          <span id="due-count" class="due-badge">0 due</span>
+        </div>
+        <p id="review-summary" class="muted"></p>
+        <ol id="review-list" class="review-list"></ol>
+        <p id="review-empty" class="muted">Solve a problem to schedule its first review.</p>
+
+        <details class="reminder-settings">
+          <summary>Reminder settings</summary>
+          <label class="checkbox-row" for="reminders-enabled">
+            <input id="reminders-enabled" type="checkbox">
+            Send a daily reminder when reviews are due
+          </label>
+          <div class="range-grid">
+            <label for="reminder-time">
+              Reminder time
+              <input id="reminder-time" type="time">
+            </label>
+            <label for="daily-review-limit">
+              Daily queue limit
+              <input id="daily-review-limit" type="number" min="1" max="25">
+            </label>
+          </div>
+          <div class="button-row reminder-buttons">
+            <button id="save-reminders" class="button secondary" type="button">
+              Save settings
+            </button>
+            <button id="test-reminder" class="button secondary" type="button">
+              Test notification
+            </button>
+          </div>
+          <p id="reminder-message" class="save-message" role="status" aria-live="polite"></p>
+        </details>
       </section>
 
       <section class="stats-grid" aria-label="Practice summary">
