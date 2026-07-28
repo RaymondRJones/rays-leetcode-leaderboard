@@ -92,6 +92,21 @@ Problem ratings are derived from the
 [ZeroTrac LeetCode Problem Rating](https://github.com/zerotrac/leetcode_problem_rating)
 dataset. See `THIRD_PARTY_NOTICES.md` for attribution and license details.
 
+## RayTrack Chrome extension
+
+`chrome-extension/` contains a local-first Manifest V3 extension that reveals
+the packaged ZeroTrac rating on LeetCode problem pages and lets learners
+privately record attempts and solves in a Chrome side panel.
+
+```bash
+cd chrome-extension
+npm run check
+```
+
+After verification, load `chrome-extension/` through Chrome's **Load unpacked**
+flow. See `chrome-extension/README.md` for permissions, privacy behavior, and
+step-by-step installation instructions.
+
 ## Running Locally
 
 Node version: `v20.5.1`

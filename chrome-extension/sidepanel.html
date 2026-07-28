@@ -1,0 +1,116 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>RayTrack</title>
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <main class="app-shell">
+      <header class="app-header">
+        <div>
+          <p class="eyebrow">Private practice tracker</p>
+          <h1>RayTrack</h1>
+        </div>
+        <span class="local-badge">Local only</span>
+      </header>
+
+      <section class="panel current-panel" aria-labelledby="current-title">
+        <div id="empty-state">
+          <p class="eyebrow">Current problem</p>
+          <h2 id="current-title">Open a LeetCode problem</h2>
+          <p class="muted">
+            RayTrack matches the problem slug in the URL without reading the
+            problem statement or your code.
+          </p>
+        </div>
+
+        <div id="problem-state" hidden>
+          <div class="problem-heading">
+            <div>
+              <p class="eyebrow">Current problem</p>
+              <h2 id="problem-title"></h2>
+            </div>
+            <span id="problem-rating" class="rating-badge"></span>
+          </div>
+          <div id="problem-topics" class="topic-list" aria-label="Problem topics"></div>
+          <p id="problem-status" class="status-line"></p>
+
+          <fieldset class="tracker-fieldset">
+            <legend>How did this attempt go?</legend>
+
+            <label for="assistance">Assistance used</label>
+            <select id="assistance">
+              <option value="none">None</option>
+              <option value="hint">Hint</option>
+              <option value="solution">Editorial or solution</option>
+            </select>
+
+            <label for="confidence">Recall confidence</label>
+            <select id="confidence">
+              <option value="again">Again — I could not reconstruct it</option>
+              <option value="hard">Hard — substantial struggle</option>
+              <option value="good" selected>Good — some effort, then clear</option>
+              <option value="easy">Easy — immediate and confident</option>
+            </select>
+
+            <label for="note">Private recall note <span>(optional)</span></label>
+            <textarea
+              id="note"
+              rows="4"
+              maxlength="1000"
+              placeholder="Approach, invariant, and target complexity…"
+            ></textarea>
+
+            <div class="button-row">
+              <button id="mark-attempted" class="button secondary" type="button">
+                Mark attempted
+              </button>
+              <button id="mark-solved" class="button primary" type="button">
+                Mark solved
+              </button>
+            </div>
+          </fieldset>
+          <p id="save-message" class="save-message" role="status" aria-live="polite"></p>
+        </div>
+      </section>
+
+      <section class="stats-grid" aria-label="Practice summary">
+        <article class="stat-card">
+          <span>Unique solved</span>
+          <strong id="solved-count">0</strong>
+        </article>
+        <article class="stat-card">
+          <span>Problems attempted</span>
+          <strong id="attempted-count">0</strong>
+        </article>
+        <article class="stat-card">
+          <span>Practice events</span>
+          <strong id="event-count">0</strong>
+        </article>
+      </section>
+
+      <section class="panel" aria-labelledby="history-title">
+        <div class="section-heading">
+          <div>
+            <p class="eyebrow">Your evidence</p>
+            <h2 id="history-title">Recent practice</h2>
+          </div>
+          <button id="export-data" class="text-button" type="button">Export data</button>
+        </div>
+        <ol id="history-list" class="history-list"></ol>
+        <p id="history-empty" class="muted">No practice recorded yet.</p>
+      </section>
+
+      <footer>
+        Ratings are community estimates from
+        <a href="https://github.com/zerotrac/leetcode_problem_rating" target="_blank" rel="noreferrer">
+          ZeroTrac
+        </a>, not official LeetCode difficulty ratings.
+      </footer>
+    </main>
+
+    <script type="module" src="src/sidepanel.js"></script>
+  </body>
+</html>

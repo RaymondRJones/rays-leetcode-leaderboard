@@ -1,0 +1,13 @@
+{
+  "name": "raytrack-chrome-extension",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build:catalog": "node scripts/build-catalog.mjs",
+    "smoke:chrome": "node scripts/smoke-chrome.mjs",
+    "test": "node --test",
+    "validate": "node scripts/validate-extension.mjs",
+    "check": "npm run build:catalog && npm test && npm run validate"
+  }
+}
