@@ -1450,7 +1450,15 @@
     "ProblemIndex": "Q4",
     "ContestID_en": "Weekly Contest 505",
     "ContestID_zh": "\u7b2c 505 \u573a\u5468\u8d5b",
-    "Topics": []
+    "Topics": [
+      "Array",
+      "Binary Search",
+      "Dynamic Programming",
+      "Queue",
+      "Sliding Window",
+      "Prefix Sum",
+      "Monotonic Queue"
+    ]
   },
   {
     "Rating": 2610.9906730644,
@@ -1999,7 +2007,12 @@
     "ProblemIndex": "Q4",
     "ContestID_en": "Weekly Contest 497",
     "ContestID_zh": "\u7b2c 497 \u573a\u5468\u8d5b",
-    "Topics": []
+    "Topics": [
+      "Array",
+      "Math",
+      "Segment Tree",
+      "Number Theory"
+    ]
   },
   {
     "Rating": 2540.7699757179,
@@ -3718,7 +3731,12 @@
     "ProblemIndex": "Q4",
     "ContestID_en": "Weekly Contest 503",
     "ContestID_zh": "\u7b2c 503 \u573a\u5468\u8d5b",
-    "Topics": []
+    "Topics": [
+      "Array",
+      "Hash Table",
+      "Divide and Conquer",
+      "Counting"
+    ]
   },
   {
     "Rating": 2409.7580728676,
@@ -3831,7 +3849,13 @@
     "ProblemIndex": "Q4",
     "ContestID_en": "Weekly Contest 483",
     "ContestID_zh": "\u7b2c 483 \u573a\u5468\u8d5b",
-    "Topics": []
+    "Topics": [
+      "Array",
+      "Two Pointers",
+      "Binary Search",
+      "Dynamic Programming",
+      "Bit Manipulation"
+    ]
   },
   {
     "Rating": 2397.9722495587,
@@ -3993,7 +4017,14 @@
     "ProblemIndex": "Q4",
     "ContestID_en": "Biweekly Contest 184",
     "ContestID_zh": "\u7b2c 184 \u573a\u53cc\u5468\u8d5b",
-    "Topics": []
+    "Topics": [
+      "Array",
+      "Hash Table",
+      "Math",
+      "Combinatorics",
+      "Enumeration",
+      "Number Theory"
+    ]
   },
   {
     "Rating": 2389.9634276167,
@@ -4095,7 +4126,15 @@
     "ProblemIndex": "Q4",
     "ContestID_en": "Biweekly Contest 176",
     "ContestID_zh": "\u7b2c 176 \u573a\u53cc\u5468\u8d5b",
-    "Topics": []
+    "Topics": [
+      "Array",
+      "String",
+      "Divide and Conquer",
+      "Bit Manipulation",
+      "Tree",
+      "Depth-First Search",
+      "Segment Tree"
+    ]
   },
   {
     "Rating": 2383.7724811656,
@@ -4290,7 +4329,13 @@
     "ProblemIndex": "Q4",
     "ContestID_en": "Weekly Contest 485",
     "ContestID_zh": "\u7b2c 485 \u573a\u5468\u8d5b",
-    "Topics": []
+    "Topics": [
+      "Hash Table",
+      "String",
+      "Stack",
+      "Greedy",
+      "Monotonic Stack"
+    ]
   },
   {
     "Rating": 2375.9062896615,
@@ -4317,7 +4362,12 @@
     "ProblemIndex": "Q4",
     "ContestID_en": "Biweekly Contest 173",
     "ContestID_zh": "\u7b2c 173 \u573a\u53cc\u5468\u8d5b",
-    "Topics": []
+    "Topics": [
+      "Array",
+      "Dynamic Programming",
+      "Matrix",
+      "Prefix Sum"
+    ]
   },
   {
     "Rating": 2375.0917527641,
@@ -4633,7 +4683,12 @@
     "ProblemIndex": "Q4",
     "ContestID_en": "Biweekly Contest 183",
     "ContestID_zh": "\u7b2c 183 \u573a\u53cc\u5468\u8d5b",
-    "Topics": []
+    "Topics": [
+      "Array",
+      "Dynamic Programming",
+      "Tree",
+      "Depth-First Search"
+    ]
   },
   {
     "Rating": 2352.795754512,
@@ -4770,7 +4825,15 @@
     "ProblemIndex": "Q4",
     "ContestID_en": "Weekly Contest 489",
     "ContestID_zh": "\u7b2c 489 \u573a\u5468\u8d5b",
-    "Topics": []
+    "Topics": [
+      "Array",
+      "Bit Manipulation",
+      "Trie",
+      "Queue",
+      "Sliding Window",
+      "Prefix Sum",
+      "Monotonic Queue"
+    ]
   },
   {
     "Rating": 2346.5717839654,
@@ -4815,7 +4878,14 @@
     "ProblemIndex": "Q4",
     "ContestID_en": "Biweekly Contest 175",
     "ContestID_zh": "\u7b2c 175 \u573a\u53cc\u5468\u8d5b",
-    "Topics": []
+    "Topics": [
+      "Array",
+      "Divide and Conquer",
+      "Dynamic Programming",
+      "Queue",
+      "Prefix Sum",
+      "Monotonic Queue"
+    ]
   },
   {
     "Rating": 2344.3664724791,
@@ -5305,7 +5375,12 @@
     "ProblemIndex": "Q4",
     "ContestID_en": "Weekly Contest 491",
     "ContestID_zh": "\u7b2c 491 \u573a\u5468\u8d5b",
-    "Topics": []
+    "Topics": [
+      "Array",
+      "Hash Table",
+      "Sliding Window",
+      "Counting"
+    ]
   },
   {
     "Rating": 2301.4069974024,
@@ -5556,7 +5631,11 @@
     "ProblemIndex": "Q4",
     "ContestID_en": "Weekly Contest 499",
     "ContestID_zh": "\u7b2c 499 \u573a\u5468\u8d5b",
-    "Topics": []
+    "Topics": [
+      "Array",
+      "Dynamic Programming",
+      "Segment Tree"
+    ]
   },
   {
     "Rating": 2286.2394574531,
@@ -5641,7 +5720,10 @@
     "ProblemIndex": "Q4",
     "ContestID_en": "Weekly Contest 496",
     "ContestID_zh": "\u7b2c 496 \u573a\u5468\u8d5b",
-    "Topics": []
+    "Topics": [
+      "Array",
+      "Dynamic Programming"
+    ]
   },
   {
     "Rating": 2280.3143643878,
@@ -5981,7 +6063,11 @@
     "ProblemIndex": "Q4",
     "ContestID_en": "Weekly Contest 500",
     "ContestID_zh": "\u7b2c 500 \u573a\u5468\u8d5b",
-    "Topics": []
+    "Topics": [
+      "Array",
+      "Binary Search",
+      "Sorting"
+    ]
   },
   {
     "Rating": 2262.5641910108,
@@ -6057,7 +6143,12 @@
     "ProblemIndex": "Q4",
     "ContestID_en": "Weekly Contest 484",
     "ContestID_zh": "\u7b2c 484 \u573a\u5468\u8d5b",
-    "Topics": []
+    "Topics": [
+      "Array",
+      "Greedy",
+      "Bit Manipulation",
+      "Sorting"
+    ]
   },
   {
     "Rating": 2258.6371797452,
@@ -6137,7 +6228,10 @@
     "ProblemIndex": "Q4",
     "ContestID_en": "Biweekly Contest 178",
     "ContestID_zh": "\u7b2c 178 \u573a\u53cc\u5468\u8d5b",
-    "Topics": []
+    "Topics": [
+      "Math",
+      "Dynamic Programming"
+    ]
   },
   {
     "Rating": 2251.9378859552,
@@ -6149,7 +6243,12 @@
     "ProblemIndex": "Q3",
     "ContestID_en": "Biweekly Contest 183",
     "ContestID_zh": "\u7b2c 183 \u573a\u53cc\u5468\u8d5b",
-    "Topics": []
+    "Topics": [
+      "Array",
+      "Dynamic Programming",
+      "Matrix",
+      "Prefix Sum"
+    ]
   },
   {
     "Rating": 2250.9318291559,
@@ -6584,7 +6683,12 @@
     "ProblemIndex": "Q4",
     "ContestID_en": "Weekly Contest 494",
     "ContestID_zh": "\u7b2c 494 \u573a\u5468\u8d5b",
-    "Topics": []
+    "Topics": [
+      "Array",
+      "Stack",
+      "Bit Manipulation",
+      "Monotonic Stack"
+    ]
   },
   {
     "Rating": 2228.3454693625,
@@ -6845,7 +6949,12 @@
     "ProblemIndex": "Q3",
     "ContestID_en": "Weekly Contest 504",
     "ContestID_zh": "\u7b2c 504 \u573a\u5468\u8d5b",
-    "Topics": []
+    "Topics": [
+      "Array",
+      "Greedy",
+      "Sorting",
+      "Heap (Priority Queue)"
+    ]
   },
   {
     "Rating": 2214.4798747386,
@@ -7229,7 +7338,11 @@
     "ProblemIndex": "Q4",
     "ContestID_en": "Weekly Contest 493",
     "ContestID_zh": "\u7b2c 493 \u573a\u5468\u8d5b",
-    "Topics": []
+    "Topics": [
+      "Array",
+      "Hash Table",
+      "Union-Find"
+    ]
   },
   {
     "Rating": 2197.0951445919,
@@ -7278,7 +7391,12 @@
     "ProblemIndex": "Q4",
     "ContestID_en": "Weekly Contest 507",
     "ContestID_zh": "\u7b2c 507 \u573a\u5468\u8d5b",
-    "Topics": []
+    "Topics": [
+      "Array",
+      "Math",
+      "Binary Search",
+      "Greedy"
+    ]
   },
   {
     "Rating": 2190.1757477854,
@@ -7339,7 +7457,12 @@
     "ProblemIndex": "Q4",
     "ContestID_en": "Weekly Contest 501",
     "ContestID_zh": "\u7b2c 501 \u573a\u5468\u8d5b",
-    "Topics": []
+    "Topics": [
+      "Array",
+      "Graph Theory",
+      "Heap (Priority Queue)",
+      "Shortest Path"
+    ]
   },
   {
     "Rating": 2186.3802199168,
@@ -7453,7 +7576,13 @@
     "ProblemIndex": "Q4",
     "ContestID_en": "Biweekly Contest 174",
     "ContestID_zh": "\u7b2c 174 \u573a\u53cc\u5468\u8d5b",
-    "Topics": []
+    "Topics": [
+      "Tree",
+      "Depth-First Search",
+      "Graph Theory",
+      "Topological Sort",
+      "Sorting"
+    ]
   },
   {
     "Rating": 2178.4249114144,
@@ -7548,7 +7677,11 @@
     "ProblemIndex": "Q4",
     "ContestID_en": "Biweekly Contest 179",
     "ContestID_zh": "\u7b2c 179 \u573a\u53cc\u5468\u8d5b",
-    "Topics": []
+    "Topics": [
+      "Array",
+      "Dynamic Programming",
+      "Prefix Sum"
+    ]
   },
   {
     "Rating": 2172.3890687963,
@@ -7723,7 +7856,14 @@
     "ProblemIndex": "Q4",
     "ContestID_en": "Weekly Contest 502",
     "ContestID_zh": "\u7b2c 502 \u573a\u5468\u8d5b",
-    "Topics": []
+    "Topics": [
+      "Array",
+      "Hash Table",
+      "Binary Search",
+      "Rolling Hash",
+      "Suffix Array",
+      "Hash Function"
+    ]
   },
   {
     "Rating": 2162.0729079623,
@@ -7735,7 +7875,11 @@
     "ProblemIndex": "Q4",
     "ContestID_en": "Weekly Contest 487",
     "ContestID_zh": "\u7b2c 487 \u573a\u5468\u8d5b",
-    "Topics": []
+    "Topics": [
+      "Array",
+      "Dynamic Programming",
+      "Enumeration"
+    ]
   },
   {
     "Rating": 2161.9707214195,
@@ -7775,7 +7919,9 @@
     "ProblemIndex": "Q4",
     "ContestID_en": "Weekly Contest 498",
     "ContestID_zh": "\u7b2c 498 \u573a\u5468\u8d5b",
-    "Topics": []
+    "Topics": [
+      "Dynamic Programming"
+    ]
   },
   {
     "Rating": 2159.4844281244,
@@ -7924,7 +8070,10 @@
     "ProblemIndex": "Q4",
     "ContestID_en": "Biweekly Contest 181",
     "ContestID_zh": "\u7b2c 181 \u573a\u53cc\u5468\u8d5b",
-    "Topics": []
+    "Topics": [
+      "Array",
+      "Binary Search"
+    ]
   },
   {
     "Rating": 2155.3424932408,
@@ -8248,7 +8397,11 @@
     "ProblemIndex": "Q3",
     "ContestID_en": "Weekly Contest 497",
     "ContestID_zh": "\u7b2c 497 \u573a\u5468\u8d5b",
-    "Topics": []
+    "Topics": [
+      "Hash Table",
+      "String",
+      "Prefix Sum"
+    ]
   },
   {
     "Rating": 2134.5448970405,
@@ -8428,7 +8581,10 @@
     "ProblemIndex": "Q4",
     "ContestID_en": "Weekly Contest 495",
     "ContestID_zh": "\u7b2c 495 \u573a\u5468\u8d5b",
-    "Topics": []
+    "Topics": [
+      "Union-Find",
+      "Graph Theory"
+    ]
   },
   {
     "Rating": 2127.5100545681,
@@ -8591,7 +8747,12 @@
     "ProblemIndex": "Q4",
     "ContestID_en": "Weekly Contest 504",
     "ContestID_zh": "\u7b2c 504 \u573a\u5468\u8d5b",
-    "Topics": []
+    "Topics": [
+      "Array",
+      "Hash Table",
+      "Greedy",
+      "Queue"
+    ]
   },
   {
     "Rating": 2121.3147151648,
@@ -8868,7 +9029,13 @@
     "ProblemIndex": "Q4",
     "ContestID_en": "Weekly Contest 508",
     "ContestID_zh": "\u7b2c 508 \u573a\u5468\u8d5b",
-    "Topics": []
+    "Topics": [
+      "Array",
+      "Dynamic Programming",
+      "Graph Theory",
+      "Heap (Priority Queue)",
+      "Shortest Path"
+    ]
   },
   {
     "Rating": 2101.867342004,
@@ -8961,7 +9128,10 @@
     "ProblemIndex": "Q3",
     "ContestID_en": "Biweekly Contest 177",
     "ContestID_zh": "\u7b2c 177 \u573a\u53cc\u5468\u8d5b",
-    "Topics": []
+    "Topics": [
+      "Array",
+      "Greedy"
+    ]
   },
   {
     "Rating": 2094.592426537,
@@ -9246,7 +9416,12 @@
     "ProblemIndex": "Q4",
     "ContestID_en": "Biweekly Contest 177",
     "ContestID_zh": "\u7b2c 177 \u573a\u53cc\u5468\u8d5b",
-    "Topics": []
+    "Topics": [
+      "Math",
+      "Divide and Conquer",
+      "Combinatorics",
+      "Number Theory"
+    ]
   },
   {
     "Rating": 2084.9697035674,
@@ -9524,7 +9699,11 @@
     "ProblemIndex": "Q4",
     "ContestID_en": "Biweekly Contest 182",
     "ContestID_zh": "\u7b2c 182 \u573a\u53cc\u5468\u8d5b",
-    "Topics": []
+    "Topics": [
+      "Binary Search",
+      "Breadth-First Search",
+      "Graph Theory"
+    ]
   },
   {
     "Rating": 2079.1911227043,
@@ -9894,7 +10073,11 @@
     "ProblemIndex": "Q4",
     "ContestID_en": "Weekly Contest 486",
     "ContestID_zh": "\u7b2c 486 \u573a\u5468\u8d5b",
-    "Topics": []
+    "Topics": [
+      "Math",
+      "Bit Manipulation",
+      "Combinatorics"
+    ]
   },
   {
     "Rating": 2068.806637566,
@@ -10056,7 +10239,15 @@
     "ProblemIndex": "Q3",
     "ContestID_en": "Weekly Contest 505",
     "ContestID_zh": "\u7b2c 505 \u573a\u5468\u8d5b",
-    "Topics": []
+    "Topics": [
+      "Array",
+      "Binary Search",
+      "Dynamic Programming",
+      "Queue",
+      "Sliding Window",
+      "Prefix Sum",
+      "Monotonic Queue"
+    ]
   },
   {
     "Rating": 2060.379991517,
@@ -10263,7 +10454,11 @@
     "ProblemIndex": "Q3",
     "ContestID_en": "Weekly Contest 502",
     "ContestID_zh": "\u7b2c 502 \u573a\u5468\u8d5b",
-    "Topics": []
+    "Topics": [
+      "Array",
+      "Matrix",
+      "Prefix Sum"
+    ]
   },
   {
     "Rating": 2051.519347574,
@@ -10474,7 +10669,10 @@
     "ProblemIndex": "Q3",
     "ContestID_en": "Weekly Contest 493",
     "ContestID_zh": "\u7b2c 493 \u573a\u5468\u8d5b",
-    "Topics": []
+    "Topics": [
+      "Array",
+      "Enumeration"
+    ]
   },
   {
     "Rating": 2040.5621123027,
@@ -10789,7 +10987,11 @@
     "ProblemIndex": "Q4",
     "ContestID_en": "Weekly Contest 492",
     "ContestID_zh": "\u7b2c 492 \u573a\u5468\u8d5b",
-    "Topics": []
+    "Topics": [
+      "String",
+      "Divide and Conquer",
+      "Prefix Sum"
+    ]
   },
   {
     "Rating": 2030.922770301,
@@ -11460,7 +11662,12 @@
     "ProblemIndex": "Q3",
     "ContestID_en": "Biweekly Contest 174",
     "ContestID_zh": "\u7b2c 174 \u573a\u53cc\u5468\u8d5b",
-    "Topics": []
+    "Topics": [
+      "Array",
+      "Hash Table",
+      "Dynamic Programming",
+      "Bit Manipulation"
+    ]
   },
   {
     "Rating": 2005.5862669078,
@@ -11630,7 +11837,12 @@
     "ProblemIndex": "Q3",
     "ContestID_en": "Weekly Contest 495",
     "ContestID_zh": "\u7b2c 495 \u573a\u5468\u8d5b",
-    "Topics": []
+    "Topics": [
+      "Array",
+      "Math",
+      "Sorting",
+      "Enumeration"
+    ]
   },
   {
     "Rating": 1999.1208076854,
@@ -11676,7 +11888,11 @@
     "ProblemIndex": "Q4",
     "ContestID_en": "Biweekly Contest 180",
     "ContestID_zh": "\u7b2c 180 \u573a\u53cc\u5468\u8d5b",
-    "Topics": []
+    "Topics": [
+      "Array",
+      "Greedy",
+      "Sorting"
+    ]
   },
   {
     "Rating": 1998.0432529701,
@@ -11858,7 +12074,11 @@
     "ProblemIndex": "Q3",
     "ContestID_en": "Weekly Contest 489",
     "ContestID_zh": "\u7b2c 489 \u573a\u5468\u8d5b",
-    "Topics": []
+    "Topics": [
+      "Two Pointers",
+      "String",
+      "Dynamic Programming"
+    ]
   },
   {
     "Rating": 1989.5369509422,
@@ -11888,7 +12108,10 @@
     "ProblemIndex": "Q4",
     "ContestID_en": "Weekly Contest 488",
     "ContestID_zh": "\u7b2c 488 \u573a\u5468\u8d5b",
-    "Topics": []
+    "Topics": [
+      "Array",
+      "Dynamic Programming"
+    ]
   },
   {
     "Rating": 1985.2504512337,
@@ -12084,7 +12307,10 @@
     "ProblemIndex": "Q3",
     "ContestID_en": "Weekly Contest 508",
     "ContestID_zh": "\u7b2c 508 \u573a\u5468\u8d5b",
-    "Topics": []
+    "Topics": [
+      "Array",
+      "Dynamic Programming"
+    ]
   },
   {
     "Rating": 1979.9454101467,
@@ -12402,7 +12628,13 @@
     "ProblemIndex": "Q4",
     "ContestID_en": "Weekly Contest 490",
     "ContestID_zh": "\u7b2c 490 \u573a\u5468\u8d5b",
-    "Topics": []
+    "Topics": [
+      "Array",
+      "Math",
+      "Dynamic Programming",
+      "Memoization",
+      "Number Theory"
+    ]
   },
   {
     "Rating": 1964.3793590858,
@@ -12633,7 +12865,12 @@
     "ProblemIndex": "Q3",
     "ContestID_en": "Weekly Contest 496",
     "ContestID_zh": "\u7b2c 496 \u573a\u5468\u8d5b",
-    "Topics": []
+    "Topics": [
+      "Array",
+      "Dynamic Programming",
+      "Greedy",
+      "Prefix Sum"
+    ]
   },
   {
     "Rating": 1952.7073399331,
@@ -12778,7 +13015,12 @@
     "ProblemIndex": "Q3",
     "ContestID_en": "Weekly Contest 491",
     "ContestID_zh": "\u7b2c 491 \u573a\u5468\u8d5b",
-    "Topics": []
+    "Topics": [
+      "Array",
+      "Greedy",
+      "Bit Manipulation",
+      "Matrix"
+    ]
   },
   {
     "Rating": 1945.7515607928,
@@ -14221,7 +14463,11 @@
     "ProblemIndex": "Q3",
     "ContestID_en": "Biweekly Contest 182",
     "ContestID_zh": "\u7b2c 182 \u573a\u53cc\u5468\u8d5b",
-    "Topics": []
+    "Topics": [
+      "Array",
+      "Hash Table",
+      "Simulation"
+    ]
   },
   {
     "Rating": 1883.3541964032,
@@ -14899,7 +15145,9 @@
     "ProblemIndex": "Q3",
     "ContestID_en": "Weekly Contest 492",
     "ContestID_zh": "\u7b2c 492 \u573a\u5468\u8d5b",
-    "Topics": []
+    "Topics": [
+      "String"
+    ]
   },
   {
     "Rating": 1859.4380732602,
@@ -14911,7 +15159,15 @@
     "ProblemIndex": "Q3",
     "ContestID_en": "Biweekly Contest 181",
     "ContestID_zh": "\u7b2c 181 \u573a\u53cc\u5468\u8d5b",
-    "Topics": []
+    "Topics": [
+      "Array",
+      "Bit Manipulation",
+      "Depth-First Search",
+      "Breadth-First Search",
+      "Union-Find",
+      "Graph Theory",
+      "Enumeration"
+    ]
   },
   {
     "Rating": 1858.9581916885,
@@ -15091,7 +15347,9 @@
     "ProblemIndex": "Q3",
     "ContestID_en": "Weekly Contest 503",
     "ContestID_zh": "\u7b2c 503 \u573a\u5468\u8d5b",
-    "Topics": []
+    "Topics": [
+      "Array"
+    ]
   },
   {
     "Rating": 1854.0126399812,
@@ -15117,7 +15375,12 @@
     "ProblemIndex": "Q3",
     "ContestID_en": "Weekly Contest 485",
     "ContestID_zh": "\u7b2c 485 \u573a\u5468\u8d5b",
-    "Topics": []
+    "Topics": [
+      "Hash Table",
+      "Design",
+      "Heap (Priority Queue)",
+      "Ordered Set"
+    ]
   },
   {
     "Rating": 1853.6535583817,
@@ -15458,7 +15721,12 @@
     "ProblemIndex": "Q3",
     "ContestID_en": "Biweekly Contest 175",
     "ContestID_zh": "\u7b2c 175 \u573a\u53cc\u5468\u8d5b",
-    "Topics": []
+    "Topics": [
+      "Array",
+      "Binary Search",
+      "Bit Manipulation",
+      "Enumeration"
+    ]
   },
   {
     "Rating": 1845.6855148816,
@@ -15598,7 +15866,10 @@
     "ProblemIndex": "Q3",
     "ContestID_en": "Weekly Contest 483",
     "ContestID_zh": "\u7b2c 483 \u573a\u5468\u8d5b",
-    "Topics": []
+    "Topics": [
+      "String",
+      "Greedy"
+    ]
   },
   {
     "Rating": 1840.9122452886,
@@ -15647,7 +15918,12 @@
     "ProblemIndex": "Q3",
     "ContestID_en": "Weekly Contest 507",
     "ContestID_zh": "\u7b2c 507 \u573a\u5468\u8d5b",
-    "Topics": []
+    "Topics": [
+      "String",
+      "Graph Theory",
+      "Heap (Priority Queue)",
+      "Shortest Path"
+    ]
   },
   {
     "Rating": 1839.9203623221,
@@ -15763,7 +16039,10 @@
     "ProblemIndex": "Q3",
     "ContestID_en": "Biweekly Contest 173",
     "ContestID_zh": "\u7b2c 173 \u573a\u53cc\u5468\u8d5b",
-    "Topics": []
+    "Topics": [
+      "Array",
+      "Greedy"
+    ]
   },
   {
     "Rating": 1832.7167755024,
@@ -16725,7 +17004,12 @@
     "ProblemIndex": "Q2",
     "ContestID_en": "Weekly Contest 485",
     "ContestID_zh": "\u7b2c 485 \u573a\u5468\u8d5b",
-    "Topics": []
+    "Topics": [
+      "Array",
+      "Two Pointers",
+      "Binary Search",
+      "Sorting"
+    ]
   },
   {
     "Rating": 1795.0422250815,
@@ -17439,7 +17723,11 @@
     "ProblemIndex": "Q3",
     "ContestID_en": "Weekly Contest 500",
     "ContestID_zh": "\u7b2c 500 \u573a\u5468\u8d5b",
-    "Topics": []
+    "Topics": [
+      "Array",
+      "Greedy",
+      "Prefix Sum"
+    ]
   },
   {
     "Rating": 1775.854606648,
@@ -17549,7 +17837,12 @@
     "ProblemIndex": "Q3",
     "ContestID_en": "Biweekly Contest 179",
     "ContestID_zh": "\u7b2c 179 \u573a\u53cc\u5468\u8d5b",
-    "Topics": []
+    "Topics": [
+      "Array",
+      "Dynamic Programming",
+      "Bit Manipulation",
+      "Matrix"
+    ]
   },
   {
     "Rating": 1770.8924569497,
@@ -17756,7 +18049,12 @@
     "ProblemIndex": "Q3",
     "ContestID_en": "Biweekly Contest 184",
     "ContestID_zh": "\u7b2c 184 \u573a\u53cc\u5468\u8d5b",
-    "Topics": []
+    "Topics": [
+      "Array",
+      "String",
+      "Dynamic Programming",
+      "Greedy"
+    ]
   },
   {
     "Rating": 1762.3115124143,
@@ -17850,7 +18148,10 @@
     "ProblemIndex": "Q2",
     "ContestID_en": "Biweekly Contest 179",
     "ContestID_zh": "\u7b2c 179 \u573a\u53cc\u5468\u8d5b",
-    "Topics": []
+    "Topics": [
+      "Math",
+      "Combinatorics"
+    ]
   },
   {
     "Rating": 1759.2287478055,
@@ -17877,7 +18178,9 @@
     "ProblemIndex": "Q2",
     "ContestID_en": "Biweekly Contest 182",
     "ContestID_zh": "\u7b2c 182 \u573a\u53cc\u5468\u8d5b",
-    "Topics": []
+    "Topics": [
+      "String"
+    ]
   },
   {
     "Rating": 1759.0629543156,
@@ -17889,7 +18192,11 @@
     "ProblemIndex": "Q3",
     "ContestID_en": "Weekly Contest 488",
     "ContestID_zh": "\u7b2c 488 \u573a\u5468\u8d5b",
-    "Topics": []
+    "Topics": [
+      "Array",
+      "Queue",
+      "Monotonic Queue"
+    ]
   },
   {
     "Rating": 1759.0470795449,
@@ -18371,7 +18678,11 @@
     "ProblemIndex": "Q3",
     "ContestID_en": "Weekly Contest 494",
     "ContestID_zh": "\u7b2c 494 \u573a\u5468\u8d5b",
-    "Topics": []
+    "Topics": [
+      "Array",
+      "Dynamic Programming",
+      "Bit Manipulation"
+    ]
   },
   {
     "Rating": 1745.073572838,
@@ -18808,7 +19119,11 @@
     "ProblemIndex": "Q2",
     "ContestID_en": "Weekly Contest 504",
     "ContestID_zh": "\u7b2c 504 \u573a\u5468\u8d5b",
-    "Topics": []
+    "Topics": [
+      "Array",
+      "Dynamic Programming",
+      "Greedy"
+    ]
   },
   {
     "Rating": 1725.4481937307,
@@ -18835,7 +19150,10 @@
     "ProblemIndex": "Q3",
     "ContestID_en": "Weekly Contest 486",
     "ContestID_zh": "\u7b2c 486 \u573a\u5468\u8d5b",
-    "Topics": []
+    "Topics": [
+      "Tree",
+      "Breadth-First Search"
+    ]
   },
   {
     "Rating": 1725.1995150882,
@@ -19745,7 +20063,10 @@
     "ProblemIndex": "Q2",
     "ContestID_en": "Weekly Contest 492",
     "ContestID_zh": "\u7b2c 492 \u573a\u5468\u8d5b",
-    "Topics": []
+    "Topics": [
+      "Array",
+      "Prefix Sum"
+    ]
   },
   {
     "Rating": 1697.2356875149,
@@ -20621,7 +20942,11 @@
     "ProblemIndex": "Q3",
     "ContestID_en": "Weekly Contest 498",
     "ContestID_zh": "\u7b2c 498 \u573a\u5468\u8d5b",
-    "Topics": []
+    "Topics": [
+      "Array",
+      "Breadth-First Search",
+      "Matrix"
+    ]
   },
   {
     "Rating": 1668.9941164204,
@@ -20862,7 +21187,10 @@
     "ProblemIndex": "Q3",
     "ContestID_en": "Weekly Contest 499",
     "ContestID_zh": "\u7b2c 499 \u573a\u5468\u8d5b",
-    "Topics": []
+    "Topics": [
+      "Array",
+      "Greedy"
+    ]
   },
   {
     "Rating": 1661.0318170415,
@@ -21238,7 +21566,13 @@
     "ProblemIndex": "Q3",
     "ContestID_en": "Weekly Contest 501",
     "ContestID_zh": "\u7b2c 501 \u573a\u5468\u8d5b",
-    "Topics": []
+    "Topics": [
+      "Array",
+      "Hash Table",
+      "Math",
+      "Greedy",
+      "Number Theory"
+    ]
   },
   {
     "Rating": 1651.5845871727,
@@ -21975,7 +22309,10 @@
     "ProblemIndex": "Q2",
     "ContestID_en": "Biweekly Contest 183",
     "ContestID_zh": "\u7b2c 183 \u573a\u53cc\u5468\u8d5b",
-    "Topics": []
+    "Topics": [
+      "Array",
+      "Enumeration"
+    ]
   },
   {
     "Rating": 1625.9636825798,
@@ -22052,7 +22389,13 @@
     "ProblemIndex": "Q3",
     "ContestID_en": "Weekly Contest 484",
     "ContestID_zh": "\u7b2c 484 \u573a\u5468\u8d5b",
-    "Topics": []
+    "Topics": [
+      "Array",
+      "Hash Table",
+      "Math",
+      "String",
+      "Counting"
+    ]
   },
   {
     "Rating": 1623.9443250479,
@@ -22180,7 +22523,10 @@
     "ProblemIndex": "Q3",
     "ContestID_en": "Biweekly Contest 176",
     "ContestID_zh": "\u7b2c 176 \u573a\u53cc\u5468\u8d5b",
-    "Topics": []
+    "Topics": [
+      "Array",
+      "Dynamic Programming"
+    ]
   },
   {
     "Rating": 1618.6016480451,
@@ -22387,7 +22733,12 @@
     "ProblemIndex": "Q2",
     "ContestID_en": "Weekly Contest 501",
     "ContestID_zh": "\u7b2c 501 \u573a\u5468\u8d5b",
-    "Topics": []
+    "Topics": [
+      "Array",
+      "Hash Table",
+      "String",
+      "Counting"
+    ]
   },
   {
     "Rating": 1607.9038975431,
@@ -22535,7 +22886,13 @@
     "ProblemIndex": "Q2",
     "ContestID_en": "Weekly Contest 483",
     "ContestID_zh": "\u7b2c 483 \u573a\u5468\u8d5b",
-    "Topics": []
+    "Topics": [
+      "Array",
+      "String",
+      "Backtracking",
+      "Sorting",
+      "Enumeration"
+    ]
   },
   {
     "Rating": 1604.9805572557,
@@ -22876,7 +23233,12 @@
     "ProblemIndex": "Q3",
     "ContestID_en": "Weekly Contest 487",
     "ContestID_zh": "\u7b2c 487 \u573a\u5468\u8d5b",
-    "Topics": []
+    "Topics": [
+      "Hash Table",
+      "Design",
+      "Queue",
+      "Data Stream"
+    ]
   },
   {
     "Rating": 1593.8926580448,
@@ -23000,7 +23362,12 @@
     "ProblemIndex": "Q2",
     "ContestID_en": "Weekly Contest 487",
     "ContestID_zh": "\u7b2c 487 \u573a\u5468\u8d5b",
-    "Topics": []
+    "Topics": [
+      "Array",
+      "Math",
+      "Brainteaser",
+      "Game Theory"
+    ]
   },
   {
     "Rating": 1590.5791055102,
@@ -23332,7 +23699,12 @@
     "ProblemIndex": "Q3",
     "ContestID_en": "Biweekly Contest 178",
     "ContestID_zh": "\u7b2c 178 \u573a\u53cc\u5468\u8d5b",
-    "Topics": []
+    "Topics": [
+      "Array",
+      "Hash Table",
+      "Greedy",
+      "Counting"
+    ]
   },
   {
     "Rating": 1578.8503818621,
@@ -24012,7 +24384,11 @@
     "ProblemIndex": "Q3",
     "ContestID_en": "Weekly Contest 490",
     "ContestID_zh": "\u7b2c 490 \u573a\u5468\u8d5b",
-    "Topics": []
+    "Topics": [
+      "String",
+      "Greedy",
+      "Bit Manipulation"
+    ]
   },
   {
     "Rating": 1556.3092642778,
@@ -24148,7 +24524,10 @@
     "ProblemIndex": "Q2",
     "ContestID_en": "Weekly Contest 502",
     "ContestID_zh": "\u7b2c 502 \u573a\u5468\u8d5b",
-    "Topics": []
+    "Topics": [
+      "Math",
+      "Binary Search"
+    ]
   },
   {
     "Rating": 1548.4678056182,
@@ -24241,7 +24620,13 @@
     "ProblemIndex": "Q2",
     "ContestID_en": "Weekly Contest 495",
     "ContestID_zh": "\u7b2c 495 \u573a\u5468\u8d5b",
-    "Topics": []
+    "Topics": [
+      "Array",
+      "Hash Table",
+      "Design",
+      "Heap (Priority Queue)",
+      "Ordered Set"
+    ]
   },
   {
     "Rating": 1547.5714796512,
@@ -24708,7 +25093,12 @@
     "ProblemIndex": "Q2",
     "ContestID_en": "Weekly Contest 496",
     "ContestID_zh": "\u7b2c 496 \u573a\u5468\u8d5b",
-    "Topics": []
+    "Topics": [
+      "Hash Table",
+      "Sorting",
+      "Counting",
+      "Enumeration"
+    ]
   },
   {
     "Rating": 1534.325005151,
@@ -24819,7 +25209,10 @@
     "ProblemIndex": "Q2",
     "ContestID_en": "Weekly Contest 508",
     "ContestID_zh": "\u7b2c 508 \u573a\u5468\u8d5b",
-    "Topics": []
+    "Topics": [
+      "Array",
+      "Sorting"
+    ]
   },
   {
     "Rating": 1532.3349133769,
@@ -24863,7 +25256,10 @@
     "ProblemIndex": "Q2",
     "ContestID_en": "Biweekly Contest 175",
     "ContestID_zh": "\u7b2c 175 \u573a\u53cc\u5468\u8d5b",
-    "Topics": []
+    "Topics": [
+      "Array",
+      "Binary Search"
+    ]
   },
   {
     "Rating": 1530.6451141787,
@@ -24940,7 +25336,10 @@
     "ProblemIndex": "Q2",
     "ContestID_en": "Biweekly Contest 184",
     "ContestID_zh": "\u7b2c 184 \u573a\u53cc\u5468\u8d5b",
-    "Topics": []
+    "Topics": [
+      "Array",
+      "Sorting"
+    ]
   },
   {
     "Rating": 1529.7617243868,
@@ -25063,7 +25462,11 @@
     "ProblemIndex": "Q2",
     "ContestID_en": "Weekly Contest 499",
     "ContestID_zh": "\u7b2c 499 \u573a\u5468\u8d5b",
-    "Topics": []
+    "Topics": [
+      "String",
+      "Sorting",
+      "Counting"
+    ]
   },
   {
     "Rating": 1524.5856276651,
@@ -25731,7 +26134,11 @@
     "ProblemIndex": "Q2",
     "ContestID_en": "Biweekly Contest 173",
     "ContestID_zh": "\u7b2c 173 \u573a\u53cc\u5468\u8d5b",
-    "Topics": []
+    "Topics": [
+      "Array",
+      "Hash Table",
+      "Sliding Window"
+    ]
   },
   {
     "Rating": 1504.2133321504,
@@ -26147,7 +26554,11 @@
     "ProblemIndex": "Q2",
     "ContestID_en": "Biweekly Contest 174",
     "ContestID_zh": "\u7b2c 174 \u573a\u53cc\u5468\u8d5b",
-    "Topics": []
+    "Topics": [
+      "Array",
+      "Hash Table",
+      "Greedy"
+    ]
   },
   {
     "Rating": 1491.4638194905,
@@ -26834,7 +27245,10 @@
     "ProblemIndex": "Q2",
     "ContestID_en": "Biweekly Contest 177",
     "ContestID_zh": "\u7b2c 177 \u573a\u53cc\u5468\u8d5b",
-    "Topics": []
+    "Topics": [
+      "Hash Table",
+      "String"
+    ]
   },
   {
     "Rating": 1471.8964024887,
@@ -27706,7 +28120,10 @@
     "ProblemIndex": "Q2",
     "ContestID_en": "Weekly Contest 494",
     "ContestID_zh": "\u7b2c 494 \u573a\u5468\u8d5b",
-    "Topics": []
+    "Topics": [
+      "Array",
+      "Math"
+    ]
   },
   {
     "Rating": 1443.2353621969,
@@ -27984,7 +28401,14 @@
     "ProblemIndex": "Q3",
     "ContestID_en": "Biweekly Contest 180",
     "ContestID_zh": "\u7b2c 180 \u573a\u53cc\u5468\u8d5b",
-    "Topics": []
+    "Topics": [
+      "Array",
+      "Math",
+      "Two Pointers",
+      "Binary Search",
+      "Sorting",
+      "Number Theory"
+    ]
   },
   {
     "Rating": 1435.0179887342,
@@ -28219,7 +28643,12 @@
     "ProblemIndex": "Q2",
     "ContestID_en": "Weekly Contest 505",
     "ContestID_zh": "\u7b2c 505 \u573a\u5468\u8d5b",
-    "Topics": []
+    "Topics": [
+      "String",
+      "Backtracking",
+      "Bit Manipulation",
+      "Enumeration"
+    ]
   },
   {
     "Rating": 1428.7246677159,
@@ -28278,7 +28707,11 @@
     "ProblemIndex": "Q2",
     "ContestID_en": "Weekly Contest 488",
     "ContestID_zh": "\u7b2c 488 \u573a\u5468\u8d5b",
-    "Topics": []
+    "Topics": [
+      "Array",
+      "Stack",
+      "Simulation"
+    ]
   },
   {
     "Rating": 1428.1443796872,
@@ -28622,7 +29055,10 @@
     "ProblemIndex": "Q2",
     "ContestID_en": "Weekly Contest 490",
     "ContestID_zh": "\u7b2c 490 \u573a\u5468\u8d5b",
-    "Topics": []
+    "Topics": [
+      "Math",
+      "Counting"
+    ]
   },
   {
     "Rating": 1419.6326908404,
@@ -28985,7 +29421,9 @@
     "ProblemIndex": "Q2",
     "ContestID_en": "Biweekly Contest 181",
     "ContestID_zh": "\u7b2c 181 \u573a\u53cc\u5468\u8d5b",
-    "Topics": []
+    "Topics": [
+      "Array"
+    ]
   },
   {
     "Rating": 1408.7923640745,
@@ -29079,7 +29517,11 @@
     "ProblemIndex": "Q2",
     "ContestID_en": "Weekly Contest 497",
     "ContestID_zh": "\u7b2c 497 \u573a\u5468\u8d5b",
-    "Topics": []
+    "Topics": [
+      "Array",
+      "Math",
+      "Geometry"
+    ]
   },
   {
     "Rating": 1407.0629410799,
@@ -29106,7 +29548,14 @@
     "ProblemIndex": "Q2",
     "ContestID_en": "Biweekly Contest 178",
     "ContestID_zh": "\u7b2c 178 \u573a\u53cc\u5468\u8d5b",
-    "Topics": []
+    "Topics": [
+      "Array",
+      "Math",
+      "Two Pointers",
+      "Sorting",
+      "Simulation",
+      "Number Theory"
+    ]
   },
   {
     "Rating": 1406.1279714442,
@@ -29333,7 +29782,12 @@
     "ProblemIndex": "Q2",
     "ContestID_en": "Biweekly Contest 176",
     "ContestID_zh": "\u7b2c 176 \u573a\u53cc\u5468\u8d5b",
-    "Topics": []
+    "Topics": [
+      "Array",
+      "Hash Table",
+      "String",
+      "Counting"
+    ]
   },
   {
     "Rating": 1401.2732392084,
@@ -29504,7 +29958,13 @@
     "ProblemIndex": "Q2",
     "ContestID_en": "Weekly Contest 507",
     "ContestID_zh": "\u7b2c 507 \u573a\u5468\u8d5b",
-    "Topics": []
+    "Topics": [
+      "Array",
+      "Hash Table",
+      "Sliding Window",
+      "Enumeration",
+      "Prefix Sum"
+    ]
   },
   {
     "Rating": 1396.8422030812,
@@ -29702,7 +30162,11 @@
     "ProblemIndex": "Q2",
     "ContestID_en": "Weekly Contest 484",
     "ContestID_zh": "\u7b2c 484 \u573a\u5468\u8d5b",
-    "Topics": []
+    "Topics": [
+      "Array",
+      "Hash Table",
+      "Enumeration"
+    ]
   },
   {
     "Rating": 1392.6601629182,
@@ -30189,7 +30653,10 @@
     "ProblemIndex": "Q2",
     "ContestID_en": "Weekly Contest 486",
     "ContestID_zh": "\u7b2c 486 \u573a\u5468\u8d5b",
-    "Topics": []
+    "Topics": [
+      "Array",
+      "Simulation"
+    ]
   },
   {
     "Rating": 1381.2168789318,
@@ -30247,7 +30714,9 @@
     "ProblemIndex": "Q2",
     "ContestID_en": "Weekly Contest 493",
     "ContestID_zh": "\u7b2c 493 \u573a\u5468\u8d5b",
-    "Topics": []
+    "Topics": [
+      "Math"
+    ]
   },
   {
     "Rating": 1380.1541980647,
@@ -30929,7 +31398,9 @@
     "ProblemIndex": "Q1",
     "ContestID_en": "Weekly Contest 483",
     "ContestID_zh": "\u7b2c 483 \u573a\u5468\u8d5b",
-    "Topics": []
+    "Topics": [
+      "String"
+    ]
   },
   {
     "Rating": 1364.6787168645,
@@ -31160,7 +31631,9 @@
     "ProblemIndex": "Q1",
     "ContestID_en": "Biweekly Contest 174",
     "ContestID_zh": "\u7b2c 174 \u573a\u53cc\u5468\u8d5b",
-    "Topics": []
+    "Topics": [
+      "Array"
+    ]
   },
   {
     "Rating": 1358.3561730566,
@@ -31436,7 +31909,10 @@
     "ProblemIndex": "Q2",
     "ContestID_en": "Weekly Contest 498",
     "ContestID_zh": "\u7b2c 498 \u573a\u5468\u8d5b",
-    "Topics": []
+    "Topics": [
+      "Array",
+      "Prefix Sum"
+    ]
   },
   {
     "Rating": 1351.6909336495,
@@ -31640,7 +32116,11 @@
     "ProblemIndex": "Q2",
     "ContestID_en": "Weekly Contest 489",
     "ContestID_zh": "\u7b2c 489 \u573a\u5468\u8d5b",
-    "Topics": []
+    "Topics": [
+      "Array",
+      "Hash Table",
+      "Counting"
+    ]
   },
   {
     "Rating": 1347.2146542772,
@@ -31699,7 +32179,10 @@
     "ProblemIndex": "Q1",
     "ContestID_en": "Biweekly Contest 183",
     "ContestID_zh": "\u7b2c 183 \u573a\u53cc\u5468\u8d5b",
-    "Topics": []
+    "Topics": [
+      "Array",
+      "Two Pointers"
+    ]
   },
   {
     "Rating": 1345.737168609,
@@ -32664,7 +33147,10 @@
     "ProblemIndex": "Q2",
     "ContestID_en": "Weekly Contest 491",
     "ContestID_zh": "\u7b2c 491 \u573a\u5468\u8d5b",
-    "Topics": []
+    "Topics": [
+      "Math",
+      "Dynamic Programming"
+    ]
   },
   {
     "Rating": 1321.9346201204,
@@ -32738,7 +33224,9 @@
     "ProblemIndex": "Q1",
     "ContestID_en": "Biweekly Contest 181",
     "ContestID_zh": "\u7b2c 181 \u573a\u53cc\u5468\u8d5b",
-    "Topics": []
+    "Topics": [
+      "Math"
+    ]
   },
   {
     "Rating": 1317.9521104466,
@@ -32985,7 +33473,11 @@
     "ProblemIndex": "Q1",
     "ContestID_en": "Weekly Contest 496",
     "ContestID_zh": "\u7b2c 496 \u573a\u5468\u8d5b",
-    "Topics": []
+    "Topics": [
+      "Hash Table",
+      "String",
+      "Counting"
+    ]
   },
   {
     "Rating": 1311.979717243,
@@ -33573,7 +34065,10 @@
     "ProblemIndex": "Q2",
     "ContestID_en": "Weekly Contest 500",
     "ContestID_zh": "\u7b2c 500 \u573a\u5468\u8d5b",
-    "Topics": []
+    "Topics": [
+      "Math",
+      "Number Theory"
+    ]
   },
   {
     "Rating": 1301.1576743638,
@@ -34231,7 +34726,11 @@
     "ProblemIndex": "Q1",
     "ContestID_en": "Biweekly Contest 177",
     "ContestID_zh": "\u7b2c 177 \u573a\u53cc\u5468\u8d5b",
-    "Topics": []
+    "Topics": [
+      "Array",
+      "Hash Table",
+      "Counting"
+    ]
   },
   {
     "Rating": 1287.1053917452,
@@ -34415,7 +34914,10 @@
     "ProblemIndex": "Q2",
     "ContestID_en": "Weekly Contest 503",
     "ContestID_zh": "\u7b2c 503 \u573a\u5468\u8d5b",
-    "Topics": []
+    "Topics": [
+      "Hash Table",
+      "String"
+    ]
   },
   {
     "Rating": 1283.6412252736,
@@ -34674,7 +35176,11 @@
     "ProblemIndex": "Q1",
     "ContestID_en": "Weekly Contest 507",
     "ContestID_zh": "\u7b2c 507 \u573a\u5468\u8d5b",
-    "Topics": []
+    "Topics": [
+      "Math",
+      "String",
+      "Counting"
+    ]
   },
   {
     "Rating": 1278.0092842613,
@@ -34807,7 +35313,9 @@
     "ProblemIndex": "Q1",
     "ContestID_en": "Weekly Contest 499",
     "ContestID_zh": "\u7b2c 499 \u573a\u5468\u8d5b",
-    "Topics": []
+    "Topics": [
+      "Array"
+    ]
   },
   {
     "Rating": 1273.0588534723,
@@ -34942,7 +35450,9 @@
     "ProblemIndex": "Q1",
     "ContestID_en": "Biweekly Contest 184",
     "ContestID_zh": "\u7b2c 184 \u573a\u53cc\u5468\u8d5b",
-    "Topics": []
+    "Topics": [
+      "Bit Manipulation"
+    ]
   },
   {
     "Rating": 1270.0775640451,
@@ -35015,7 +35525,10 @@
     "ProblemIndex": "Q2",
     "ContestID_en": "Biweekly Contest 180",
     "ContestID_zh": "\u7b2c 180 \u573a\u53cc\u5468\u8d5b",
-    "Topics": []
+    "Topics": [
+      "Array",
+      "Math"
+    ]
   },
   {
     "Rating": 1268.5768566953,
@@ -35302,7 +35815,11 @@
     "ProblemIndex": "Q1",
     "ContestID_en": "Weekly Contest 508",
     "ContestID_zh": "\u7b2c 508 \u573a\u5468\u8d5b",
-    "Topics": []
+    "Topics": [
+      "Array",
+      "Greedy",
+      "Sorting"
+    ]
   },
   {
     "Rating": 1262.6558200509,
@@ -35314,7 +35831,11 @@
     "ProblemIndex": "Q1",
     "ContestID_en": "Biweekly Contest 182",
     "ContestID_zh": "\u7b2c 182 \u573a\u53cc\u5468\u8d5b",
-    "Topics": []
+    "Topics": [
+      "Array",
+      "String",
+      "Simulation"
+    ]
   },
   {
     "Rating": 1262.5890311992,
@@ -35648,7 +36169,10 @@
     "ProblemIndex": "Q1",
     "ContestID_en": "Biweekly Contest 179",
     "ContestID_zh": "\u7b2c 179 \u573a\u53cc\u5468\u8d5b",
-    "Topics": []
+    "Topics": [
+      "Array",
+      "Enumeration"
+    ]
   },
   {
     "Rating": 1257.323514611,
@@ -36047,7 +36571,11 @@
     "ProblemIndex": "Q1",
     "ContestID_en": "Biweekly Contest 175",
     "ContestID_zh": "\u7b2c 175 \u573a\u53cc\u5468\u8d5b",
-    "Topics": []
+    "Topics": [
+      "Two Pointers",
+      "String",
+      "Simulation"
+    ]
   },
   {
     "Rating": 1250.0975318308,
@@ -36248,7 +36776,10 @@
     "ProblemIndex": "Q1",
     "ContestID_en": "Weekly Contest 484",
     "ContestID_zh": "\u7b2c 484 \u573a\u5468\u8d5b",
-    "Topics": []
+    "Topics": [
+      "Hash Table",
+      "String"
+    ]
   },
   {
     "Rating": 1247.9346797909,
@@ -36661,7 +37192,11 @@
     "ProblemIndex": "Q1",
     "ContestID_en": "Biweekly Contest 176",
     "ContestID_zh": "\u7b2c 176 \u573a\u53cc\u5468\u8d5b",
-    "Topics": []
+    "Topics": [
+      "Array",
+      "String",
+      "Simulation"
+    ]
   },
   {
     "Rating": 1239.1621762681,
@@ -36878,7 +37413,10 @@
     "ProblemIndex": "Q1",
     "ContestID_en": "Weekly Contest 498",
     "ContestID_zh": "\u7b2c 498 \u573a\u5468\u8d5b",
-    "Topics": []
+    "Topics": [
+      "Array",
+      "Prefix Sum"
+    ]
   },
   {
     "Rating": 1234.7084656358,
@@ -37056,7 +37594,10 @@
     "ProblemIndex": "Q1",
     "ContestID_en": "Biweekly Contest 173",
     "ContestID_zh": "\u7b2c 173 \u573a\u53cc\u5468\u8d5b",
-    "Topics": []
+    "Topics": [
+      "Two Pointers",
+      "String"
+    ]
   },
   {
     "Rating": 1229.4850365142,
@@ -37367,7 +37908,10 @@
     "ProblemIndex": "Q1",
     "ContestID_en": "Weekly Contest 490",
     "ContestID_zh": "\u7b2c 490 \u573a\u5468\u8d5b",
-    "Topics": []
+    "Topics": [
+      "Array",
+      "Simulation"
+    ]
   },
   {
     "Rating": 1223.406570396,
@@ -37412,7 +37956,11 @@
     "ProblemIndex": "Q1",
     "ContestID_en": "Biweekly Contest 180",
     "ContestID_zh": "\u7b2c 180 \u573a\u53cc\u5468\u8d5b",
-    "Topics": []
+    "Topics": [
+      "Math",
+      "String",
+      "Simulation"
+    ]
   },
   {
     "Rating": 1222.2354919459,
@@ -37681,7 +38229,10 @@
     "ProblemIndex": "Q1",
     "ContestID_en": "Weekly Contest 485",
     "ContestID_zh": "\u7b2c 485 \u573a\u5468\u8d5b",
-    "Topics": []
+    "Topics": [
+      "String",
+      "Simulation"
+    ]
   },
   {
     "Rating": 1215.7827321325,
@@ -37901,7 +38452,11 @@
     "ProblemIndex": "Q1",
     "ContestID_en": "Weekly Contest 505",
     "ContestID_zh": "\u7b2c 505 \u573a\u5468\u8d5b",
-    "Topics": []
+    "Topics": [
+      "Dynamic Programming",
+      "Bit Manipulation",
+      "Enumeration"
+    ]
   },
   {
     "Rating": 1209.6571020247,
@@ -37928,7 +38483,11 @@
     "ProblemIndex": "Q1",
     "ContestID_en": "Biweekly Contest 178",
     "ContestID_zh": "\u7b2c 178 \u573a\u53cc\u5468\u8d5b",
-    "Topics": []
+    "Topics": [
+      "Array",
+      "Hash Table",
+      "Counting"
+    ]
   },
   {
     "Rating": 1209.3722198224,
@@ -38088,7 +38647,9 @@
     "ProblemIndex": "Q1",
     "ContestID_en": "Weekly Contest 486",
     "ContestID_zh": "\u7b2c 486 \u573a\u5468\u8d5b",
-    "Topics": []
+    "Topics": [
+      "Array"
+    ]
   },
   {
     "Rating": 1206.1240971343,
@@ -38295,7 +38856,11 @@
     "ProblemIndex": "Q1",
     "ContestID_en": "Weekly Contest 497",
     "ContestID_zh": "\u7b2c 497 \u573a\u5468\u8d5b",
-    "Topics": []
+    "Topics": [
+      "Array",
+      "Graph Theory",
+      "Matrix"
+    ]
   },
   {
     "Rating": 1201.9392007469,
@@ -38307,7 +38872,10 @@
     "ProblemIndex": "Q1",
     "ContestID_en": "Weekly Contest 503",
     "ContestID_zh": "\u7b2c 503 \u573a\u5468\u8d5b",
-    "Topics": []
+    "Topics": [
+      "Array",
+      "Two Pointers"
+    ]
   },
   {
     "Rating": 1201.8730954169,
@@ -38410,7 +38978,10 @@
     "ProblemIndex": "Q1",
     "ContestID_en": "Weekly Contest 504",
     "ContestID_zh": "\u7b2c 504 \u573a\u5468\u8d5b",
-    "Topics": []
+    "Topics": [
+      "Hash Table",
+      "Math"
+    ]
   },
   {
     "Rating": 1200.9464053417,
@@ -38523,7 +39094,10 @@
     "ProblemIndex": "Q1",
     "ContestID_en": "Weekly Contest 494",
     "ContestID_zh": "\u7b2c 494 \u573a\u5468\u8d5b",
-    "Topics": []
+    "Topics": [
+      "Array",
+      "Math"
+    ]
   },
   {
     "Rating": 1199.4477805501,
@@ -38628,7 +39202,9 @@
     "ProblemIndex": "Q1",
     "ContestID_en": "Weekly Contest 500",
     "ContestID_zh": "\u7b2c 500 \u573a\u5468\u8d5b",
-    "Topics": []
+    "Topics": [
+      "Array"
+    ]
   },
   {
     "Rating": 1198.8420836551,
@@ -38899,7 +39475,10 @@
     "ProblemIndex": "Q1",
     "ContestID_en": "Weekly Contest 487",
     "ContestID_zh": "\u7b2c 487 \u573a\u5468\u8d5b",
-    "Topics": []
+    "Topics": [
+      "Bit Manipulation",
+      "Enumeration"
+    ]
   },
   {
     "Rating": 1190.6856174464,
@@ -39393,7 +39972,10 @@
     "ProblemIndex": "Q1",
     "ContestID_en": "Weekly Contest 501",
     "ContestID_zh": "\u7b2c 501 \u573a\u5468\u8d5b",
-    "Topics": []
+    "Topics": [
+      "Array",
+      "Simulation"
+    ]
   },
   {
     "Rating": 1175.637563525,
@@ -39573,7 +40155,10 @@
     "ProblemIndex": "Q1",
     "ContestID_en": "Weekly Contest 488",
     "ContestID_zh": "\u7b2c 488 \u573a\u5468\u8d5b",
-    "Topics": []
+    "Topics": [
+      "Array",
+      "Enumeration"
+    ]
   },
   {
     "Rating": 1170.7936743933,
@@ -39782,7 +40367,9 @@
     "ProblemIndex": "Q1",
     "ContestID_en": "Weekly Contest 502",
     "ContestID_zh": "\u7b2c 502 \u573a\u5468\u8d5b",
-    "Topics": []
+    "Topics": [
+      "String"
+    ]
   },
   {
     "Rating": 1165.8314068327,
@@ -39987,7 +40574,10 @@
     "ProblemIndex": "Q1",
     "ContestID_en": "Weekly Contest 495",
     "ContestID_zh": "\u7b2c 495 \u573a\u5468\u8d5b",
-    "Topics": []
+    "Topics": [
+      "Two Pointers",
+      "String"
+    ]
   },
   {
     "Rating": 1160.9529516199,
@@ -39999,7 +40589,12 @@
     "ProblemIndex": "Q1",
     "ContestID_en": "Weekly Contest 489",
     "ContestID_zh": "\u7b2c 489 \u573a\u5468\u8d5b",
-    "Topics": []
+    "Topics": [
+      "Array",
+      "Hash Table",
+      "Sorting",
+      "Simulation"
+    ]
   },
   {
     "Rating": 1160.8899403409,
@@ -40104,7 +40699,9 @@
     "ProblemIndex": "Q1",
     "ContestID_en": "Weekly Contest 492",
     "ContestID_zh": "\u7b2c 492 \u573a\u5468\u8d5b",
-    "Topics": []
+    "Topics": [
+      "Array"
+    ]
   },
   {
     "Rating": 1153.427255962,
@@ -40312,7 +40909,9 @@
     "ProblemIndex": "Q1",
     "ContestID_en": "Weekly Contest 493",
     "ContestID_zh": "\u7b2c 493 \u573a\u5468\u8d5b",
-    "Topics": []
+    "Topics": [
+      "Math"
+    ]
   },
   {
     "Rating": 1148.9437959817,
@@ -40485,7 +41084,9 @@
     "ProblemIndex": "Q1",
     "ContestID_en": "Weekly Contest 491",
     "ContestID_zh": "\u7b2c 491 \u573a\u5468\u8d5b",
-    "Topics": []
+    "Topics": [
+      "String"
+    ]
   },
   {
     "Rating": 1139.4248492279,

@@ -77,6 +77,17 @@ Pass `--source /path/to/data.json` when the ZeroTrac repository is not checked
 out beside this repository. The sync rejects malformed data, duplicate problem
 slugs, and unexpected catalog shrinkage.
 
+To inspect topic coverage and incrementally enrich only uncategorized problems:
+
+```bash
+python3 query_scripts/fetch_problem_categories.py --status
+python3 query_scripts/fetch_problem_categories.py
+```
+
+Use `--limit 10` for a small batch. Successful topic lookups are checkpointed
+atomically, failed requests leave problems pending for a later retry, and
+existing topic metadata is never refetched or overwritten.
+
 Problem ratings are derived from the
 [ZeroTrac LeetCode Problem Rating](https://github.com/zerotrac/leetcode_problem_rating)
 dataset. See `THIRD_PARTY_NOTICES.md` for attribution and license details.
