@@ -94,6 +94,30 @@ class ProfileLifecycleTests(unittest.TestCase):
         self.assertEqual(updated["current_problem_count"], 15)
         self.assertEqual(updated["month_start_problem_count"], 10)
         self.assertEqual(updated["current_problem_delta"], 5)
+        self.assertEqual(
+            updated["problems_each_week"],
+            [{"date": "2026-07-14", "count": 15}],
+        )
+
+    def test_daily_history_replaces_same_day_snapshot(self):
+        user = {
+            "name": "DailyPlayer",
+            "current_problem_count": 50,
+            "month_start_problem_count": 40,
+            "month_baseline_month": "2026-07",
+            "problems_each_week": [{"date": "2026-07-14", "count": 50}],
+        }
+
+        updated = self.run_update(
+            user,
+            {"status": PROFILE_OK, "count": 53},
+            now=datetime(2026, 7, 14, 18, 0),
+        )
+
+        self.assertEqual(
+            updated["problems_each_week"],
+            [{"date": "2026-07-14", "count": 53}],
+        )
 
     def test_first_day_of_new_month_resets_baseline_once(self):
         user = {
@@ -160,6 +184,10 @@ class ProfileLifecycleTests(unittest.TestCase):
         self.assertEqual(updated["month_start_problem_count"], 40)
         self.assertEqual(updated["current_problem_delta"], 15)
         self.assertEqual(updated["prev_problem_count"], 50)
+        self.assertEqual(
+            updated["problems_each_week"],
+            [{"date": "2026-07-14", "count": 55}],
+        )
 
     @patch("get_leetcode_users_elo_problems_solved.requests.post")
     def test_graphql_missing_user_is_a_confirmed_miss(self, post):

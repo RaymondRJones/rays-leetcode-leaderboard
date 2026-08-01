@@ -214,6 +214,22 @@ def update_monthly_problem_count(user, problems_solved_count, now):
     )
 
 
+def record_problem_history(user, problems_solved_count, now):
+    """Add or replace the user's snapshot for the current challenge day."""
+    snapshot_date = now.strftime("%Y-%m-%d")
+    history = user.get("problems_each_week")
+    if not isinstance(history, list):
+        history = []
+        user["problems_each_week"] = history
+
+    for snapshot in reversed(history):
+        if isinstance(snapshot, dict) and snapshot.get("date") == snapshot_date:
+            snapshot["count"] = problems_solved_count
+            return
+
+    history.append({"date": snapshot_date, "count": problems_solved_count})
+
+
 def daily_update(
     existing_users, fetcher=fetch_problem_stats, writer=update_json, now=None
 ):
@@ -229,6 +245,7 @@ def daily_update(
             record_profile_success(user, checked_at)
             print("COUNT WAS", problems_solved_count)
             update_monthly_problem_count(user, problems_solved_count, now)
+            record_problem_history(user, problems_solved_count, now)
             print("Problems solved by user...", problems_solved_count)
         else:
             record_profile_failure(user, result.get("status"), checked_at)
@@ -251,21 +268,11 @@ def weekly_update(
         if result.get("status") == PROFILE_OK and problems_solved_count is not None:
             record_profile_success(user, checked_at)
             print("COUNT WAS", problems_solved_count)
-            if user.get("problems_each_week", []):
-                user["problems_each_week"].append({
-                    "date": now.strftime("%Y-%m-%d"),
-                    "count": user.get("current_problem_count", 0)
-                })
-            else:
-                user["problems_each_week"] = [{
-                    "date": now.strftime("%Y-%m-%d"),
-                    "count": user.get("current_problem_count", 0)
-                }]
-
             user["prev_problem_count"] = user.get(
                 "current_problem_count", problems_solved_count
             )
             update_monthly_problem_count(user, problems_solved_count, now)
+            record_problem_history(user, problems_solved_count, now)
             print("Problems solved by user...", problems_solved_count)
         else:
             record_profile_failure(user, result.get("status"), checked_at)
