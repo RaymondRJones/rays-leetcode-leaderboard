@@ -31,6 +31,8 @@ test('shows the 30-day shared playlist without adding navigation', async () => {
     AUGUST_PROBLEMS[0].url
   );
   expect(screen.getAllByRole('link')).toHaveLength(30);
+  expect(screen.getByText('Aug 5')).toBeInTheDocument();
+  expect(screen.getByText('Sep 3')).toBeInTheDocument();
   expect(document.querySelector('meta[name="robots"]')).toHaveAttribute('content', 'noindex, nofollow');
 });
 

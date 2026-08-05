@@ -17,6 +17,15 @@ import RadioButtonUncheckedRoundedIcon from '@mui/icons-material/RadioButtonUnch
 
 const WORKER_URL = process.env.REACT_APP_API_URL || 'https://weathered-dream-8f83.rayjones2170.workers.dev';
 const CLIENTS = ['nafis', 'saad'];
+const CHALLENGE_START = new Date(2026, 7, 5);
+
+function toDateKey(date) {
+  return [
+    date.getFullYear(),
+    String(date.getMonth() + 1).padStart(2, '0'),
+    String(date.getDate()).padStart(2, '0'),
+  ].join('-');
+}
 
 const AUGUST_PROBLEMS = [
   ['Alert Using Same Key-Card Three or More Times in a One Hour Period', 'alert-using-same-key-card-three-or-more-times-in-a-one-hour-period'],
@@ -49,11 +58,21 @@ const AUGUST_PROBLEMS = [
   ['Find Good Days to Rob the Bank', 'find-good-days-to-rob-the-bank'],
   ['Maximize Points After Choosing K Tasks', 'maximize-points-after-choosing-k-tasks'],
   ['Ambiguous Coordinates', 'ambiguous-coordinates'],
-].map(([title, slug], index) => ({
-  day: index + 1,
-  title,
-  url: `https://leetcode.com/problems/${slug}/`,
-}));
+].map(([title, slug], index) => {
+  const date = new Date(
+    CHALLENGE_START.getFullYear(),
+    CHALLENGE_START.getMonth(),
+    CHALLENGE_START.getDate() + index
+  );
+
+  return {
+    day: index + 1,
+    dateKey: toDateKey(date),
+    dateLabel: date.toLocaleDateString('en-US', { month: 'short', day: 'numeric' }),
+    title,
+    url: `https://leetcode.com/problems/${slug}/`,
+  };
+});
 
 const EMPTY_PROGRESS = {
   nafis: Array(AUGUST_PROBLEMS.length).fill(false),
@@ -154,10 +173,7 @@ function AugustProblems() {
     CLIENTS.map((client) => [client, progress[client].filter(Boolean).length])
   ), [progress]);
 
-  const now = new Date();
-  const today = now.getFullYear() === 2026 && now.getMonth() === 7 && now.getDate() <= 30
-    ? now.getDate()
-    : null;
+  const todayKey = toDateKey(new Date());
 
   async function toggleProblem(client, day) {
     const index = day - 1;
@@ -199,7 +215,7 @@ function AugustProblems() {
     <Container maxWidth="md" sx={{ py: { xs: 5, md: 8 } }}>
       <Box sx={{ mb: { xs: 4, md: 5 } }}>
         <Stack direction="row" alignItems="center" spacing={1.25} sx={{ mb: 2 }}>
-          <Chip label="August 2026" color="primary" size="small" />
+          <Chip label="Aug 5 – Sep 3, 2026" color="primary" size="small" />
           <Typography variant="body2" color="text.secondary">
             One problem every day
           </Typography>
@@ -208,7 +224,7 @@ function AugustProblems() {
           Nafis / Saad August Problems
         </Typography>
         <Typography color="text.secondary" sx={{ mt: 2, maxWidth: 630, lineHeight: 1.7 }}>
-          Work through the same 30-problem playlist, one day at a time. Open the problem on LeetCode, then check your name when you finish.
+          Work through the same 30-problem playlist from August 5 through September 3. Open the problem on LeetCode, then check your name when you finish.
         </Typography>
       </Box>
 
@@ -223,7 +239,7 @@ function AugustProblems() {
         <Box
           sx={{
             display: { xs: 'none', sm: 'grid' },
-            gridTemplateColumns: '72px minmax(0, 1fr) 72px 72px',
+            gridTemplateColumns: '84px minmax(0, 1fr) 72px 72px',
             gap: 1,
             px: 2,
             py: 1.5,
@@ -232,7 +248,7 @@ function AugustProblems() {
             color: 'text.disabled',
           }}
         >
-          <Typography variant="caption" sx={{ fontWeight: 800, letterSpacing: '0.08em' }}>DAY</Typography>
+          <Typography variant="caption" sx={{ fontWeight: 800, letterSpacing: '0.08em' }}>DATE</Typography>
           <Typography variant="caption" sx={{ fontWeight: 800, letterSpacing: '0.08em' }}>PROBLEM</Typography>
           <Typography variant="caption" align="center" sx={{ fontWeight: 800, letterSpacing: '0.08em' }}>NAFIS</Typography>
           <Typography variant="caption" align="center" sx={{ fontWeight: 800, letterSpacing: '0.08em' }}>SAAD</Typography>
@@ -243,7 +259,7 @@ function AugustProblems() {
             <CircularProgress size={28} />
           </Box>
         ) : AUGUST_PROBLEMS.map((problem) => {
-          const isToday = problem.day === today;
+          const isToday = problem.dateKey === todayKey;
           const bothDone = progress.nafis[problem.day - 1] && progress.saad[problem.day - 1];
 
           return (
@@ -251,7 +267,7 @@ function AugustProblems() {
               key={problem.day}
               sx={{
                 display: 'grid',
-                gridTemplateColumns: { xs: '44px minmax(0, 1fr) auto auto', sm: '72px minmax(0, 1fr) 72px 72px' },
+                gridTemplateColumns: { xs: '58px minmax(0, 1fr) auto auto', sm: '84px minmax(0, 1fr) 72px 72px' },
                 gap: { xs: 0.5, sm: 1 },
                 alignItems: 'center',
                 minHeight: { xs: 78, sm: 68 },
@@ -266,7 +282,7 @@ function AugustProblems() {
             >
               <Box>
                 <Typography variant="body2" sx={{ fontWeight: 800, color: isToday ? 'primary.main' : 'text.secondary' }}>
-                  {problem.day}
+                  {problem.dateLabel}
                 </Typography>
                 {isToday && (
                   <Typography variant="caption" sx={{ color: 'primary.main', fontSize: 9, fontWeight: 800 }}>
@@ -296,7 +312,7 @@ function AugustProblems() {
                   <LaunchRoundedIcon sx={{ flex: '0 0 auto', fontSize: 15, color: 'text.disabled' }} />
                 </Typography>
                 <Typography variant="caption" color="text.disabled" sx={{ display: { xs: 'block', sm: 'none' }, mt: 0.5 }}>
-                  August {problem.day}
+                  Problem {problem.day} of {AUGUST_PROBLEMS.length}
                 </Typography>
               </Box>
 
