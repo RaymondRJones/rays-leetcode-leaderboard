@@ -5,6 +5,10 @@ const REGISTER_MINUTE_LIMIT = 2;
 const MAX_PENDING_REGISTRATIONS = 500;
 const MAX_REGISTER_BODY_BYTES = 4096;
 const MAX_ADMIN_BODY_BYTES = 5 * 1024 * 1024;
+const MAX_AUGUST_PROGRESS_BODY_BYTES = 512;
+const AUGUST_CLIENTS = ['nafis', 'saad'];
+const AUGUST_PROBLEM_COUNT = 30;
+const AUGUST_PROGRESS_PREFIX = 'checklist:august-2026';
 
 class HttpError extends Error {
   constructor(message, status = 400) {
@@ -30,6 +34,14 @@ export default {
         return await register(request, env);
       }
 
+      if (url.pathname === '/august-problems' && request.method === 'GET') {
+        return await getAugustProgress(request, env);
+      }
+
+      if (url.pathname === '/august-problems' && request.method === 'POST') {
+        return await updateAugustProgress(request, env);
+      }
+
       if (url.pathname === '/' && request.method === 'GET') {
         return await getValue(request, env, url.searchParams.get('key'));
       }
@@ -44,11 +56,64 @@ export default {
         return json({ error: error.message }, error.status, request, env);
       }
 
-      console.error(error);
+      console.error(JSON.stringify({
+        message: 'Unexpected Worker error',
+        error: error instanceof Error ? error.message : String(error),
+        path: url.pathname
+      }));
       return json({ error: 'Unexpected server error' }, 500, request, env);
     }
   }
 };
+
+function augustProgressKey(client, problem) {
+  return `${AUGUST_PROGRESS_PREFIX}:${client}:${problem}`;
+}
+
+async function getAugustProgress(request, env) {
+  const keys = AUGUST_CLIENTS.flatMap((client) =>
+    Array.from({ length: AUGUST_PROBLEM_COUNT }, (_, index) => augustProgressKey(client, index + 1))
+  );
+  const values = await env.LEADERBOARD_KV.get(keys);
+  const progress = Object.fromEntries(AUGUST_CLIENTS.map((client) => [
+    client,
+    Array.from(
+      { length: AUGUST_PROBLEM_COUNT },
+      (_, index) => values.get(augustProgressKey(client, index + 1)) === '1'
+    )
+  ]));
+
+  return json({ progress }, 200, request, env);
+}
+
+async function updateAugustProgress(request, env) {
+  if (!originAllowed(request, env)) {
+    return json({ error: 'Origin is not allowed' }, 403, request, env);
+  }
+
+  const body = await readJsonBody(request, MAX_AUGUST_PROGRESS_BODY_BYTES);
+  const client = String(body.client || '').toLowerCase();
+  const problem = Number(body.problem);
+
+  if (!AUGUST_CLIENTS.includes(client)) {
+    return json({ error: 'Unknown client' }, 400, request, env);
+  }
+
+  if (!Number.isInteger(problem) || problem < 1 || problem > AUGUST_PROBLEM_COUNT) {
+    return json({ error: 'Problem must be an integer from 1 to 30' }, 400, request, env);
+  }
+
+  if (typeof body.completed !== 'boolean') {
+    return json({ error: 'Completed must be true or false' }, 400, request, env);
+  }
+
+  await env.LEADERBOARD_KV.put(
+    augustProgressKey(client, problem),
+    body.completed ? '1' : '0'
+  );
+
+  return json({ ok: true, client, problem, completed: body.completed }, 200, request, env);
+}
 
 async function getValue(request, env, key) {
   if (!key) {

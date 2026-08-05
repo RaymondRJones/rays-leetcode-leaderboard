@@ -7,6 +7,7 @@ import LeetcodeCoinCalculator from './components/LeetcodeCoinCalculator';
 import GitHubContributions from './components/GitHubContributions';
 import Register from './components/Register';
 import ProblemsByCategory from './components/ProblemsByCategory';
+import AugustProblems from './components/AugustProblems';
 import PrivacyPolicy from './components/PrivacyPolicy';
 import TermsOfUse from './components/TermsOfUse';
 import { BrowserRouter as Router, Routes, Route, NavLink, Link } from 'react-router-dom';
@@ -140,7 +141,11 @@ function App() {
   const [randomProblem, setRandomProblem] = useState(null);
 
   useEffect(() => {
+    if (window.location.pathname === '/nafis-saad-august') return;
+
     document.title = "Coding with Raymond - Leetcode Leaderboard";
+    if (window.location.pathname !== '/zerotrac') return;
+
     const fetchProblems = async () => {
       const response = await fetch('/problems_with_categories.json');
       const data = await response.json();
@@ -333,6 +338,7 @@ function App() {
     <Route path="/github" element={<GitHubContributions />} />
     <Route path="/register" element={<Register />} />
     <Route path="/calculator" element={<LeetcodeCoinCalculator/>} />
+    <Route path="/nafis-saad-august" element={<AugustProblems />} />
     <Route path="/privacy" element={<PrivacyPolicy />} />
     <Route path="/terms" element={<TermsOfUse />} />
   </Routes>
