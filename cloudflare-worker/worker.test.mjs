@@ -163,3 +163,40 @@ test('scheduled refresh initializes approved users at zero monthly progress', as
   assert.equal(user.month_baseline_month, '2026-09');
   assert.deepEqual(user.problems_each_week, [{ date: '2026-09-20', count: 42 }]);
 });
+
+test('new users keep their pending baseline until their assigned batch runs', async () => {
+  const env = createEnv();
+  await env.LEADERBOARD_KV.put('leetcode:data', JSON.stringify([{
+    name: 'existing-user',
+    current_problem_count: 10,
+    month_start_problem_count: 10,
+    month_baseline_month: '2026-09',
+    problems_each_week: [],
+  }]));
+  await env.LEADERBOARD_KV.put('users:list', JSON.stringify([{
+    leetcode_username: 'second-batch-user',
+    display_name: 'Second Batch User',
+  }]));
+
+  const originalFetch = globalThis.fetch;
+  globalThis.fetch = async () => solvedResponse(42);
+  try {
+    await worker.scheduled({
+      cron: '0 15 * * *',
+      scheduledTime: Date.parse('2026-09-20T15:00:00Z'),
+    }, env);
+    let users = JSON.parse(await env.LEADERBOARD_KV.get('leetcode:data'));
+    assert.equal(users[1].pending_monthly_baseline, true);
+
+    await worker.scheduled({
+      cron: '10 15 * * *',
+      scheduledTime: Date.parse('2026-09-20T15:10:00Z'),
+    }, env);
+    users = JSON.parse(await env.LEADERBOARD_KV.get('leetcode:data'));
+    assert.equal(users[1].month_start_problem_count, 42);
+    assert.equal(users[1].current_problem_delta, 0);
+    assert.equal('pending_monthly_baseline' in users[1], false);
+  } finally {
+    globalThis.fetch = originalFetch;
+  }
+});

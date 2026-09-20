@@ -133,9 +133,10 @@ async function refreshLeaderboardBatch(env, cron, scheduledAt) {
       return;
     }
 
-    const isNew = newNames.has(String(user.name).toLowerCase());
+    const isNew = newNames.has(String(user.name).toLowerCase()) || user.pending_monthly_baseline === true;
     recordProfileSuccess(user, scheduledAt);
     updateProblemCount(user, result.count, scheduledAt, isNew);
+    delete user.pending_monthly_baseline;
     recordProblemHistory(user, result.count, scheduledAt);
     updated += 1;
   });
@@ -166,6 +167,7 @@ function createLeaderboardUser(registration) {
     problems_each_week: [],
     month_start_problem_count: 0,
     month_baseline_month: '',
+    pending_monthly_baseline: true,
     is_active: true,
     profile_not_found_count: 0
   };
