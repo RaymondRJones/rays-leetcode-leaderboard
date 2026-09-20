@@ -30,6 +30,18 @@ function createEnv() {
   };
 }
 
+function solvedResponse(count) {
+  return new Response(JSON.stringify({
+    data: {
+      matchedUser: {
+        submitStatsGlobal: {
+          acSubmissionNum: [{ difficulty: 'All', count }],
+        },
+      },
+    },
+  }), { status: 200, headers: { 'Content-Type': 'application/json' } });
+}
+
 test('returns two empty 30-day progress lists', async () => {
   const response = await worker.fetch(
     new Request('https://worker.example/august-problems'),
@@ -82,4 +94,72 @@ test('rejects invalid checklist updates', async () => {
   );
 
   assert.equal(response.status, 400);
+});
+
+test('scheduled refresh updates only its batch and rolls over from prior history', async () => {
+  const env = createEnv();
+  const users = Array.from({ length: 6 }, (_, index) => ({
+    name: `user-${index}`,
+    current_problem_count: 100 + index,
+    current_problem_delta: 10,
+    month_start_problem_count: 90 + index,
+    month_baseline_month: '2026-09',
+    problems_each_week: [{ date: '2026-09-30', count: 100 + index }],
+    is_active: true,
+  }));
+  await env.LEADERBOARD_KV.put('leetcode:data', JSON.stringify(users));
+  await env.LEADERBOARD_KV.put('users:list', '[]');
+
+  const originalFetch = globalThis.fetch;
+  globalThis.fetch = async (_url, options) => {
+    const username = JSON.parse(options.body).variables.username;
+    return solvedResponse(110 + Number(username.split('-')[1]));
+  };
+  try {
+    await worker.scheduled({
+      cron: '0 15 * * *',
+      scheduledTime: Date.parse('2026-10-02T15:00:00Z'),
+    }, env);
+  } finally {
+    globalThis.fetch = originalFetch;
+  }
+
+  const updated = JSON.parse(await env.LEADERBOARD_KV.get('leetcode:data'));
+  assert.equal(updated[0].month_baseline_month, '2026-10');
+  assert.equal(updated[0].month_start_problem_count, 100);
+  assert.equal(updated[0].current_problem_count, 110);
+  assert.equal(updated[0].current_problem_delta, 10);
+  assert.deepEqual(updated[0].problems_each_week.at(-1), {
+    date: '2026-10-02',
+    count: 110,
+  });
+  assert.equal(updated[1].month_baseline_month, '2026-09');
+  assert.equal(updated[3].current_problem_count, 113);
+});
+
+test('scheduled refresh initializes approved users at zero monthly progress', async () => {
+  const env = createEnv();
+  await env.LEADERBOARD_KV.put('leetcode:data', '[]');
+  await env.LEADERBOARD_KV.put('users:list', JSON.stringify([{
+    leetcode_username: 'new-user',
+    display_name: 'New User',
+  }]));
+
+  const originalFetch = globalThis.fetch;
+  globalThis.fetch = async () => solvedResponse(42);
+  try {
+    await worker.scheduled({
+      cron: '0 15 * * *',
+      scheduledTime: Date.parse('2026-09-20T15:00:00Z'),
+    }, env);
+  } finally {
+    globalThis.fetch = originalFetch;
+  }
+
+  const [user] = JSON.parse(await env.LEADERBOARD_KV.get('leetcode:data'));
+  assert.equal(user.current_problem_count, 42);
+  assert.equal(user.month_start_problem_count, 42);
+  assert.equal(user.current_problem_delta, 0);
+  assert.equal(user.month_baseline_month, '2026-09');
+  assert.deepEqual(user.problems_each_week, [{ date: '2026-09-20', count: 42 }]);
 });

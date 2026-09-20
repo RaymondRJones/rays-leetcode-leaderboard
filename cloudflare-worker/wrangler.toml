@@ -15,3 +15,6 @@ enabled = true
 
 [observability.logs]
 enabled = true
+
+[triggers]
+crons = ["0 15 * * *", "10 15 * * *", "20 15 * * *"]

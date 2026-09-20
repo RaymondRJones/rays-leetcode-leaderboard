@@ -9,6 +9,20 @@ const MAX_AUGUST_PROGRESS_BODY_BYTES = 512;
 const AUGUST_CLIENTS = ['nafis', 'saad'];
 const AUGUST_PROBLEM_COUNT = 30;
 const AUGUST_PROGRESS_PREFIX = 'checklist:august-2026';
+const DAILY_REFRESH_CRONS = ['0 15 * * *', '10 15 * * *', '20 15 * * *'];
+const PROFILE_MISSING_THRESHOLD = 3;
+const LEETCODE_QUERY = `
+  query userProblemsSolved($username: String!) {
+    matchedUser(username: $username) {
+      submitStatsGlobal {
+        acSubmissionNum {
+          difficulty
+          count
+        }
+      }
+    }
+  }
+`;
 
 class HttpError extends Error {
   constructor(message, status = 400) {
@@ -63,8 +77,220 @@ export default {
       }));
       return json({ error: 'Unexpected server error' }, 500, request, env);
     }
+  },
+
+  async scheduled(controller, env) {
+    const summary = await refreshLeaderboardBatch(
+      env,
+      controller.cron,
+      new Date(controller.scheduledTime)
+    );
+    console.log(JSON.stringify({ event: 'daily-leaderboard-refresh', ...summary }));
   }
 };
+
+async function refreshLeaderboardBatch(env, cron, scheduledAt) {
+  const batchIndex = DAILY_REFRESH_CRONS.indexOf(cron);
+  if (batchIndex === -1) {
+    throw new Error(`Unknown leaderboard refresh cron: ${cron}`);
+  }
+
+  const [leaderboard, registrations] = await Promise.all([
+    readJsonList(env, 'leetcode:data'),
+    readJsonList(env, 'users:list')
+  ]);
+  const knownNames = new Set(
+    leaderboard.map((user) => String(user.name || '').toLowerCase())
+  );
+  const newNames = new Set();
+
+  for (const registration of registrations) {
+    const username = String(registration.leetcode_username || '').trim();
+    if (!username || knownNames.has(username.toLowerCase())) {
+      continue;
+    }
+    leaderboard.push(createLeaderboardUser(registration));
+    knownNames.add(username.toLowerCase());
+    newNames.add(username.toLowerCase());
+  }
+
+  const batch = leaderboard.filter(
+    (_user, index) => index % DAILY_REFRESH_CRONS.length === batchIndex
+  );
+  let updated = 0;
+  let unavailable = 0;
+  let notFound = 0;
+
+  await mapWithConcurrency(batch, 5, async (user) => {
+    const result = await fetchProblemCount(user.name);
+    if (result.status === 'unavailable') {
+      unavailable += 1;
+      return;
+    }
+    if (result.status === 'not_found') {
+      recordProfileMissing(user, scheduledAt);
+      notFound += 1;
+      return;
+    }
+
+    const isNew = newNames.has(String(user.name).toLowerCase());
+    recordProfileSuccess(user, scheduledAt);
+    updateProblemCount(user, result.count, scheduledAt, isNew);
+    recordProblemHistory(user, result.count, scheduledAt);
+    updated += 1;
+  });
+
+  await env.LEADERBOARD_KV.put('leetcode:data', JSON.stringify(leaderboard));
+  return {
+    cron,
+    batch: batchIndex + 1,
+    batchSize: batch.length,
+    leaderboardUsers: leaderboard.length,
+    newUsers: newNames.size,
+    updated,
+    unavailable,
+    notFound
+  };
+}
+
+function createLeaderboardUser(registration) {
+  const username = String(registration.leetcode_username || '').trim();
+  return {
+    name: username,
+    display_name: registration.display_name || username,
+    elo: 0,
+    prev_elo: 0,
+    prev_problem_count: 0,
+    current_problem_count: 0,
+    current_problem_delta: 0,
+    problems_each_week: [],
+    month_start_problem_count: 0,
+    month_baseline_month: '',
+    is_active: true,
+    profile_not_found_count: 0
+  };
+}
+
+async function fetchProblemCount(username) {
+  try {
+    const response = await fetch('https://leetcode.com/graphql', {
+      method: 'POST',
+      headers: {
+        'Content-Type': 'application/json',
+        'User-Agent': 'rays-leetcode-leaderboard-daily-refresh'
+      },
+      body: JSON.stringify({
+        operationName: 'userProblemsSolved',
+        query: LEETCODE_QUERY,
+        variables: { username }
+      })
+    });
+    if (!response.ok) {
+      return { status: 'unavailable' };
+    }
+    const result = await response.json();
+    if (result.errors || !result.data) {
+      return { status: 'unavailable' };
+    }
+    if (!result.data.matchedUser) {
+      return { status: 'not_found' };
+    }
+    const totals = result.data.matchedUser.submitStatsGlobal?.acSubmissionNum;
+    const all = Array.isArray(totals)
+      ? totals.find((entry) => entry.difficulty === 'All') || totals[0]
+      : null;
+    const count = Number(all?.count);
+    return Number.isFinite(count) ? { status: 'ok', count } : { status: 'unavailable' };
+  } catch (error) {
+    console.error(`LeetCode refresh failed for ${username}`, error);
+    return { status: 'unavailable' };
+  }
+}
+
+function recordProfileSuccess(user, now) {
+  user.last_profile_check = now.toISOString();
+  user.profile_not_found_count = 0;
+  user.is_active = true;
+  delete user.last_profile_error;
+  delete user.inactive_reason;
+  delete user.inactive_since;
+}
+
+function recordProfileMissing(user, now) {
+  const failures = Number(user.profile_not_found_count || 0) + 1;
+  user.last_profile_check = now.toISOString();
+  user.profile_not_found_count = failures;
+  if (failures >= PROFILE_MISSING_THRESHOLD) {
+    user.is_active = false;
+    user.inactive_reason = 'LeetCode profile not found';
+    user.inactive_since ||= now.toISOString();
+  }
+}
+
+function updateProblemCount(user, count, now, isNew) {
+  const { month, date } = challengeDate(now);
+  if (isNew) {
+    user.month_start_problem_count = count;
+    user.month_baseline_month = month;
+  } else if (user.month_baseline_month !== month) {
+    const history = Array.isArray(user.problems_each_week) ? user.problems_each_week : [];
+    const priorSnapshots = history.filter((point) =>
+      point && typeof point === 'object' && point.date < `${month}-01` && Number.isFinite(Number(point.count))
+    );
+    const baseline = priorSnapshots.length
+      ? priorSnapshots.reduce((latest, point) => point.date > latest.date ? point : latest).count
+      : user.current_problem_count;
+    user.month_start_problem_count = Number(baseline || 0);
+    user.month_baseline_month = month;
+  }
+
+  user.current_problem_count = count;
+  user.current_problem_delta = Math.max(0, count - Number(user.month_start_problem_count || 0));
+  user.last_profile_check = now.toISOString();
+  return date;
+}
+
+function recordProblemHistory(user, count, now) {
+  const { date } = challengeDate(now);
+  if (!Array.isArray(user.problems_each_week)) {
+    user.problems_each_week = [];
+  }
+  const existing = user.problems_each_week.find((point) =>
+    point && typeof point === 'object' && point.date === date
+  );
+  if (existing) {
+    existing.count = count;
+  } else {
+    user.problems_each_week.push({ date, count });
+  }
+}
+
+function challengeDate(date) {
+  const parts = Object.fromEntries(
+    new Intl.DateTimeFormat('en-US', {
+      timeZone: 'America/Los_Angeles',
+      year: 'numeric',
+      month: '2-digit',
+      day: '2-digit'
+    }).formatToParts(date).filter((part) => part.type !== 'literal').map((part) => [part.type, part.value])
+  );
+  return {
+    month: `${parts.year}-${parts.month}`,
+    date: `${parts.year}-${parts.month}-${parts.day}`
+  };
+}
+
+async function mapWithConcurrency(items, concurrency, mapper) {
+  let nextIndex = 0;
+  const workers = Array.from({ length: Math.min(concurrency, items.length) }, async () => {
+    while (nextIndex < items.length) {
+      const item = items[nextIndex];
+      nextIndex += 1;
+      await mapper(item);
+    }
+  });
+  await Promise.all(workers);
+}
 
 function augustProgressKey(client, problem) {
   return `${AUGUST_PROGRESS_PREFIX}:${client}:${problem}`;
